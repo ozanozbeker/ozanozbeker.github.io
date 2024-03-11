@@ -1,16 +1,9 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ozanozbeker.github.io",
+    "title": "Ozan Ozbeker",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Hey there! Welcome to my website/blog/black hole where I will be sharing my thoughts things that I’ve learned working as a professional data scientist.\n\nExperience\nOneMagnify | Data Scientist, January 2023 - Current\nXylem | Operations Leadership Development Program, July 2021 - December 2022\nWest Virginia University | Undergraduate Teaching Assistant, August 2019 - May 2021\nJLG Industries | Manufacturing Engineer Intern, June 2019 - August 2019\n\n\nEducation\nWest Virginia University | Bachelor of Science, Industrial Engineering, August 2017 - May 2021"
   }
 ]
