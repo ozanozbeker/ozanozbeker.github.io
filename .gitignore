@@ -22,13 +22,6 @@ Thumbs.db
 # Ignore lock files
 *.lock
 
-# Ignore Quarto generated HTML, CSS, and other rendered outputs
-*.html
-*.css
-*.pdf
-*.docx
-*.pptx
-
 # Quarto cache files
 .quarto/
 
@@ -37,3 +30,5 @@ _freeze/
 
 # Ignore renv lockfile if you don't want to track it
 renv.lock
+
+/.quarto/
