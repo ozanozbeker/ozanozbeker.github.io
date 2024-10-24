@@ -1,0 +1,105 @@
+---
+format:
+  html: 
+    toc: true
+    toc-title: "Sections"
+    other-links:
+      - text: "Cover Letter PDF"
+        href: docs/ozan-ozbeker-cover-letter.pdf
+        icon: file-earmark-text
+      - text: "Resume PDF"
+        href: docs/ozan-ozbeker-resume.pdf
+        icon: file-earmark-text
+      - text: "GitHub"
+        href: https://github.com/ozanozbeker/
+        icon: github
+      - text: "LinkedIn"
+        href: https://www.linkedin.com/in/ozanozbeker/
+        icon: linkedin
+      - text: "Email"
+        href: mailto:ozanozbeker99@outlook.com
+        icon: envelope
+comments: false
+---
+
+# Summary {#sec-summary .title}
+
+## Data Analytics & Consulting
+
+As a data scientist, I specialize in driving impactful projects from inception to completion for clients in the replacement parts business. My work supports critical decision-making processes through comprehensive requirements gathering, seamless data integration from various sources, and the creation of insightful reports and dashboards. These tools not only inform decisions but also help shape strategic directions in stocking and pricing of products.
+
+In my previous roles, I honed my skills in managing Excess and Obsolete (E&O) inventory. I developed automated workflows and robust SQL queries to analyze and handle inventory efficiently, aligning the ETL process with company policies. My responsibilities included significant cross-departmental collaboration, working with finance, procurement, logistics, sustaining engineering, and product management to standardize workflows and form teams for monthly E&O inventory reviews.
+
+Presenting to clients is one of my strengths. I manage comprehensive data projects, from gathering requirements to delivering insightful results. This involves conducting thorough client interviews and presenting clear, actionable insights. Internally, I've partnered with various business functions to meet data pipeline and dashboard needs, regularly presenting findings to Director and VP-level stakeholders.
+
+:::{full-width-code}
+```{r}
+print("Testing a super duper long line ---------------------------------------------------------------")
+print("testing regular line")
+```
+:::
+
+# Experience {#sec-experience .title}
+
+## Data Scientist
+
+[**RXA \@ OneMagnify**](https://rxa.io/) **- Remote, USA** \| January 2023 - Current
+
+-   **Marketplace Performance Dashboards:** Created Tableau dashboards to monitor sales performance and competition for client's (Sales & Marketing team) products on Amazon & Walmart. Aggregated information from distributor flat files using ETLs & web scrapes (R, {tidyverse}, {httr2}, {rvest}), and custom SQL queries from client’s SQL Server and SAP HANA within Tableau. The dashboards track and visualize sales, returns, and other metrics for $30M YoY across 6,000 SKUs.
+
+-   **Weekly Amazon Marketplace Report:** Designed a semi-automatic weekly report using R, {gt}, {ggplot2}, and Quarto, tracking 15 ASINs on Amazon for the client (Pricing Manager), providing price recommendations based on internal margin requirements, competitive ASIN performance, and seller performance. Aggregated data from hourly web-scrapes and weekly marketplace scrapes to identify competitive knockoffs and track performance.
+
+-   **Database & Model Maintenance:** Enhanced existing ETLs that ingest flat files from FTP folders into the internal PostgreSQL database, incorporating new features in R packages ({dplyr}, {tidyr}, {readr}, {janitor}, etc.) and utilizing DuckDB for heavier analytical workflows in monthly model development. Implemented Git and GitHub for code maintenance and added comprehensive documentation for manual steps and business logic to support model development.
+
+-   **Tableau Server Management:** Maintained 5 dashboards on the client’s Tableau Server, documenting and standardizing Custom SQL queries across reports, performing quality assurance checks on data and sources, and implementing version control for Custom SQL queries to ensure accuracy, consistency, and integrity.
+
+## Operations Leadership Development Program
+
+[**Xylem, Inc**](https://www.xylem.com/en-us/) **- Chicago, IL & Uniontown, PA** \| July 2021 - December 2022
+
+-   **Excess & Obsolete Disposition Project:** Employed the DMAIC/DMADV methodology to create a process aimed at reducing the site’s E&O financial reserve and material in warehouses by identifying obsolete items and creating opportunities for rework, resale, and disposal. The control plan included establishing a cross-departmental E&O taskforce, with the new process projected to achieve estimated hard savings of \$1M - \$4M over the next 3-5 years. Utilized skills in Process Flowcharts, Value Stream Mapping, and Control Charts.
+
+-   **Excess & Obsolete Identification Project:** Built an automated SQL query/view in the PostgreSQL database & restricted Excel workbook (Power Query, Pivot Tables, & XLOOKUP) template to enforce standardization of the quarterly E&O report across three manufacturing sites. This project led to a 90% process reduction time on the Materials side while meeting the new standards set by finance for audit.
+
+-   **Physical Inventory Event:** Collaborated with Finance & Materials teams to overhaul the annual cycle count event across three sites with process flowcharts, work instructions, and manager checklists to tasks leading up to the event. The project reduced the time of the event by a day for 2 of 3 sites, and reduced prep time for managers.
+
+-   **SQL Reporting:** Developed ad-hoc reports for stakeholders like validating supplier quotes to internal BOMs, synchronizing lot sizes across facilities, & measuring excess inventory by work cell.
+
+-   **Tableau Reporting:** Created dashboards for internal audits for Quality & Finance teams. The dashboards measured forecasting accuracy, quality benchmarks for different product lines, and performance KPIs for units produced.
+
+-   **Ad-Hoc Floor Workshops:** Led and assisted various projects to drive Continuous Improvement initiatives at the site. These included 5S audits, lean methodology seminars, inventory audits, and cycle counts, applying skills in 5S, FMEA, and Process Capability Analysis.
+
+## Undergraduate Teaching Assistant
+
+[**West Virginia University**](https://www.wvu.edu/) **- Morgantown, WV** \| August 2019 - May 2021
+
+As a Teaching Assistant at West Virginia University from August 2019 to May 2021, I contributed to the academic development of students across multiple courses in the Industrial Engineering department. I assisted in teaching:
+
+-   **Spring 2021** \| IENG 220: Re-engineering Management Systems,
+-   **Fall 2020** \| IENG 305: Intro to Systems Engineering,
+-   **Spring 2020** \| IENG 331: Computer Applications in Industrial Engineering, and
+-   **Fall 2019** \| IENG 445: Project Management for Engineers.
+
+Throughout these roles, I gained valuable skills in teaching and curriculum development. My responsibilities included conducting lectures, leading lab sessions, grading assignments, and providing one-on-one support to students, helping them grasp complex concepts and apply theoretical knowledge to practical projects.
+
+## Manufacturing Engineer Intern
+
+[**JLG Industries**](https://www.jlg.com/) **- McConnellsburg, PA** \| June 2019 - August 2019
+
+-   **Test – Inspect – Green Tag (TIG) Line:** Conducted a comprehensive 6S audit, removing unnecessary equipment and parts from workstations and organizing the layout to enhance efficiency. I developed detailed Standard Work Instructions (SWIs) from scratch for all five stations of the TIG Line, covering three different products to ensure consistent and efficient processes.
+
+-   **Tire Manipulator:** Implemented a scanner-based system for defect entry into Electronic Quality Control (EQC), standardizing the process, reducing variability in defect types, and improving data collection. In a short-term project focused on the Tire Manipulator, I created detailed floor plans for current and future station layouts using laser measurements and AutoCAD.
+
+# Education {#sec-education .title}
+
+## Bachelor of Science in Industrial Engineering
+
+**West Virginia University** \| Morgantown, WV
+
+## Certifications
+
+-   **Lean Six Sigma Green Belt** \| Institute of Industrial and Systems Engineers
+
+-   **Continuous Improvement Fundamentals** \| Oshkosh Corporation
+
+-   **Eligible for Certified Associate in Project Management (CAPM)** \| Project Management Institute

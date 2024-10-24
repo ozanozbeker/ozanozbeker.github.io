@@ -1,0 +1,32 @@
+---
+title: "Ozan Ozbeker"
+image: www/images/professional_picture.jpg
+format: 
+  html:
+    grid: 
+      content-mode: auto
+      body-width: 650px
+about:
+  template: jolla
+  image-shape: rounded
+  image-width: 25em
+  links: 
+    - icon: github
+      text: "GitHub"
+      href: https://github.com/ozanozbeker/
+    - icon: linkedin
+      text: "LinkedIn"
+      href: https://www.linkedin.com/in/ozanozbeker/
+    - icon: envelope
+      text: "Email"
+      href: mailto:ozanozbeker99@outlook.com
+comments: false
+---
+
+Hey! I’m a data scientist at [OneMagnify](https://onemagnify.com), where I get to work with a variety of clients in the replacement parts business, supporting distribution and pricing across distributors and e-commerce markets. I studied Industrial Engineering at [West Virginia University](https://wvu.edu) and I'm constantly learning, keeping up with the latest books and blogs in data science.
+
+When I'm not crunching numbers, you’ll likely find me at a live music event, especially if it’s Metal or EDM. If I’m not at a concert, I’m probably cycling, playing the guitar, or tinkering with a new data science project.
+
+On this site, you’ll find my [resume](resume/index.qmd), [projects](projects/index.qmd), & [blog](blog/index.qmd), where I explore various tools and technologies in the data world, along with other topics that pique my interest.
+
+Feel free to reach out and connect!

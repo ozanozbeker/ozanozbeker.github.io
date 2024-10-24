@@ -1,6 +1,5 @@
 # Ignore Quarto rendered output directories
 _site/
-docs/
 
 # Ignore any cache files created during the build process
 .Rhistory
@@ -10,6 +9,8 @@ renv/library/
 renv/cache/
 __pycache__/
 node_modules/
+index_cache/
+index_files/
 
 # Ignore logs and temporary files
 *.log

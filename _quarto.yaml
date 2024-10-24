@@ -1,0 +1,76 @@
+project:
+  type: website
+  render:
+    - index.qmd
+    - 404.qmd
+    - resume/index.qmd
+    - blog/index.qmd
+    - blog/*/index.qmd
+    - projects/index.qmd
+    - projects/*/index.qmd
+  resources: 
+    - /**/image-placeholder.jpg
+    - /**/image-listing.jpg
+    - /**/images/*
+    - /**/docs/*
+    - www
+  preview: 
+    timeout: 30
+
+website:
+  # Info
+  title: "Ozan Ozbeker"
+  description: "The professional website of Ozan Ozbeker."
+  site-url: https://ozanozbeker.com
+  favicon: www/icons/code.svg
+
+  # Options
+  open-graph: true
+  back-to-top-navigation: true
+  # comments: https://quarto.org/docs/reference/projects/websites.html#giscus
+
+  # Footer
+  page-footer:
+    left: "© Copyright 2024 Ozan Ozbeker | [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)"
+    right: "This website was made by me and powered by [Quarto](https://www.quarto.com)!"
+
+  # Navbar
+  navbar:
+    logo: www/icons/code.svg
+    search: true
+    left:
+      - href: resume/index.qmd
+        text: Resume
+      - href: projects/index.qmd
+        text: Projects
+      - href: blog/index.qmd
+        text: Blog
+  
+format:
+  html:
+    # Code Options
+    code-overflow: scroll
+    code-copy: hover
+    code-link: false
+
+    # External Links
+    link-external-icon: true
+    link-external-newwindow: true
+
+    # Theming
+    theme: 
+      light: [flatly, www/theme/layout.scss]
+      dark: [darkly, www/theme/layout.scss]
+
+    # Table of Contents
+    toc: true
+    toc-depth: 3
+    page-layout: article
+
+    # Other
+    smooth-scroll: true
+
+execute: 
+  freeze: true
+  eval: false
+  cache: refresh

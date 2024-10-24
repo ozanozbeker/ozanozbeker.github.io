@@ -1,0 +1,25 @@
+---
+title: "404"
+page-layout: article
+comments: false
+---
+
+# Oops! Page Not Found
+
+It looks like you've stumbled upon a page that doesn't exist. How did you get here? Was it:
+
+-   A typo in the URL?
+-   A broken link?
+-   A glitch in the matrix?
+
+Don't worry, it happens to the best of us. Here's what you can do next:
+
+-   [Go Back Home](index.qmd)
+-   [Check Out My Resume](resume/index.qmd)
+-   [Look At My Resume](projects/index.qmd)
+-   [Read My Blog](blog/index.qmd)
+
+------------------------------------------------------------------------
+
+*P.S. If you keep ending up here, it might be a sign that the internet is broken. Try turning it off and on again.*
+

@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: NEEDNEW
+      url: 'https://ozanozbeker.com'
