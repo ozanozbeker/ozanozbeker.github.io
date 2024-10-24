@@ -4,9 +4,6 @@ format:
     toc: true
     toc-title: "Sections"
     other-links:
-      - text: "Cover Letter PDF"
-        href: docs/ozan-ozbeker-cover-letter.pdf
-        icon: file-earmark-text
       - text: "Resume PDF"
         href: docs/ozan-ozbeker-resume.pdf
         icon: file-earmark-text
