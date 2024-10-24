@@ -1,35 +1,15 @@
 # Ignore Quarto rendered output directories
 _site/
+_freeze/
+.quarto/
+/.quarto/
 
-# Ignore any cache files created during the build process
+index_cache/
+index_files/
+
+# Ignore R related files
 .Rhistory
 .Rproj.user/
 .Rdata
 renv/library/
 renv/cache/
-__pycache__/
-node_modules/
-index_cache/
-index_files/
-
-# Ignore logs and temporary files
-*.log
-*.tmp
-
-# Ignore system-specific files
-.DS_Store
-Thumbs.db
-
-# Ignore lock files
-*.lock
-
-# Quarto cache files
-.quarto/
-
-# Ignore the _freeze directory if using Quarto for static rendering
-_freeze/
-
-# Ignore renv lockfile if you don't want to track it
-renv.lock
-
-/.quarto/

@@ -74,3 +74,6 @@ execute:
   freeze: true
   eval: false
   cache: refresh
+
+filters: 
+  - code-fullscreen
