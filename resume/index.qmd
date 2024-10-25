@@ -21,71 +21,68 @@ comments: false
 
 # Summary {#sec-summary .title}
 
-## Data Analytics & Consulting
+A versatile Data Science Consultant with extensive experience managing full-stack data science projects for Fortune 500 clients. I have a proven track record in consulting, data engineering, business intelligence, and analytics, delivering impactful solutions that drive business value. With expertise in R, Python, SQL, and Tableau, I design and implement robust ETL pipelines, create dynamic dashboards, and develop predictive models to optimize client operations.
 
-As a data scientist, I specialize in driving impactful projects from inception to completion for clients in the replacement parts business. My work supports critical decision-making processes through comprehensive requirements gathering, seamless data integration from various sources, and the creation of insightful reports and dashboards. These tools not only inform decisions but also help shape strategic directions in stocking and pricing of products.
+I also bring a strong foundation in continuous improvement and manufacturing from my time at Xylem, where I led multi-departmental teams on high-impact projects, saving millions in operational costs. My diverse skill set is further complemented by hands-on teaching experience and certifications in Lean Six Sigma and Continuous Improvement, making me adept at leading technical and cross-functional teams to deliver data-driven results.
 
-In my previous roles, I honed my skills in managing Excess and Obsolete (E&O) inventory. I developed automated workflows and robust SQL queries to analyze and handle inventory efficiently, aligning the ETL process with company policies. My responsibilities included significant cross-departmental collaboration, working with finance, procurement, logistics, sustaining engineering, and product management to standardize workflows and form teams for monthly E&O inventory reviews.
-
-Presenting to clients is one of my strengths. I manage comprehensive data projects, from gathering requirements to delivering insightful results. This involves conducting thorough client interviews and presenting clear, actionable insights. Internally, I've partnered with various business functions to meet data pipeline and dashboard needs, regularly presenting findings to Director and VP-level stakeholders.
-
-:::{full-width-code}
-```{r}
-print("Testing a super duper long line ---------------------------------------------------------------")
-print("testing regular line")
-```
-:::
+**Tech Stack:** R (Tidyverse, Tidymodels), Python (Pandas, Polars), Quarto, Shiny, Tableau, DuckDB, PostgreSQL, SQL Server, HTML, SASS/SCSS, CSS.
 
 # Experience {#sec-experience .title}
 
-## Data Scientist
+## Data Science Consultant
 
 [**RXA \@ OneMagnify**](https://rxa.io/) **- Remote, USA** \| January 2023 - Current
 
--   **Marketplace Performance Dashboards:** Created Tableau dashboards to monitor sales performance and competition for client's (Sales & Marketing team) products on Amazon & Walmart. Aggregated information from distributor flat files using ETLs & web scrapes (R, {tidyverse}, {httr2}, {rvest}), and custom SQL queries from client’s SQL Server and SAP HANA within Tableau. The dashboards track and visualize sales, returns, and other metrics for $30M YoY across 6,000 SKUs.
+As part of a boutique analytics consulting firm, I manage end-to-end data science projects across the full data stack for Fortune 500 clients in the replacement parts industry. I lead engagements from client relationship management to delivering impactful data-driven solutions.
 
--   **Weekly Amazon Marketplace Report:** Designed a semi-automatic weekly report using R, {gt}, {ggplot2}, and Quarto, tracking 15 ASINs on Amazon for the client (Pricing Manager), providing price recommendations based on internal margin requirements, competitive ASIN performance, and seller performance. Aggregated data from hourly web-scrapes and weekly marketplace scrapes to identify competitive knockoffs and track performance.
+-   **Consulting & Client Engagement:** Lead multiple high-stakes engagements with Fortune 500 clients, managing relationships, gathering requirements, and presenting tailored data solutions. My role includes conducting client meetings, setting project expectations, and delivering actionable insights, ensuring satisfaction and long-term value creation.
 
--   **Database & Model Maintenance:** Enhanced existing ETLs that ingest flat files from FTP folders into the internal PostgreSQL database, incorporating new features in R packages ({dplyr}, {tidyr}, {readr}, {janitor}, etc.) and utilizing DuckDB for heavier analytical workflows in monthly model development. Implemented Git and GitHub for code maintenance and added comprehensive documentation for manual steps and business logic to support model development.
+-   **Data Science & Analytics:** Developed weekly price recommendation models for Amazon ASINs, integrating competitive analysis, seller performance, and margin targets. Utilized NLP and sentiment analysis to assess client survey feedback, leading to internal consulting improvements. Built end-of-life part forecasts using ARIMA, ETS, Prophet, and XGBoost, optimizing inventory management for discontinued replacement parts.
 
--   **Tableau Server Management:** Maintained 5 dashboards on the client’s Tableau Server, documenting and standardizing Custom SQL queries across reports, performing quality assurance checks on data and sources, and implementing version control for Custom SQL queries to ensure accuracy, consistency, and integrity.
+-   **Business Intelligence:** Developed customized HTML reports that surpassed the limitations of traditional formats like PDF/Word/PowerPoint, offering advanced features and portability. Maintained 5 Tableau workbooks on the client's Tableau Server, delivering dashboards that provided a single view of seller performance on Amazon. These insights helped manage $30M in annual sales across 6,000 SKUs. Created competitive marketplace reports using web scraping to highlight missed revenue opportunities and counterfeit activity, helping clients strategize product offerings. 
+
+-   **Data Engineering:** Designed and implemented robust ETL pipelines, ingesting data from FTP, Google Drive, Amazon S3, and various databases into our internal systems. Enhanced existing workflows to streamline the ingestion and transformation of large datasets across clients.
+
+-   **DevOps & Infrastructure:** Standardized the use of Git and GitHub for version control and project management, ensuring the accuracy and integrity of SQL queries across client projects. Established database schemas and standards for client data, ensuring consistency in our project folder structures, both locally and in development environments, akin to AWS EC2 and S3.
 
 ## Operations Leadership Development Program
 
 [**Xylem, Inc**](https://www.xylem.com/en-us/) **- Chicago, IL & Uniontown, PA** \| July 2021 - December 2022
 
--   **Excess & Obsolete Disposition Project:** Employed the DMAIC/DMADV methodology to create a process aimed at reducing the site’s E&O financial reserve and material in warehouses by identifying obsolete items and creating opportunities for rework, resale, and disposal. The control plan included establishing a cross-departmental E&O taskforce, with the new process projected to achieve estimated hard savings of \$1M - \$4M over the next 3-5 years. Utilized skills in Process Flowcharts, Value Stream Mapping, and Control Charts.
+During my two rotations as a Business Data Analyst and Continuous Improvement Engineer, I led multi-departmental teams across various sites, implementing data-driven projects and operational improvements.
 
--   **Excess & Obsolete Identification Project:** Built an automated SQL query/view in the PostgreSQL database & restricted Excel workbook (Power Query, Pivot Tables, & XLOOKUP) template to enforce standardization of the quarterly E&O report across three manufacturing sites. This project led to a 90% process reduction time on the Materials side while meeting the new standards set by finance for audit.
+-   **Excess & Obsolete Disposition Project:** Applied DMAIC/DMADV methodologies to develop a process for reducing excess and obsolete materials in warehouses, projected to generate $1M–$4M in savings over 3–5 years. Created a cross-departmental E&O task force, leveraging Process Flowcharts, Value Stream Mapping, and Control Charts to improve material rework, resale, and disposal practices.
 
--   **Physical Inventory Event:** Collaborated with Finance & Materials teams to overhaul the annual cycle count event across three sites with process flowcharts, work instructions, and manager checklists to tasks leading up to the event. The project reduced the time of the event by a day for 2 of 3 sites, and reduced prep time for managers.
+-   **Excess & Obsolete Identification Project:** Automated the quarterly E&O reporting process by building SQL queries and Power Query-enabled Excel templates, standardizing reports across three manufacturing sites. This solution reduced the reporting process time by 90%, while meeting finance audit standards.
 
--   **SQL Reporting:** Developed ad-hoc reports for stakeholders like validating supplier quotes to internal BOMs, synchronizing lot sizes across facilities, & measuring excess inventory by work cell.
+-   **Physical Inventory Event Overhaul:** Collaborated with Finance and Materials teams to streamline the annual cycle count event for three sites, reducing event time by one day for two sites and decreasing manager preparation time. Developed process flowcharts, work instructions, and checklists to ensure smooth execution.
 
--   **Tableau Reporting:** Created dashboards for internal audits for Quality & Finance teams. The dashboards measured forecasting accuracy, quality benchmarks for different product lines, and performance KPIs for units produced.
+-   **SQL Reporting & Automation:** Created SQL-based ad-hoc reports to validate supplier quotes, synchronize lot sizes, and measure excess inventory across work cells, improving decision-making and alignment across departments.
 
--   **Ad-Hoc Floor Workshops:** Led and assisted various projects to drive Continuous Improvement initiatives at the site. These included 5S audits, lean methodology seminars, inventory audits, and cycle counts, applying skills in 5S, FMEA, and Process Capability Analysis.
+-   **Tableau Reporting:** Designed Tableau dashboards for internal audit teams, measuring forecasting accuracy, product quality benchmarks, and KPIs for units produced. These dashboards provided real-time insights, aiding strategic planning for Quality and Finance teams.
+
+-   **Continuous Improvement Workshops:** Led and facilitated various workshops focused on Lean methodologies, 5S, FMEA, and Process Capability Analysis, driving continuous improvement initiatives and fostering a culture of operational excellence across multiple sites.
 
 ## Undergraduate Teaching Assistant
 
 [**West Virginia University**](https://www.wvu.edu/) **- Morgantown, WV** \| August 2019 - May 2021
 
-As a Teaching Assistant at West Virginia University from August 2019 to May 2021, I contributed to the academic development of students across multiple courses in the Industrial Engineering department. I assisted in teaching:
+As a Teaching Assistant in the Industrial Engineering department, I supported student learning across four key courses, contributing to curriculum development and enhancing student comprehension through hands-on teaching and guidance.
 
 -   **Spring 2021** \| IENG 220: Re-engineering Management Systems,
 -   **Fall 2020** \| IENG 305: Intro to Systems Engineering,
 -   **Spring 2020** \| IENG 331: Computer Applications in Industrial Engineering, and
 -   **Fall 2019** \| IENG 445: Project Management for Engineers.
 
-Throughout these roles, I gained valuable skills in teaching and curriculum development. My responsibilities included conducting lectures, leading lab sessions, grading assignments, and providing one-on-one support to students, helping them grasp complex concepts and apply theoretical knowledge to practical projects.
-
 ## Manufacturing Engineer Intern
 
 [**JLG Industries**](https://www.jlg.com/) **- McConnellsburg, PA** \| June 2019 - August 2019
 
--   **Test – Inspect – Green Tag (TIG) Line:** Conducted a comprehensive 6S audit, removing unnecessary equipment and parts from workstations and organizing the layout to enhance efficiency. I developed detailed Standard Work Instructions (SWIs) from scratch for all five stations of the TIG Line, covering three different products to ensure consistent and efficient processes.
+During my internship at JLG Industries, I contributed to process improvements and operational efficiency on the manufacturing floor, working closely with engineering teams on key projects.
 
--   **Tire Manipulator:** Implemented a scanner-based system for defect entry into Electronic Quality Control (EQC), standardizing the process, reducing variability in defect types, and improving data collection. In a short-term project focused on the Tire Manipulator, I created detailed floor plans for current and future station layouts using laser measurements and AutoCAD.
+-   **Test - Inspect - Green Tag (TIG) Line:** Conducted a comprehensive 6S audit to optimize workstation layouts by eliminating unnecessary equipment and parts, which improved workflow and increased efficiency. Developed Standard Work Instructions (SWIs) from scratch for five stations, covering three different products, ensuring consistency and reliability in the inspection and tagging processes.
+
+-   **Tire Manipulator:** Implemented a scanner-based system for defect entry into the Electronic Quality Control (EQC) system, standardizing the defect entry process and improving data accuracy. Designed detailed floor plans for both current and future station layouts using laser measurements and AutoCAD, enabling optimized workspace planning for the Tire Manipulator project.
 
 # Education {#sec-education .title}
 
