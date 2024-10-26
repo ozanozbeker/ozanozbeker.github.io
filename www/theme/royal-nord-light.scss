@@ -1,0 +1,100 @@
+// Edits to Simplex by https://bootswatch.com
+// Color theme based on Nord by https://www.nordtheme.com
+
+/*-- scss:defaults --*/
+
+//// Polar Night
+$nord0: #2E3440;
+$nord1: #3B4252;
+$nord2: #434C5E;
+$nord3: #4C566A;
+//// Snow Storm
+$nord4: #D8DEE9;
+$nord5: #E5E9F0;
+$nord6: #ECEFF4;
+//// Frost
+$nord7: #8FBCBB;
+$nord8: #88C0D0;
+$nord9: #81A1C1;
+$nord10: #5E81AC;
+//// Aurora
+$nord11: #BF616A;
+$nord12: #D08770;
+$nord13: #EBCB8B;
+$nord14: #A3BE8C;
+$nord15: #B48EAD;
+
+//// My Colors
+$ozan1: #B2976B; // I like
+$ozan2: #B2976B;
+
+//// Bootstrap
+$white: #ffffff;
+$gray-100: $nord6;
+$gray-200: $nord6;
+$gray-300: $nord5;
+$gray-400: $nord5;
+$gray-500: $nord4;
+$gray-600: $nord3;
+$gray-700: $nord2;
+$gray-800: $nord1;
+$gray-900: $nord0;
+$black: #121212; // From Google
+
+//// Defaults
+$blue:    $nord9 !default;
+$indigo:  #594656 !default;
+$purple:  $nord15 !default;
+$pink:    #d49aca !default;
+$red:     $nord11 !default;
+$orange:  $nord12 !default;
+$yellow:  $nord13 !default;
+$green:   $nord14 !default;
+$teal:    $nord7 !default;
+$cyan:    $nord8 !default;
+
+$primary:       $ozan1 !default;
+$secondary:     $white !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $orange !default;
+$danger:        $red !default;
+$light:         $white !default;
+$dark:          $black !default;
+
+$body-bg: $white !default;
+$navbar-bg: $white !default;
+
+$font-family-serif: "Cormorant Garamond";
+$font-family-sans-serif: "Assistant", system-ui, -apple-system, "Segoe UI", "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace: Consolas, SFMono-Regular, Menlo, Monaco, "Liberation Mono", "Courier New", monospace;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.title {
+    color: $primary;
+};
+
+h1 {
+    font-family: $font-family-serif;
+    font-weight: 500;
+
+    &.title {
+        color: $primary;
+        font-size: 3.3rem;
+    }
+}
+
+.navbar {
+    background-color: rgba($navbar-bg, 0.7);
+    backdrop-filter: blur(3px);
+}
+
+/* Apply inner shadow to code blocks */
+pre, code {
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: $primary;
+    border-radius: 5px;
+}

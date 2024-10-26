@@ -1,0 +1,49 @@
+---
+title: "West Virginia Tourism Map"
+description: "An interactive map of tourism attractions in West Virginia, powered by R & friends."
+date: "2024-10-25"
+categories: ["R", "Web Scraping", "Shiny", "MapGL"]
+image: image-listing.png
+format:
+  html: 
+    code-links:
+      - text: "Repo"
+        icon: github
+        href: https://github.com/ozanozbeker/wv-tourism
+---
+
+Here is a code block example:
+
+```{r}
+#| label: test-cell
+
+library(tidyverse)
+
+table = read_csv("path/to/table.csv") |>
+  mutate(
+    column1 = str_to_upper(column),
+    column2 = str_extract(column2, "^"),
+    column3 = column3 + 4/12
+  ) |>
+  summarize(
+    .by = c(column1, column2),
+    tot_column3 = sum(column3, na.rm = TRUE)
+  )
+
+print(table)
+```
+
+Let's see how this looks
+
+Here is a link: https://ozanozbeker.com/ and another one [https://ozanozbeker.com/](https://ozanozbeker.com/)
+
+Here is an example of `inline code`, and here is another `column = min(2 + x / 5)`
+
+# Header 1 Title {.title}
+
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6

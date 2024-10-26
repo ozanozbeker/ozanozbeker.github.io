@@ -1,7 +1,8 @@
 ---
+title: "Resume"
 format:
   html: 
-    toc: true
+    number-sections: false
     toc-title: "Sections"
     other-links:
       - text: "Resume PDF"
@@ -19,7 +20,7 @@ format:
 comments: false
 ---
 
-# Summary {#sec-summary .title}
+## Summary {#sec-summary}
 
 A versatile Data Science Consultant with extensive experience managing full-stack data science projects for Fortune 500 clients. I have a proven track record in consulting, data engineering, business intelligence, and analytics, delivering impactful solutions that drive business value. With expertise in R, Python, SQL, and Tableau, I design and implement robust ETL pipelines, create dynamic dashboards, and develop predictive models to optimize client operations.
 
@@ -27,11 +28,11 @@ I also bring a strong foundation in continuous improvement and manufacturing fro
 
 **Tech Stack:** R (Tidyverse, Tidymodels), Python (Pandas, Polars), Quarto, Shiny, Tableau, DuckDB, PostgreSQL, SQL Server, HTML, SASS/SCSS, CSS.
 
-# Experience {#sec-experience .title}
+## Experience {#sec-experience}
 
-## Data Science Consultant
+### Data Science Consultant
 
-[**RXA \@ OneMagnify**](https://rxa.io/) **- Remote, USA** \| January 2023 - Current
+[**RXA \@ OneMagnify**](https://rxa.io/) (Previously [**Splash Analytics**](https://splashanalytics.com/)) **- Remote, USA** \| January 2023 - Current
 
 As part of a boutique analytics consulting firm, I manage end-to-end data science projects across the full data stack for Fortune 500 clients in the replacement parts industry. I lead engagements from client relationship management to delivering impactful data-driven solutions.
 
@@ -45,7 +46,7 @@ As part of a boutique analytics consulting firm, I manage end-to-end data scienc
 
 -   **DevOps & Infrastructure:** Standardized the use of Git and GitHub for version control and project management, ensuring the accuracy and integrity of SQL queries across client projects. Established database schemas and standards for client data, ensuring consistency in our project folder structures, both locally and in development environments, akin to AWS EC2 and S3.
 
-## Operations Leadership Development Program
+### Operations Leadership Development Program
 
 [**Xylem, Inc**](https://www.xylem.com/en-us/) **- Chicago, IL & Uniontown, PA** \| July 2021 - December 2022
 
@@ -63,7 +64,7 @@ During my two rotations as a Business Data Analyst and Continuous Improvement En
 
 -   **Continuous Improvement Workshops:** Led and facilitated various workshops focused on Lean methodologies, 5S, FMEA, and Process Capability Analysis, driving continuous improvement initiatives and fostering a culture of operational excellence across multiple sites.
 
-## Undergraduate Teaching Assistant
+### Undergraduate Teaching Assistant
 
 [**West Virginia University**](https://www.wvu.edu/) **- Morgantown, WV** \| August 2019 - May 2021
 
@@ -74,7 +75,7 @@ As a Teaching Assistant in the Industrial Engineering department, I supported st
 -   **Spring 2020** \| IENG 331: Computer Applications in Industrial Engineering, and
 -   **Fall 2019** \| IENG 445: Project Management for Engineers.
 
-## Manufacturing Engineer Intern
+### Manufacturing Engineer Intern
 
 [**JLG Industries**](https://www.jlg.com/) **- McConnellsburg, PA** \| June 2019 - August 2019
 
@@ -84,13 +85,13 @@ During my internship at JLG Industries, I contributed to process improvements an
 
 -   **Tire Manipulator:** Implemented a scanner-based system for defect entry into the Electronic Quality Control (EQC) system, standardizing the defect entry process and improving data accuracy. Designed detailed floor plans for both current and future station layouts using laser measurements and AutoCAD, enabling optimized workspace planning for the Tire Manipulator project.
 
-# Education {#sec-education .title}
+## Education {#sec-education}
 
-## Bachelor of Science in Industrial Engineering
+### Bachelor of Science in Industrial Engineering
 
 **West Virginia University** \| Morgantown, WV
 
-## Certifications
+### Certifications
 
 -   **Lean Six Sigma Green Belt** \| Institute of Industrial and Systems Engineers
 

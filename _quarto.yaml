@@ -10,12 +10,15 @@ project:
     - projects/*/index.qmd
   resources: 
     - /**/image-placeholder.jpg
+    - /**/image-placeholder.png
     - /**/image-listing.jpg
+    - /**/image-listing.png
     - /**/images/*
     - /**/docs/*
     - www
   preview: 
     timeout: 30
+    port: 4200
 
 website:
   # Info
@@ -48,32 +51,34 @@ website:
   
 format:
   html:
+    # Layout
+    page-layout: article
+    number-sections: true
+
     # Code Options
     code-overflow: scroll
     code-copy: hover
     code-link: false
+    highlight-style: "nord"
 
     # External Links
-    link-external-icon: true
+    link-external-icon: false
     link-external-newwindow: true
 
     # Theming
     theme: 
-      light: [flatly, www/theme/layout.scss]
-      dark: [darkly, www/theme/layout.scss]
+      light: [simplex, www/theme/royal-nord-light.scss]
+      dark: [simplex, www/theme/royal-nord-dark.scss]
 
     # Table of Contents
     toc: true
     toc-depth: 3
-    page-layout: article
 
     # Other
     smooth-scroll: true
 
+# Code Execution
 execute: 
   freeze: true
   eval: false
   cache: refresh
-
-filters: 
-  - code-fullscreen
