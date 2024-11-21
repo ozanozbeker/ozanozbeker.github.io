@@ -1,14 +1,14 @@
 ---
 title: "Ozan Ozbeker"
+subtitle: "Data Scientist & Adjunct Professor"
 image: www/images/professional_picture.jpg
-format: 
+format:
   html:
-    grid: 
-      content-mode: auto
-      body-width: 650px
+    page-layout: full
+    toc: false
+    number-sections: false
 about:
-  template: jolla
-  image-shape: rounded
+  template: solana
   image-width: 25em
   links: 
     - icon: github
@@ -23,9 +23,9 @@ about:
 comments: false
 ---
 
-Hey! I’m a data scientist at [OneMagnify](https://onemagnify.com), where I get to work with a variety of clients in the replacement parts business, supporting distribution and pricing across distributors and e-commerce markets. I studied Industrial Engineering at [West Virginia University](https://wvu.edu) and I'm constantly learning, keeping up with the latest books and blogs in data science.
+Hello! I'm Ozan, an industrial engineer turned data scientist. My desire to build things started as a child with playing with Legos and only advanced when I discovered Minecraft. Solving problems led me to industrial engineering and my love of computers & coding brought me to the world of data science. Now I'm based in [Morgantown, WV](https://wvtourism.com/morgantown/), working remotely at [OneMagnify](https://onemagnify.com) & lecturing at [West Virginia University](https://wvu.edu).
 
-When I'm not crunching numbers, you’ll likely find me at a live music event, especially if it’s Metal or EDM. If I’m not at a concert, I’m probably cycling, playing the guitar, or tinkering with a new data science project.
+When I'm not staring at a screen, you’ll likely find me at a live music event, especially if it’s Metal or EDM. If I’m not at a concert, I’m probably cycling, playing the guitar, or tinkering with a new data science project.
 
 On this site, you’ll find my [resume](resume/index.qmd), [projects](projects/index.qmd), & [blog](blog/index.qmd), where I explore various tools and technologies in the data world, along with other topics that pique my interest.
 

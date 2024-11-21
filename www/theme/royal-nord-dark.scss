@@ -26,22 +26,21 @@ $nord14: #A3BE8C;
 $nord15: #B48EAD;
 
 //// My Colors
-$ozan1: #B2976B; // I like
-$ozan2: #B2976B;
+$ozan1: #c0a062;
 
 //// Bootstrap
 $white: #ffffff;
 $gray-100: $nord6;
 $gray-200: $nord6;
 $gray-300: $nord5;
-$gray-400: $nord5;
+$gray-400: $nord4;
 $gray-500: $nord4;
 $gray-600: $nord3;
 $gray-700: $nord2;
 $gray-800: $nord1;
 $gray-900: $nord0;
 $black-light: #1f1f1f;
-$black: #121212; // From Google
+$black: #141414; // From Google
 $black-dark: #0c0c0c;
 
 //// Defaults
@@ -70,26 +69,65 @@ $navbar-bg: $black !default;
 $body-color: $light !default;
 
 
-$font-family-serif: "Cormorant Garamond";
+$font-family-serif: "Playfair Display";
 $font-family-sans-serif: "Assistant", system-ui, -apple-system, "Segoe UI", "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-monospace: Consolas, SFMono-Regular, Menlo, Monaco, "Liberation Mono", "Courier New", monospace;
 
 /*-- scss:rules --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+html {
+    font-size: 18px; /* Base font size */
+}
+
+body {
+    font-size: 1.125rem; /* 18px (1.125 * 16) */
+    line-height: 1.6; /* Recommended for readability */
+}
+
+h1 {
+    font-size: 4rem; /* 64px (4 * 16) */
+    line-height: 1.2; /* Tighter for large headers */
+
+    font-family: $font-family-serif;
+}
+
+h2 {
+    font-size: 3rem; /* 48px */
+    line-height: 1.3;
+
+    font-family: $font-family-serif;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 2.5rem; /* 40px */
+    line-height: 1.3;
+}
+
+h4 {
+    font-size: 2rem; /* 32px */
+    line-height: 1.4;
+}
+
+h5 {
+    font-size: 1.5rem; /* 24px */
+    line-height: 1.5;
+}
+
+h6 {
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.5;
+}
+
+p {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.6;
+}
 
 .title {
     color: $primary;
-};
-
-h1 {
-    font-family: $font-family-serif;
-    font-weight: 500;
-
-    &.title {
-        color: $primary;
-        font-size: 3.3rem;
-    }
 }
 
 .navbar {
@@ -97,6 +135,7 @@ h1 {
     backdrop-filter: blur(3px);
     color: $light; // Ensure the navbar text is light
     border-bottom: $black-light;
+    font-size: 1.5rem;
 
     // Navbar links
     a.nav-link {
@@ -159,10 +198,26 @@ body {
     color: $light; // Use light Nord colors for readable text
 }
 
-/* Apply inner shadow to code blocks */
-pre, code {
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: $primary;
-    background-color: $black-light;
-    border-radius: 5px;
+a {
+    text-decoration: none;
+}
+
+span.navbar-title {
+    font-size: 1.5rem; /* 24px */
+}
+
+.sidebar nav[role=doc-toc] {
+    font-size: 1.125rem !important; /* Match body text size (18px) and override conflicting styles */
+    line-height: 1.6 !important;    /* Ensure readability */
+    padding: 0;                    /* Remove padding */
+}
+
+.sidebar nav[role=doc-toc]>h2,
+.sidebar nav[role=doc-toc]>.h2 {
+    font-size: inherit !important;  /* Ensure child elements inherit font size */
+    line-height: inherit !important; /* Ensure child elements inherit line height */
+}
+
+.nav-link {
+    font-size: 1.125rem !important; /* Match body text size (18px) and override conflicting styles */
 }

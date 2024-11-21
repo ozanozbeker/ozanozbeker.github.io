@@ -34,8 +34,8 @@ website:
 
   # Footer
   page-footer:
-    left: "© Copyright 2024 Ozan Ozbeker | [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)"
-    right: "This website was made by me and powered by [Quarto](https://www.quarto.com)!"
+    left: "© Copyright 2024 Ozan Ozbeker"
+    right: "Website design by me and powered by [Quarto](https://www.quarto.com)"
 
   # Navbar
   navbar:
@@ -59,16 +59,16 @@ format:
     code-overflow: scroll
     code-copy: hover
     code-link: false
-    highlight-style: "nord"
+    highlight-style: nord
 
     # External Links
     link-external-icon: false
     link-external-newwindow: true
 
     # Theming
-    theme: 
-      light: [simplex, www/theme/royal-nord-light.scss]
-      dark: [simplex, www/theme/royal-nord-dark.scss]
+    theme: [simplex, www/theme/royal-nord-dark.scss] # I kind of like just dark
+      # light: [simplex, www/theme/royal-nord-light.scss]
+      # dark: [simplex, www/theme/royal-nord-dark.scss]
 
     # Table of Contents
     toc: true
