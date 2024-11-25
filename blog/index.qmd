@@ -5,10 +5,10 @@ listing:
   contents: /*/index.qmd
   sort: "date desc"
   sort-ui: true
+  feed: true
   filter-ui: true
   categories: numbered
-  image-placeholder: image-placeholder.jpg
+  image-placeholder: thumbnail-placeholder.jpg
   fields: [image, title, subtitle, date, reading-time, description, categories]
 comments: false
 ---
-

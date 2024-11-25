@@ -11,8 +11,8 @@ project:
   resources: 
     - /**/image-placeholder.jpg
     - /**/image-placeholder.png
-    - /**/image-listing.jpg
-    - /**/image-listing.png
+    - /**/thumbnail.jpg
+    - /**/thumbnail.png
     - /**/images/*
     - /**/docs/*
     - www

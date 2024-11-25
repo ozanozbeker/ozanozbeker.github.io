@@ -3,7 +3,6 @@ title: "West Virginia Tourism Map"
 description: "An interactive map of tourism attractions in West Virginia, powered by R & friends."
 date: "2024-10-25"
 categories: ["R", "Web Scraping", "Shiny", "MapGL"]
-image: image-listing.png
 format:
   html: 
     code-links:

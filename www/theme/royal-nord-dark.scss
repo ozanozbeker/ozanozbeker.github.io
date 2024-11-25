@@ -3,7 +3,6 @@
 
 /*-- scss:defaults --*/
 
-
 //// Polar Night
 $nord0: #2E3440;
 $nord1: #3B4252;
@@ -68,37 +67,53 @@ $body-bg: $black !default;
 $navbar-bg: $black !default;
 $body-color: $light !default;
 
-
 $font-family-serif: "Playfair Display";
 $font-family-sans-serif: "Assistant", system-ui, -apple-system, "Segoe UI", "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-monospace: Consolas, SFMono-Regular, Menlo, Monaco, "Liberation Mono", "Courier New", monospace;
 
 /*-- scss:rules --*/
-
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
+// General styles for the title banner
+.quarto-title-banner {
+    color: $light; // Default color for all text inside .quarto-title-banner
+  
+    h1.title {
+        color: $primary; // Override to use primary color for the main title
+    }
+}
+
+// Base styles for typography
 html {
-    font-size: 16px; /* Base font size */
+    font-size: 16px; // Base font size for the entire document
 }
 
 body {
-    font-size: 1.125rem;
-    line-height: 1.6; /* Recommended for readability */
+    font-size: 1.125rem; // Slightly larger font for readability
+    line-height: 1.6; // Recommended line height for body text
+    background-color: $body-bg; // Background color for the body
+    color: $light; // Light text color for better readability
 }
 
+// Heading styles
 h1 {
     font-size: 4rem;
-    line-height: 1.2; /* Tighter for large headers */
-
+    line-height: 1.2; // Tighter spacing for large headers
     font-family: $font-family-serif;
+
+    &.title {
+        color: $primary; // Specific color for titles
+    }
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: $font-family-serif; // Consistent font-family for headers
 }
 
 h2 {
     font-size: 3rem;
     line-height: 1.3;
-
-    font-family: $font-family-serif;
-    font-weight: 300;
+    font-weight: 300; // Lighter font weight for a clean look
 }
 
 h3 {
@@ -123,114 +138,107 @@ h6 {
 
 p {
     font-size: 1.125rem;
-    line-height: 1.6;
+    line-height: 1.6; // Matches body line height
 }
 
-.title {
-    color: $primary;
-}
+a {
+    text-decoration: none !important;
+}  
 
+// Navbar styles
 .navbar {
-    background-color: rgba($navbar-bg, 0.7);
-    backdrop-filter: blur(3px);
-    color: $light; // Ensure the navbar text is light
-    border-bottom: $black-light;
+    background-color: rgba($navbar-bg, 0.7); // Transparent background with slight blur
+    backdrop-filter: blur(3px); // Apply blur effect for modern UI
+    color: $light; // Light text color for visibility
+    border-bottom: $black-light; // Subtle border at the bottom
     font-size: 1.5rem;
 
     // Navbar links
     a.nav-link {
-        color: $light; // Ensure navbar links are also light in color
+        color: $light; // Default link color
         &:hover {
-            color: $primary; // Slightly lighter color on hover for better visibility
+            color: $primary; // Highlighted color on hover
         }
     }
 
     // Navbar brand
     .navbar-brand {
-        color: $light; // Ensure the brand name is visible in light color
+        color: $light; // Default brand color
         &:hover {
-            color: $primary; // Hover effect for the brand name
+            color: $primary; // Highlight on hover
         }
     }
 
-    // Navbar icons (assuming FontAwesome or similar)
+    // Navbar icons
     i, svg {
-        color: $light !important; // Ensure the icons are light in color
-    }
-
-    i:hover, svg:hover {
-        color: $primary !important; // Change to $primary on hover
+        color: $light !important; // Default icon color
+        &:hover {
+            color: $primary !important; // Highlight on hover
+        }
     }
 }
 
-body.dark-mode .quarto-color-scheme-toggle .bi .quarto-reader-toggle .bi::before, .quarto-color-scheme-toggle .bi::before{
-    filter: invert(100%) !important; // Invert color for dark mode
+// Dark mode styles for color scheme toggles
+body.dark-mode .quarto-color-scheme-toggle .bi,
+.quarto-reader-toggle .bi::before,
+.quarto-color-scheme-toggle .bi::before {
+    filter: invert(100%) !important; // Invert icons for dark mode
 }
 
+// Navbar toggle button for dark mode
 [data-bs-theme="dark"] .navbar-toggler-icon {
-background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%28#{red($ozan1)}, #{green($ozan1)}, #{blue($ozan1)}%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%28#{red($ozan1)}, #{green($ozan1)}, #{blue($ozan1)}%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-// Fix for input boxes (Order By, Filter) background and consistency
+// Input box and form control styles
 .btn, .dropdown-menu, .form-control, select.form-control {
-    background-color: $dark !important; // Ensure the background is the same as the dark mode background
-    border: 1px solid $black-light !important; // Subtle border
-    color: $nord5 !important; // Text color for readability
+    background-color: $dark !important; // Uniform dark background
+    border: 1px solid $black-light !important; // Subtle border for definition
+    color: $nord5 !important; // Readable text color
 }
 
 .btn:hover, .dropdown-menu:hover, .form-control:focus, select.form-control:focus {
-    background-color: $black-light !important; // Slightly lighter on hover/focus
-    border-color: $light !important; // Lighter border on hover/focus
-    color: $nord6 !important; // Lighter text color on hover/focus
+    background-color: $black-light !important; // Lighter background on hover/focus
+    border-color: $light !important; // Highlighted border
+    color: $nord6 !important; // Brighter text color on focus
 }
 
-// Ensuring uniform background and border for all input types and buttons
+// Uniform styles for all input elements
 input[type="text"], input[type="search"], input[type="select"], .form-control, .input-group-text, select {
-    background-color: $dark !important; // Consistent dark background
-    color: $nord5 !important;
-    border-color: $black-light !important;
+    background-color: $dark !important; // Dark background
+    color: $nord5 !important; // Readable text color
+    border-color: $black-light !important; // Subtle border
 }
 
 input[type="text"]:focus, input[type="search"]:focus, input[type="select"]:focus, .form-control:focus, select:focus {
-    background-color: $black !important;
-    border-color: $black-light !important;
-    color: $light !important;
+    background-color: $black !important; // Darker background on focus
+    border-color: $black-light !important; // Highlighted border
+    color: $light !important; // Light text color on focus
 }
 
-body {
-    background-color: $body-bg;
-    color: $light; // Use light Nord colors for readable text
-}
-
-a {
-    text-decoration: none;
-}
-
-span.navbar-title {
-    font-size: 1.5rem; /* 24px */
-}
-
+// Sidebar styles for Table of Contents
 .sidebar nav[role=doc-toc] {
-    font-size: 1.125rem !important; /* Match body text size (18px) and override conflicting styles */
-    line-height: 1.6 !important;    /* Ensure readability */
-    padding: 0;                    /* Remove padding */
+    font-size: 1.125rem !important; // Match body text size
+    line-height: 1.6 !important; // Ensure readability
+    padding: 0; // Remove unnecessary padding
 }
 
 .sidebar nav[role=doc-toc]>h2,
 .sidebar nav[role=doc-toc]>.h2 {
-    font-size: inherit !important;  /* Ensure child elements inherit font size */
-    line-height: inherit !important; /* Ensure child elements inherit line height */
+    font-size: inherit !important; // Inherit font size from parent
+    line-height: inherit !important; // Inherit line height
 }
 
-.nav-link {
-    font-size: 1.125rem !important; /* Match body text size (18px) and override conflicting styles */
+// Adjustments for navbar title and resume sections
+span.navbar-title {
+    font-size: 1.5rem; // Specific font size for navbar titles
 }
 
 p:has(.resume-company) {
-    margin-bottom: 0.1rem !important; /* Adjust this value as needed */
+    margin-bottom: 0.1rem !important; // Fine-tune spacing
 }
 
 .resume-location-date {
-    font-size: 0.9em;
-    color: $nord4;
+    font-size: 0.9em; // Slightly smaller text for location/date details
+    color: $nord4; // Subtle color for secondary information
 }

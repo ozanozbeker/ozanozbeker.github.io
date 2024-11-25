@@ -3,7 +3,6 @@ title: "Personal Weekly Newsletter"
 description: "A way to curate content thoughtfully and avoid the constant distraction of daily content consumption."
 date: "2024-11-25"
 categories: ["R", "Web Scraping", "Quarto Reports"]
-image: image-listing.png
 format:
   html: 
     code-links:

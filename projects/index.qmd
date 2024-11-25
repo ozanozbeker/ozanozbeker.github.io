@@ -16,7 +16,7 @@ listing:
     sort-ui: false
     filter-ui: false
     categories: true
-    image-placeholder: image-placeholder.jpg
+    image-placeholder: thumbnail-placeholder.jpg
     fields: [image, title, date, reading-time, description, categories]
 comments: false
 ---
