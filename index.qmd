@@ -23,10 +23,12 @@ about:
 comments: false
 ---
 
-Hello! I'm Ozan, an industrial engineer turned data scientist. My desire to build things started as a child with playing with Legos and only advanced when I discovered Minecraft. Solving problems led me to industrial engineering and my love of computers & coding brought me to the world of data science. Now I'm based in [Morgantown, WV](https://wvtourism.com/morgantown/), working remotely at [OneMagnify](https://onemagnify.com) & lecturing at [West Virginia University](https://wvu.edu).
+Hello! I'm Ozan, an industrial engineer turned data scientist. My passion for building and problem-solving started early, from playing with Legos as a kid to crafting worlds in Minecraft. That same drive led me to industrial engineering and, eventually, to the world of data science, where I combine creativity with technology to tackle complex challenges.
 
-When I'm not staring at a screen, you’ll likely find me at a live music event, especially if it’s Metal or EDM. If I’m not at a concert, I’m probably cycling, playing the guitar, or tinkering with a new data science project.
+I'm currently based in [Morgantown, WV](https://wvtourism.com/morgantown/), working remotely at [OneMagnify](https://onemagnify.com) and teaching as a lecturer at [West Virginia University](https://wvu.edu).
 
-On this site, you’ll find my [resume](resume/index.qmd), [projects](projects/index.qmd), & [blog](blog/index.qmd), where I explore various tools and technologies in the data world, along with other topics that pique my interest.
+When I’m not immersed in data or coding, you’ll likely find me at a live music event, especially if it’s Metal(core) or EDM. If I’m not at a concert, I’m probably cycling, playing the guitar, or experimenting with a new data science project.
 
-Feel free to reach out and connect!
+On this site, you’ll find my [resume](resume/index.qmd), [projects](projects/index.qmd), and [blog](blog/index.qmd), where I explore tools and technologies in the data world alongside other topics that spark my curiosity.
+
+Feel free to reach out and connect—I’d love to hear from you!

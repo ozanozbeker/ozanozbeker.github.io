@@ -1,0 +1,45 @@
+---
+title: "Personal Weekly Newsletter"
+description: "A way to curate content thoughtfully and avoid the constant distraction of daily content consumption."
+date: "2024-11-25"
+categories: ["R", "Web Scraping", "Quarto Reports"]
+image: image-listing.png
+format:
+  html: 
+    code-links:
+      - text: "Repo"
+        icon: github
+        href: https://github.com/ozanozbeker/personal-weekly-newsletter
+---
+
+Cal Newport advocates for creating a **"Personal Weekly Newsletter"** or a **custom RSS feed** as a way to curate content thoughtfully and avoid the constant distraction of daily content consumption. Here's how he frames it in the context of digital minimalism and deep work:
+
+### Key Ideas from Cal Newport on Custom Feeds:
+1. **Focus on Intentional Consumption**:
+   - Newport emphasizes the importance of consuming content **intentionally** rather than mindlessly scrolling through feeds. By using a custom RSS feed or creating a weekly "newspaper," you ensure that you're accessing content that truly interests you and aligns with your values or goals.
+
+2. **Batch Content Consumption**:
+   - He suggests scheduling **dedicated time once a week** to read through curated content. This minimizes the cognitive drain of repeatedly checking for updates and ensures that reading doesn't disrupt other productive activities.
+
+3. **Avoid Algorithmic Influence**:
+   - Newport is critical of social media and other platforms' algorithms, which are designed to keep you engaged for as long as possible. Using a tool like RSS allows you to directly subscribe to blogs, websites, or newsletters without relying on an algorithm to decide what you see.
+
+4. **Promote Depth Over Breadth**:
+   - By carefully curating your feed, you prioritize **quality over quantity**. This encourages deeper engagement with ideas and reduces the shallow consumption that happens when you're skimming headlines.
+
+5. **Customization and Control**:
+   - A custom RSS feed or weekly roundup gives you control over the sources and topics you're exposed to. This aligns with his broader philosophy of being deliberate about how you use technology.
+
+### How to Implement This:
+- **Step 1**: Choose RSS tools or newsletter software (e.g., Feedly, Inoreader, or Substack newsletters).
+- **Step 2**: Identify high-quality blogs, sites, or authors whose content aligns with your interests or professional goals.
+- **Step 3**: Schedule 1–2 hours each week to read and reflect on this content, integrating it into a **weekly reading ritual**.
+- **Step 4**: Avoid checking these sources outside the designated time, focusing on the habit of deep, uninterrupted reading.
+
+### Benefits:
+- Saves time by eliminating daily browsing.
+- Reduces mental clutter and distractions.
+- Increases the likelihood of engaging with thoughtful, high-quality material.
+- Supports a deeper understanding of the topics you care about. 
+
+By using this approach, you're transforming content consumption into a **focused and enriching experience**, avoiding the trap of mindless digital distractions.

@@ -3,7 +3,7 @@ title: "DevOps Showcase"
 description: "A mix of DevOps skills relevant to a Data Science practitioner."
 date: "2024-07-28"
 categories: ["R", "DevOps", "Docker", "APIs"]
-image: image-listing.jpg
+image: image-listing.png
 format:
   html: 
     code-links:

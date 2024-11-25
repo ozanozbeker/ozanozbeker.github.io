@@ -1,13 +1,36 @@
 ---
-title: "Projects"
 listing:
-  type: grid
-  contents: /*/index.qmd
-  sort: "date desc"
-  sort-ui: false
-  filter-ui: false
-  categories: false
-  image-placeholder: image-placeholder.jpg
-  fields: [image, title, date, reading-time, description, categories]
+  - id: showcase
+    type: grid
+    contents: showcase/*/index.qmd
+    sort: ["date desc", "title desc"]
+    sort-ui: false
+    filter-ui: false
+    categories: true
+    image-placeholder: image-placeholder.jpg
+    fields: [image, title, date, reading-time, description, categories]
+  - id: personal
+    type: grid
+    contents: personal/*/index.qmd
+    sort: ["date desc", "title desc"]
+    sort-ui: false
+    filter-ui: false
+    categories: true
+    image-placeholder: image-placeholder.jpg
+    fields: [image, title, date, reading-time, description, categories]
 comments: false
 ---
+
+## Showcase Projects
+
+A curated selection of projects demonstrating my expertise across various data science technologies and methodologies.
+
+::: {#showcase}
+:::
+
+## Personal Projects
+
+Creative and self-driven projects I pursued for fun or personal growth, shared here to spark inspiration or provide value to others.
+
+::: {#personal}
+:::

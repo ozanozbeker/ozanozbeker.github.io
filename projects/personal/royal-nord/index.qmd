@@ -1,0 +1,13 @@
+---
+title: "Royal Nord"
+description: "A custom Positron & VS Code theme for R users, based on Nord & Obsidian."
+date: "2024-12-25"
+categories: ["VS Code", "Positron", "Custom Theme"]
+image: image-listing.png
+format:
+  html: 
+    code-links:
+      - text: "Repo"
+        icon: github
+        href: https://github.com/ozanozbeker/royal-nord
+---

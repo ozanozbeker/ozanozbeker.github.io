@@ -22,17 +22,41 @@ comments: false
 
 ## Summary {#sec-summary}
 
-A versatile Data Science Consultant with extensive experience managing full-stack data science projects for Fortune 500 clients. I have a proven track record in consulting, data engineering, business intelligence, and analytics, delivering impactful solutions that drive business value. With expertise in R, Python, SQL, and Tableau, I design and implement robust ETL pipelines, create dynamic dashboards, and develop predictive models to optimize client operations.
+As a **Data Scientist** at OneMagnify, I manage full-stack data science projects for Fortune 500 clients, delivering solutions that drive measurable business value. I design and implement robust ETL pipelines, create dynamic dashboards in Tableau, and develop predictive models to optimize client operations. My expertise in R, Python, SQL, and Tableau allows me to provide end-to-end support, from data engineering to business intelligence and advanced analytics, ensuring impactful and actionable insights for stakeholders.
 
-I also bring a strong foundation in continuous improvement and manufacturing from my time at Xylem, where I led multi-departmental teams on high-impact projects, saving millions in operational costs. My diverse skill set is further complemented by hands-on teaching experience and certifications in Lean Six Sigma and Continuous Improvement, making me adept at leading technical and cross-functional teams to deliver data-driven results.
+In addition to my professional experience, I am an **Adjunct Professor** at West Virginia University, where I redesigned and now teach IENG 331: Computer Applications in Industrial Engineering. By integrating industry-relevant tools like SQL, Tableau, Power BI, and advanced Excel features, I prepare students for real-world data analytics careers. My curriculum emphasizes stakeholder collaboration, project-based learning, and building analytics portfolios, empowering students with practical skills they can apply early in their careers. I also teach R for automation and reporting, introducing tools like Quarto to demonstrate modern, scalable data workflows.
 
-**Tech Stack:** R (Tidyverse, Tidymodels), Python (Pandas, Polars), Quarto, Shiny, Tableau, DuckDB, PostgreSQL, SQL Server, HTML, SASS/SCSS, CSS.
+My diverse skill set is further complemented by certifications in Lean Six Sigma and Continuous Improvement, as well as hands-on teaching experience, making me adept at leading technical and cross-functional teams to deliver data-driven results.
+
+**Tech Stack:** R (Tidyverse, Tidymodels), Python (Pandas, Polars), Quarto, Shiny, Tableau, DuckDB, PostgreSQL, SQL Server, HTML, SASS/SCSS/CSS.
 
 ## Experience {#sec-experience}
 
+### Adjuct Professor
+
+[[**West Virginia University - Statler College of Engineering**](https://www.statler.wvu.edu/)]{.resume-company}
+
+[**Morgantown, WV** \| December 2025 - Current]{.resume-location-date}
+
+As a new lecturer, I leveraged my experience as a Data Scientist at an analytics consulting firm to redesign and deliver *IENG 331: Computer Applications in Industrial Engineering*, transforming it from a traditional computer science-style course into one focused on practical data analysis skills and stakeholder collaboration. This redesign prepares students to meet the demands of modern industry roles in analytics and engineering. Key contributions and benefits include:
+
+-   **SQL for Data Extraction:** Developed course modules providing hands-on experience with modern relational databases such as Microsoft SQL Server and PostgreSQL. Students learned the nuances of ANSI SQL versus vendor-specific syntax and capabilities, equipping them to work seamlessly with real-world data systems. This practical knowledge bridges the gap between academic concepts and industry needs, empowering students to extract and analyze data effectively in internships and early career roles.
+
+-   **Advanced Excel for Efficiency:** Introduced advanced Excel features like Power Query and the Data Model to demonstrate efficient data transformation and analysis workflows. These tools provide students with immediate value, as Excel remains one of the most widely used platforms in industry. By mastering these capabilities, students can streamline reporting and data preparation tasks, boosting productivity in professional settings.
+
+-   **Industry-Ready Data Visualization:** Incorporated modules on Tableau and Power BI, giving students experience with leading dashboarding tools. By integrating these platforms into class projects, students gain exposure to creating impactful, interactive visualizations that are highly sought after by employers across industries.
+
+-   **Portfolio-Based Project Work:** Designed class assignments around real-world, project-based learning to help students build analytics portfolios. This approach enables students to showcase their practical skills during internship and job applications, giving them a competitive edge in the hiring process.
+
+-   **Real-World Context and Stakeholder Communication:** Prepared students for careers in data analytics by simulating real-world scenarios that required effective communication with stakeholders. This included teaching industry terminology, report writing, and decision-making processes, ensuring students can bridge the technical and business aspects of analytics roles.
+
+-   **R for Automation and Advanced Reporting:** Expanded the use of R beyond its traditional role in statistics, teaching students how to use it as a scripting language for automation, data analysis, and reporting. Introduced Quarto, a tool for creating automated, professional-grade reports that integrate R, Python, and other languages. This gives students a solid foundation in tools they can expand upon in future roles, including report automation and reproducible workflows.
+
 ### Data Scientist
 
-[**RXA \@ OneMagnify**](https://rxa.io/) (Previously [**Splash Analytics**](https://splashanalytics.com/)) **- Remote, USA** \| January 2023 - Current
+[[**RXA \@ OneMagnify**](https://rxa.io/) (Previously [**Splash Analytics**](https://splashanalytics.com/))]{.resume-company}
+
+[**Remote, USA** \| January 2023 - Current]{.resume-location-date}
 
 As part of a boutique analytics consulting firm, I manage end-to-end data science projects across the full data stack for Fortune 500 clients in the replacement parts industry. I lead engagements from client relationship management to delivering impactful data-driven solutions.
 
@@ -48,7 +72,9 @@ As part of a boutique analytics consulting firm, I manage end-to-end data scienc
 
 ### Operations Leadership Development Program
 
-[**Xylem, Inc**](https://www.xylem.com/en-us/) **- Chicago, IL & Uniontown, PA** \| July 2021 - December 2022
+[[**Xylem, Inc**](https://www.xylem.com/en-us/)]{.resume-company}
+
+[**Chicago, IL & Uniontown, PA** \| July 2021 - December 2022]{.resume-location-date}
 
 During my two rotations as a Business Data Analyst and Continuous Improvement Engineer, I led multi-departmental teams across various sites, implementing data-driven projects and operational improvements.
 
@@ -66,7 +92,9 @@ During my two rotations as a Business Data Analyst and Continuous Improvement En
 
 ### Undergraduate Teaching Assistant
 
-[**West Virginia University**](https://www.wvu.edu/) **- Morgantown, WV** \| August 2019 - May 2021
+[[**West Virginia University**](https://www.wvu.edu/)]{.resume-company}
+
+[**Morgantown, WV** \| August 2019 - May 2021]{.resume-location-date}
 
 As a Teaching Assistant in the Industrial Engineering department, I supported student learning across four key courses, contributing to curriculum development and enhancing student comprehension through hands-on teaching and guidance.
 
@@ -77,7 +105,9 @@ As a Teaching Assistant in the Industrial Engineering department, I supported st
 
 ### Manufacturing Engineer Intern
 
-[**JLG Industries**](https://www.jlg.com/) **- McConnellsburg, PA** \| June 2019 - August 2019
+[[**JLG Industries**](https://www.jlg.com/)]{.resume-company}
+
+[**McConnellsburg, PA** \| June 2019 - August 2019]{.resume-location-date}
 
 During my internship at JLG Industries, I contributed to process improvements and operational efficiency on the manufacturing floor, working closely with engineering teams on key projects.
 
@@ -89,7 +119,9 @@ During my internship at JLG Industries, I contributed to process improvements an
 
 ### Bachelor of Science in Industrial Engineering
 
-**West Virginia University** \| Morgantown, WV
+[[**West Virginia University**](https://www.wvu.edu/)]{.resume-company}
+
+[**Morgantown, WV**]{.resume-location-date}
 
 ### Certifications
 

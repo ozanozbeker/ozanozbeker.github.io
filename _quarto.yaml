@@ -7,7 +7,7 @@ project:
     - blog/index.qmd
     - blog/*/index.qmd
     - projects/index.qmd
-    - projects/*/index.qmd
+    - projects/*/*/index.qmd # First star is type of project, second star is project folder
   resources: 
     - /**/image-placeholder.jpg
     - /**/image-placeholder.png
@@ -53,7 +53,7 @@ format:
   html:
     # Layout
     page-layout: article
-    number-sections: true
+    number-sections: false
 
     # Code Options
     code-overflow: scroll
