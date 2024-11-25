@@ -22,21 +22,47 @@ comments: false
 
 ## Summary {#sec-summary}
 
-As a **Data Scientist** at OneMagnify, I manage full-stack data science projects for Fortune 500 clients, delivering solutions that drive measurable business value. I design and implement robust ETL pipelines, create dynamic dashboards in Tableau, and develop predictive models to optimize client operations. My expertise in R, Python, SQL, and Tableau allows me to provide end-to-end support, from data engineering to business intelligence and advanced analytics, ensuring impactful and actionable insights for stakeholders.
+As a **Data Scientist** at [OneMagnify](https://onemagnify.com/), I manage full-stack data science projects for Fortune 500 clients, delivering solutions that drive measurable business value. I design and implement robust ETL pipelines, create dynamic dashboards in Tableau, and develop predictive models to optimize client operations. My expertise in R, Python, SQL, and Tableau allows me to provide end-to-end support, from data engineering to business intelligence and advanced analytics, ensuring impactful and actionable insights for stakeholders.
 
-In addition to my professional experience, I am an **Adjunct Professor** at West Virginia University, where I redesigned and now teach IENG 331: Computer Applications in Industrial Engineering. By integrating industry-relevant tools like SQL, Tableau, Power BI, and advanced Excel features, I prepare students for real-world data analytics careers. My curriculum emphasizes stakeholder collaboration, project-based learning, and building analytics portfolios, empowering students with practical skills they can apply early in their careers. I also teach R for automation and reporting, introducing tools like Quarto to demonstrate modern, scalable data workflows.
+In addition to my professional experience, I am an **Adjunct Professor** at [West Virginia University](https://www.wvu.edu/), where I redesigned and now teach *IENG 331: Computer Applications in Industrial Engineering*. By integrating industry-relevant tools like SQL, Tableau, Power BI, and advanced Excel features, I prepare students for real-world data analytics careers. My curriculum emphasizes stakeholder collaboration, project-based learning, and building analytics portfolios, empowering students with practical skills they can apply early in their careers. I also teach R for data manipulation on scale, automation, and reporting, introducing tools like Quarto to demonstrate modern, scalable data workflows.
 
 My diverse skill set is further complemented by certifications in Lean Six Sigma and Continuous Improvement, as well as hands-on teaching experience, making me adept at leading technical and cross-functional teams to deliver data-driven results.
 
-**Tech Stack:** R (Tidyverse, Tidymodels), Python (Pandas, Polars), Quarto, Shiny, Tableau, DuckDB, PostgreSQL, SQL Server, HTML, SASS/SCSS/CSS.
+#### Tech Stack
+
+##### Data Manipulation & Analysis:
+
+-   **R:** [{tidyverse}](https://www.tidyverse.org/), [{duckplyr}](https://duckplyr.tidyverse.org/index.html), [{data.table}](https://rdatatable.gitlab.io/data.table/)
+-   **Python:** Polars, Ibis
+-   **SQL:** PostreSQL, MS SQL Server, DuckDB
+
+##### Data Visualization & Reporting:
+
+-   **Static:** [{ggplot2}](https://ggplot2.tidyverse.org/), [{gt}](https://gt.rstudio.com/)
+-   **Reactive:** [{plotly}](https://plotly.com/), [{reactable}](https://glin.github.io/reactable/index.html)
+
+##### Dashboarding, Web Development, & Scraping:
+
+-   **Quarto:** [Static and interactive documents](https://quarto.org/)
+-   **Shiny:** [Interactive dashboards and applications](https://shiny.posit.co/)
+-   **Enterprise:** Tableau Desktop & Prep, MS Power BI
+-   **Languages:** HTML, SASS/SCSS/CSS, Bootstrap
+-   **HTTP:** [{httr2}](https://httr2.r-lib.org/)
+-   **Scraping:** [{rvest}](https://rvest.tidyverse.org/), Selenium/[{RSelenium}](https://docs.ropensci.org/RSelenium/index.html)
+
+##### DevOps & MLOps:
+
+-   **Development:** [{tidymodels}](https://www.tidymodels.org/)
+-   **Deployment:** [{vetiver}](https://rstudio.github.io/vetiver-r/), [{plumber}](https://www.rplumber.io/)
+-   **Containers:** Docker
 
 ## Experience {#sec-experience}
 
 ### Adjuct Professor
 
-[[**West Virginia University - Statler College of Engineering**](https://www.statler.wvu.edu/)]{.resume-company}
+[[**West Virginia University**](https://www.wvu.edu/) - [**Statler College of Engineering**](https://www.statler.wvu.edu/)]{.resume-company}
 
-[**Morgantown, WV** \| December 2025 - Current]{.resume-location-date}
+[**Morgantown, WV** \| December 2024 - Current]{.resume-location-date}
 
 As a new lecturer, I leveraged my experience as a Data Scientist at an analytics consulting firm to redesign and deliver *IENG 331: Computer Applications in Industrial Engineering*, transforming it from a traditional computer science-style course into one focused on practical data analysis skills and stakeholder collaboration. This redesign prepares students to meet the demands of modern industry roles in analytics and engineering. Key contributions and benefits include:
 
@@ -54,7 +80,7 @@ As a new lecturer, I leveraged my experience as a Data Scientist at an analytics
 
 ### Data Scientist
 
-[[**RXA \@ OneMagnify**](https://rxa.io/) (Previously [**Splash Analytics**](https://splashanalytics.com/))]{.resume-company}
+[[**OneMagnify**](https://onemagnify.com/) (Previously [**Splash Analytics**](https://splashanalytics.com/))]{.resume-company}
 
 [**Remote, USA** \| January 2023 - Current]{.resume-location-date}
 
