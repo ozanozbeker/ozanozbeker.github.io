@@ -28,20 +28,20 @@ In addition to my professional experience, I am an **Adjunct Professor** at [Wes
 
 My diverse skill set is further complemented by certifications in Lean Six Sigma and Continuous Improvement, as well as hands-on teaching experience, making me adept at leading technical and cross-functional teams to deliver data-driven results.
 
-#### Tech Stack
+### Tech Stack
 
-##### Data Manipulation & Analysis:
+###### Data Manipulation & Analysis
 
 -   **R:** [{tidyverse}](https://www.tidyverse.org/), [{duckplyr}](https://duckplyr.tidyverse.org/index.html), [{data.table}](https://rdatatable.gitlab.io/data.table/)
 -   **Python:** Polars, Ibis
 -   **SQL:** PostreSQL, MS SQL Server, DuckDB
 
-##### Data Visualization & Reporting:
+###### Data Visualization & Reporting
 
 -   **Static:** [{ggplot2}](https://ggplot2.tidyverse.org/), [{gt}](https://gt.rstudio.com/)
 -   **Reactive:** [{plotly}](https://plotly.com/), [{reactable}](https://glin.github.io/reactable/index.html)
 
-##### Dashboarding, Web Development, & Scraping:
+###### Dashboarding, Web Development, & Scraping
 
 -   **Quarto:** [Static and interactive documents](https://quarto.org/)
 -   **Shiny:** [Interactive dashboards and applications](https://shiny.posit.co/)
@@ -50,7 +50,7 @@ My diverse skill set is further complemented by certifications in Lean Six Sigma
 -   **HTTP:** [{httr2}](https://httr2.r-lib.org/)
 -   **Scraping:** [{rvest}](https://rvest.tidyverse.org/), Selenium/[{RSelenium}](https://docs.ropensci.org/RSelenium/index.html)
 
-##### DevOps & MLOps:
+###### DevOps & MLOps
 
 -   **Development:** [{tidymodels}](https://www.tidymodels.org/)
 -   **Deployment:** [{vetiver}](https://rstudio.github.io/vetiver-r/), [{plumber}](https://www.rplumber.io/)
@@ -124,10 +124,10 @@ During my two rotations as a Business Data Analyst and Continuous Improvement En
 
 As a Teaching Assistant in the Industrial Engineering department, I supported student learning across four key courses, contributing to curriculum development and enhancing student comprehension through hands-on teaching and guidance.
 
--   **Spring 2021** \| IENG 220: Re-engineering Management Systems,
--   **Fall 2020** \| IENG 305: Intro to Systems Engineering,
--   **Spring 2020** \| IENG 331: Computer Applications in Industrial Engineering, and
--   **Fall 2019** \| IENG 445: Project Management for Engineers.
+-   **Spring 2021** \| IENG 220: Re-engineering Management Systems
+-   **Fall 2020** \| IENG 305: Intro to Systems Engineering
+-   **Spring 2020** \| IENG 331: Computer Applications in Industrial Engineering
+-   **Fall 2019** \| IENG 445: Project Management for Engineers
 
 ### Manufacturing Engineer Intern
 
@@ -149,10 +149,10 @@ During my internship at JLG Industries, I contributed to process improvements an
 
 [**Morgantown, WV**]{.resume-location-date}
 
+*Industrial engineering is the discipline of engineering concerned with the design, improvement, and installation of integrated systems of people, material, information, equipment, and energy to assure performance, reliability, maintainability, schedule adherence, and cost control.*
+
 ### Certifications
 
 -   **Lean Six Sigma Green Belt** \| Institute of Industrial and Systems Engineers
-
 -   **Continuous Improvement Fundamentals** \| Oshkosh Corporation
-
 -   **Eligible for Certified Associate in Project Management (CAPM)** \| Project Management Institute

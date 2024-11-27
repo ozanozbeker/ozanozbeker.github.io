@@ -35,7 +35,7 @@ website:
   # Footer
   page-footer:
     left: "© Copyright 2024 Ozan Ozbeker"
-    right: "Website design by me and powered by [Quarto](https://www.quarto.com)"
+    right: "Website designed by me and powered by [Quarto](https://www.quarto.com)"
 
   # Navbar
   navbar:
@@ -66,9 +66,7 @@ format:
     link-external-newwindow: true
 
     # Theming
-    theme: [simplex, www/theme/royal-nord-dark.scss] # I kind of like just dark
-      # light: [simplex, www/theme/royal-nord-light.scss]
-      # dark: [simplex, www/theme/royal-nord-dark.scss]
+    theme: [simplex, www/theme/royal-nord-dark.scss]
 
     # Table of Contents
     toc: true
