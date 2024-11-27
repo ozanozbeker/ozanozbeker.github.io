@@ -4,7 +4,6 @@ subtitle: "Data Scientist & Adjunct Professor"
 image: www/images/professional_picture.jpg
 format:
   html:
-    page-layout: full
     toc: false
     number-sections: false
 about:
