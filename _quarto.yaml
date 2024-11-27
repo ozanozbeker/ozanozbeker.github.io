@@ -77,6 +77,6 @@ format:
 
 # Code Execution
 execute: 
-  freeze: true
+  freeze: auto
   eval: false
   cache: refresh
