@@ -1,5 +1,4 @@
 # Ignore Quarto rendered output directories
-_site/
 _freeze/
 .quarto/
 /.quarto/
