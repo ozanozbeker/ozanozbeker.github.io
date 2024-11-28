@@ -1,16 +1,15 @@
 ---
 title: "Ozan Ozbeker"
 subtitle: "Data Scientist & Adjunct Professor"
-image: www/images/professional_picture.jpg
+image: www/images/casual-picture.png
 format:
   html:
-    grid: 
-      body-width: 1800px
+    page-layout: full
     toc: false
     number-sections: false
 about:
   template: solana
-  image-width: 25em
+  image-width: 23em
   links: 
     - icon: github
       text: "GitHub"
