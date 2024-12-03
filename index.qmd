@@ -1,6 +1,6 @@
 ---
 title: "Ozan Ozbeker"
-subtitle: "Data Scientist & Adjunct Professor"
+subtitle: "Data Scientist & Adjunct Instructor"
 image: www/images/casual-picture.png
 format:
   html:
@@ -25,7 +25,7 @@ comments: false
 
 Hello! I'm Ozan, an industrial engineer turned data scientist. My passion for building and problem-solving started early, from playing with Legos as a kid to crafting worlds in Minecraft. That same drive led me to industrial engineering and, eventually, to the world of data science, where I combine creativity with technology to tackle complex challenges.
 
-I'm currently based in [Morgantown, WV](https://wvtourism.com/morgantown/), working remotely at [OneMagnify](https://onemagnify.com) and teaching as a lecturer at [West Virginia University](https://wvu.edu).
+I'm currently based in [Morgantown, WV](https://wvtourism.com/morgantown/), working remotely at [OneMagnify](https://onemagnify.com) and teaching at [West Virginia University](https://wvu.edu).
 
 When I’m not immersed in data or coding, you’ll likely find me at a live music event, especially if it’s Metal(core) or EDM. If I’m not at a concert, I’m probably cycling, playing the guitar, or experimenting with a new data science project.
 

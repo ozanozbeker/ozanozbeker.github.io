@@ -24,7 +24,7 @@ comments: false
 
 As a **Data Scientist** at [OneMagnify](https://onemagnify.com/), I manage end-to-end data science projects for Fortune 500 clients, delivering solutions that drive measurable business value. I've designed and implemented robust ETL pipelines, dynamic dashboards in Tableau, and predictive models to optimize client operations. My expertise in R, Python, SQL, and Tableau allows me to provide end-to-end support, from data engineering to business intelligence and advanced analytics, ensuring impactful and actionable insights for stakeholders.
 
-In addition to my professional experience, I am an **Adjunct Professor** at [West Virginia University](https://www.wvu.edu/), where I redesigned and now teach *IENG 331: Computer Applications in Industrial Engineering*. By integrating industry-relevant tools like SQL, Tableau, Power BI, and advanced Excel features, I prepare students for real-world data analytics careers. My curriculum emphasizes stakeholder collaboration, project-based learning, and building analytics portfolios, empowering students with practical skills they can apply early in their careers. I also teach R for data manipulation on scale, automation, and reporting, introducing tools like Quarto to demonstrate modern, scalable data workflows.
+In addition to my professional experience, I am an **Adjunct Instructor** at [West Virginia University](https://www.wvu.edu/), where I redesigned and now teach *IENG 331: Computer Applications in Industrial Engineering*. By integrating industry-relevant tools like SQL, Tableau, Power BI, and advanced Excel features, I prepare students for real-world data analytics careers. My curriculum emphasizes stakeholder collaboration, project-based learning, and building analytics portfolios, empowering students with practical skills they can apply early in their careers. I also teach R for data manipulation on scale, automation, and reporting, introducing tools like Quarto to demonstrate modern, scalable data workflows.
 
 My diverse skill set is further complemented by certifications in Lean Six Sigma and Continuous Improvement, as well as hands-on teaching experience, making me adept at leading technical and cross-functional teams to deliver data-driven results.
 
@@ -67,7 +67,7 @@ My diverse skill set is further complemented by certifications in Lean Six Sigma
 
 ## Experience {#sec-experience}
 
-### Adjuct Professor
+### Adjuct Instructor
 
 [[**West Virginia University**](https://www.wvu.edu/) - [**Statler College of Engineering**](https://www.statler.wvu.edu/)]{.resume-company}
 
