@@ -1,59 +1,24 @@
 [
   {
-    "objectID": "projects/showcase/wv-tourism-map/index.html",
-    "href": "projects/showcase/wv-tourism-map/index.html",
-    "title": "West Virginia Tourism Map",
-    "section": "",
-    "text": "Here is a code block example:\nlibrary(tidyverse)\n\ntable = read_csv(\"path/to/table.csv\") |&gt;\n  mutate(\n    column1 = str_to_upper(column),\n    column2 = str_extract(column2, \"^\"),\n    column3 = column3 + 4/12\n  ) |&gt;\n  summarize(\n    .by = c(column1, column2),\n    tot_column3 = sum(column3, na.rm = TRUE)\n  )\n\nprint(table)\nLet’s see how this looks\nHere is a link: https://ozanozbeker.com/ and another one https://ozanozbeker.com/\nHere is an example of inline code, and here is another column = min(2 + x / 5)"
-  },
-  {
-    "objectID": "projects/showcase/wv-tourism-map/index.html#header-2",
-    "href": "projects/showcase/wv-tourism-map/index.html#header-2",
-    "title": "West Virginia Tourism Map",
-    "section": "Header 2",
-    "text": "Header 2\n\nHeader 3\n\nHeader 4\n\nHeader 5\n\nHeader 6"
-  },
-  {
-    "objectID": "projects/personal/royal-nord/index.html",
-    "href": "projects/personal/royal-nord/index.html",
-    "title": "Royal Nord",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Ozan Ozbeker",
     "section": "",
-    "text": "A curated selection of projects demonstrating my expertise across various data science technologies and methodologies.\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\n\nR\n\n\nWeb Scraping\n\n\nShiny\n\n\nMapGL\n\n\n\nAn interactive map of tourism attractions in West Virginia, powered by R & friends.\n\n\n\nOct 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\n\nR\n\n\nDevOps\n\n\nDocker\n\n\nAPIs\n\n\n\nA mix of DevOps skills relevant to a Data Science practitioner.\n\n\n\nJul 28, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "A curated selection of projects demonstrating my expertise across various data science technologies and methodologies.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/index.html#showcase-projects",
     "href": "projects/index.html#showcase-projects",
     "title": "Ozan Ozbeker",
     "section": "",
-    "text": "A curated selection of projects demonstrating my expertise across various data science technologies and methodologies.\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\n\nR\n\n\nWeb Scraping\n\n\nShiny\n\n\nMapGL\n\n\n\nAn interactive map of tourism attractions in West Virginia, powered by R & friends.\n\n\n\nOct 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\n\nR\n\n\nDevOps\n\n\nDocker\n\n\nAPIs\n\n\n\nA mix of DevOps skills relevant to a Data Science practitioner.\n\n\n\nJul 28, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "A curated selection of projects demonstrating my expertise across various data science technologies and methodologies.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/index.html#personal-projects",
     "href": "projects/index.html#personal-projects",
     "title": "Ozan Ozbeker",
     "section": "Personal Projects",
-    "text": "Personal Projects\nCreative and self-driven projects I pursued for fun or personal growth, shared here to spark inspiration or provide value to others.\n\n\n\n\n\n\n\n\n\n\nRoyal Nord\n\n\n1 min\n\n\n\nVS Code\n\n\nPositron\n\n\nCustom Theme\n\n\n\nA custom Positron & VS Code theme for R users, based on Nord & Obsidian.\n\n\n\nDec 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonal Weekly Newsletter\n\n\n2 min\n\n\n\nR\n\n\nWeb Scraping\n\n\nQuarto Reports\n\n\n\nA way to curate content thoughtfully and avoid the constant distraction of daily content consumption.\n\n\n\nNov 25, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Data Science, Technology, & More",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nThis is a test blog post\n\n\n\n\n\n\ntest\n\n\ntesting\n\n\n\nI am testing blog features\n\n\n\n\n\nOct 23, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items\n\n Back to top"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ozan Ozbeker",
-    "section": "",
-    "text": "Hello! I’m Ozan, an industrial engineer turned data scientist. My passion for building and problem-solving started early, from playing with Legos as a kid to crafting worlds in Minecraft. That same drive led me to industrial engineering and, eventually, to the world of data science, where I combine creativity with technology to tackle complex challenges.\nI’m currently based in Morgantown, WV, working remotely at OneMagnify and teaching at West Virginia University.\nWhen I’m not immersed in data or coding, you’ll likely find me at a live music event, especially if it’s Metal(core) or EDM. If I’m not at a concert, I’m probably cycling, playing the guitar, or experimenting with a new data science project.\nOn this site, you’ll find my resume, projects, and blog, where I explore tools and technologies in the data world alongside other topics that spark my curiosity.\nFeel free to reach out and connect—I’d love to hear from you!\n\n\n Back to top"
+    "text": "Personal Projects\nCreative and self-driven projects I pursued for fun or personal growth, shared here to spark inspiration or provide value to others.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resume/index.html",
@@ -84,24 +49,17 @@
     "text": "Education\n\nBachelor of Science in Industrial Engineering\nWest Virginia University\nMorgantown, WV\nIndustrial engineering is the discipline of engineering concerned with the design, improvement, and installation of integrated systems of people, material, information, equipment, and energy to assure performance, reliability, maintainability, schedule adherence, and cost control.\n\n\nCertifications\n\nLean Six Sigma Green Belt | Institute of Industrial and Systems Engineers\nContinuous Improvement Fundamentals | Oshkosh Corporation\nEligible for Certified Associate in Project Management (CAPM) | Project Management Institute"
   },
   {
-    "objectID": "blog/test/index.html",
-    "href": "blog/test/index.html",
-    "title": "This is a test blog post",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ozan Ozbeker",
     "section": "",
-    "text": "Back to top"
+    "text": "Hello! I’m Ozan, an industrial engineer turned data scientist. My passion for building and problem-solving started early, from playing with Legos as a kid to crafting worlds in Minecraft. That same drive led me to industrial engineering and, eventually, to the world of data science, where I combine creativity with technology to tackle complex challenges.\nI’m currently based in Morgantown, WV, working remotely at OneMagnify and teaching at West Virginia University.\nWhen I’m not immersed in data or coding, you’ll likely find me at a live music event, especially if it’s Metal(core) or EDM. If I’m not at a concert, I’m probably cycling, playing the guitar, or experimenting with a new data science project.\nOn this site, you’ll find my resume, projects, and blog, where I explore tools and technologies in the data world alongside other topics that spark my curiosity.\nFeel free to reach out and connect—I’d love to hear from you!\n\n\n Back to top"
   },
   {
-    "objectID": "projects/personal/personal-weekly-newsletter/index.html",
-    "href": "projects/personal/personal-weekly-newsletter/index.html",
-    "title": "Personal Weekly Newsletter",
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Data Science, Technology, & More",
     "section": "",
-    "text": "Cal Newport advocates for creating a “Personal Weekly Newsletter” or a custom RSS feed as a way to curate content thoughtfully and avoid the constant distraction of daily content consumption. Here’s how he frames it in the context of digital minimalism and deep work:\n\nKey Ideas from Cal Newport on Custom Feeds:\n\nFocus on Intentional Consumption:\n\nNewport emphasizes the importance of consuming content intentionally rather than mindlessly scrolling through feeds. By using a custom RSS feed or creating a weekly “newspaper,” you ensure that you’re accessing content that truly interests you and aligns with your values or goals.\n\nBatch Content Consumption:\n\nHe suggests scheduling dedicated time once a week to read through curated content. This minimizes the cognitive drain of repeatedly checking for updates and ensures that reading doesn’t disrupt other productive activities.\n\nAvoid Algorithmic Influence:\n\nNewport is critical of social media and other platforms’ algorithms, which are designed to keep you engaged for as long as possible. Using a tool like RSS allows you to directly subscribe to blogs, websites, or newsletters without relying on an algorithm to decide what you see.\n\nPromote Depth Over Breadth:\n\nBy carefully curating your feed, you prioritize quality over quantity. This encourages deeper engagement with ideas and reduces the shallow consumption that happens when you’re skimming headlines.\n\nCustomization and Control:\n\nA custom RSS feed or weekly roundup gives you control over the sources and topics you’re exposed to. This aligns with his broader philosophy of being deliberate about how you use technology.\n\n\n\n\nHow to Implement This:\n\nStep 1: Choose RSS tools or newsletter software (e.g., Feedly, Inoreader, or Substack newsletters).\nStep 2: Identify high-quality blogs, sites, or authors whose content aligns with your interests or professional goals.\nStep 3: Schedule 1–2 hours each week to read and reflect on this content, integrating it into a weekly reading ritual.\nStep 4: Avoid checking these sources outside the designated time, focusing on the habit of deep, uninterrupted reading.\n\n\n\nBenefits:\n\nSaves time by eliminating daily browsing.\nReduces mental clutter and distractions.\nIncreases the likelihood of engaging with thoughtful, high-quality material.\nSupports a deeper understanding of the topics you care about.\n\nBy using this approach, you’re transforming content consumption into a focused and enriching experience, avoiding the trap of mindless digital distractions.\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "projects/showcase/devops/index.html",
-    "href": "projects/showcase/devops/index.html",
-    "title": "DevOps Showcase",
-    "section": "",
-    "text": "Here is some example of code:\n\n# Initialize ----\nlibrary(tidymodels) # Load required packages\ndata(ames)\names = mutate(ames, Sale_Price = log10(Sale_Price))\n\n# Reproducability ----\nset.seed(502)\names_split = initial_split(ames, prop = 0.80, strata = Sale_Price)\names_train = training(ames_split)\names_test  =  testing(ames_split)\n\n# Modelling ----\names_rec = \n  recipe(\n    Sale_Price ~ Neighborhood + Gr_Liv_Area + Year_Built + Bldg_Type + Latitude + Longitude, \n    data = ames_train) |&gt; \n  step_log(Gr_Liv_Area, base = 10) |&gt; \n  step_other(Neighborhood, threshold = 0.01) |&gt; \n  step_dummy(all_nominal_predictors()) |&gt; \n  step_interact( ~ Gr_Liv_Area:starts_with(\"Bldg_Type_\") ) |&gt; \n  step_ns(Latitude, Longitude, deg_free = 20)\n  \nlm_model = linear_reg() |&gt; set_engine(\"lm\")\n\nlm_wflow = \n  workflow() |&gt; \n  add_model(lm_model) |&gt; \n  add_recipe(ames_rec)\n\nlm_fit = fit(lm_wflow, ames_train)\n\n\n\n\n Back to top"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items\n\n Back to top"
   }
 ]

@@ -10,23 +10,6 @@
 <atom:link href="https://ozanozbeker.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>The professional website of Ozan Ozbeker.</description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Wed, 23 Oct 2024 04:00:00 GMT</lastBuildDate>
-<item>
-  <title>This is a test blog post</title>
-  <link>https://ozanozbeker.com/blog/test/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>test</category>
-  <category>testing</category>
-  <guid>https://ozanozbeker.com/blog/test/</guid>
-  <pubDate>Wed, 23 Oct 2024 04:00:00 GMT</pubDate>
-</item>
+<lastBuildDate>Mon, 16 Dec 2024 10:28:01 GMT</lastBuildDate>
 </channel>
 </rss>

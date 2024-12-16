@@ -1,17 +1,10 @@
 [
   {
     "listing": "/projects/index.html",
-    "items": [
-      "/projects/showcase/wv-tourism-map/index.html",
-      "/projects/showcase/devops/index.html",
-      "/projects/personal/royal-nord/index.html",
-      "/projects/personal/personal-weekly-newsletter/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/blog/index.html",
-    "items": [
-      "/blog/test/index.html"
-    ]
+    "items": []
   }
 ]
