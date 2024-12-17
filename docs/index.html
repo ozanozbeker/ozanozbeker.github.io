@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-84f6ed0ebfa28da4e2b371bcc57b24df.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-5489db30bc39c65a5a75a7d4eb618e0e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Ozan Ozbeker">
-<meta property="og:description" content="Data Scientist &amp; Adjunct Instructor">
+<meta property="og:description" content="Data Scientist">
 <meta property="og:image" content="https://ozanozbeker.com/www/images/casual-picture.png">
 <meta property="og:site_name" content="Ozan Ozbeker">
 <meta property="og:image:height" content="1842">
@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Ozan Ozbeker</h1>
-<p class="subtitle lead">Data Scientist &amp; Adjunct Instructor</p>
+<p class="subtitle lead">Data Scientist</p>
 </div>
 <div class="quarto-title-meta column-page">
   </div>
@@ -148,8 +148,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
       <div class="about-contents"><main class="content column-page" id="quarto-document-content">
 <p>Hello! I’m Ozan, an industrial engineer turned data scientist. My passion for building and problem-solving started early, from playing with Legos as a kid to crafting worlds in Minecraft. That same drive led me to industrial engineering and, eventually, to the world of data science, where I combine creativity with technology to tackle complex challenges.</p>
-<p>I’m currently based in <a href="https://wvtourism.com/morgantown/">Morgantown, WV</a>, working remotely at <a href="https://onemagnify.com">OneMagnify</a> and teaching at <a href="https://wvu.edu">West Virginia University</a>.</p>
-<p>When I’m not immersed in data or coding, you’ll likely find me at a live music event, especially if it’s Metal(core) or EDM. If I’m not at a concert, I’m probably cycling, playing the guitar, or experimenting with a new data science project.</p>
+<p>I’m currently based in <a href="https://wvtourism.com/morgantown/">Morgantown, WV</a> &amp; working remotely at <a href="https://onemagnify.com">OneMagnify</a>.</p>
+<p>When I’m not immersed in data or coding, you’ll likely find me at a live music event, especially if it’s Metal(core), pop-punk, or EDM. If I’m not at a concert, I’m probably cycling, playing the guitar, or experimenting with a new data science project.</p>
 <p>On this site, you’ll find my <a href="./resume/index.html">resume</a>, <a href="./projects/index.html">projects</a>, and <a href="./blog/index.html">blog</a>, where I explore tools and technologies in the data world alongside other topics that spark my curiosity.</p>
 <p>Feel free to reach out and connect—I’d love to hear from you!</p>
 
@@ -236,8 +236,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -353,7 +351,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
