@@ -1,52 +1,52 @@
 [
   {
-    "objectID": "teaching/wvu-ieng-331/index.html",
-    "href": "teaching/wvu-ieng-331/index.html",
+    "objectID": "teaching/courses/wvu-ieng-331/index.html",
+    "href": "teaching/courses/wvu-ieng-331/index.html",
     "title": "IENG 331",
     "section": "",
     "text": "https://wvu-ieng-331.github.io"
   },
   {
-    "objectID": "teaching/wvu-ieng-331/index.html#course-website",
-    "href": "teaching/wvu-ieng-331/index.html#course-website",
+    "objectID": "teaching/courses/wvu-ieng-331/index.html#course-website",
+    "href": "teaching/courses/wvu-ieng-331/index.html#course-website",
     "title": "IENG 331",
     "section": "",
     "text": "https://wvu-ieng-331.github.io"
   },
   {
-    "objectID": "teaching/wvu-ieng-331/index.html#course-description",
-    "href": "teaching/wvu-ieng-331/index.html#course-description",
+    "objectID": "teaching/courses/wvu-ieng-331/index.html#course-description",
+    "href": "teaching/courses/wvu-ieng-331/index.html#course-description",
     "title": "IENG 331",
     "section": "Course Description",
     "text": "Course Description\nThis course introduces Industrial Engineering students to the practical application of Python, SQL, and Excel for data analysis, process automation, and visualization, emphasizing real-world relevance and hands-on learning. Through projects and assignments, students will acquire skills to automate workflows, analyze datasets, and create effective data-driven solutions. The curriculum is designed to align with industry needs, fostering technical proficiency and communication skills for future challenges​."
   },
   {
-    "objectID": "teaching/wvu-ieng-331/index.html#learning-objectives",
-    "href": "teaching/wvu-ieng-331/index.html#learning-objectives",
+    "objectID": "teaching/courses/wvu-ieng-331/index.html#learning-objectives",
+    "href": "teaching/courses/wvu-ieng-331/index.html#learning-objectives",
     "title": "IENG 331",
     "section": "Learning Objectives",
     "text": "Learning Objectives\nUpon successful completion of this course, students will be able to:\n\nImplement Python Programming Skills: Master the fundamentals of computer programming using Python, with a focus on industrial engineering applications.\nRecognize and Utilize Data Structures: Identify common data structures and their practical applications in solving engineering problems.\nAutomate Analytical Workflows: Develop, debug, and refine programs to automate data processing and analytical operations.\nLeverage Data Libraries: Apply specialized Python libraries for data cleaning, manipulation, visualization, and analysis, streamlining complex workflows.\nIntegrate with Databases: Connect to, query, design, and manage external datasets using tools like SQL and relevant Python libraries.\nVisualize and Communicate Insights: Create effective data visualizations to communicate findings to technical and non-technical audiences, aligning with industry expectations.\nCollaborate and Utilize Version Control: Utilize Git and GitHub for collaboration, version control, and portfolio building, fostering professional software engineering practices.\nEngage with Real-World Data: Develop proficiency in handling diverse, real-world datasets through hands-on projects, preparing for industry or academic pursuits.\n\nThese objectives are designed to align with ABET-defined Student Outcomes, fostering critical skills in problem-solving, communication, teamwork, and lifelong learning. Additionally, they emphasize practical relevance, ensuring students are prepared for dynamic roles in industrial engineering and beyond."
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
     "section": "",
-    "text": "A curated selection of projects demonstrating my expertise across various data science technologies and methodologies.\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nCategories\n\n\n\n\n\n\n\n\n\nGSCM 425\n\n\nSupply Chain Network Design\n\n\nCollege Course, Optimization, Python, Gurobi, uv\n\n\n\n\n\n\n\nIENG 331\n\n\nComputer Applications in Industrial Engineering\n\n\nCollege Course, Data Analysis, Python, Polars, Plotly, uv, Quarto\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
-    "objectID": "projects/index.html#showcase-projects",
-    "href": "projects/index.html#showcase-projects",
-    "title": "Ozan Ozbeker",
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Bytes & Bookmarks",
     "section": "",
-    "text": "A curated selection of projects demonstrating my expertise across various data science technologies and methodologies.\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
-    "objectID": "projects/index.html#personal-projects",
-    "href": "projects/index.html#personal-projects",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Ozan Ozbeker",
-    "section": "Personal Projects",
-    "text": "Personal Projects\nCreative and self-driven projects I pursued for fun or personal growth, shared here to spark inspiration or provide value to others.\n\n\n\n\n\nNo matching items"
+    "section": "",
+    "text": "Hello! I’m Ozan, an industrial engineer turned data scientist. My passion for building and problem-solving started early, from playing with Legos as a kid to crafting worlds in Minecraft. That same drive led me to industrial engineering and, eventually, to the world of data science, where I combine creativity with technology to tackle complex challenges.\nI’m currently based in Morgantown, WV, working remotely at OneMagnify, and I periodically teach courses at West Virginia University.\nWhen I’m not immersed in data or coding, you’ll likely find me at a live music event, especially if it’s Metal(core), pop-punk, or EDM. If I’m not at a concert, I’m probably cycling, playing the guitar, or experimenting with a new data science project.\nOn this site, you’ll find my resume and a mix of personal & professional projects. I also have a blog, where I explore tools and technologies in the data world alongside other topics that spark my curiosity. If you’re interested in the courses & workshops that I’ve thought, you can find them at Teaching.\nFeel free to reach out and connect—I’d love to hear from you!\n\n\n Back to top"
   },
   {
     "objectID": "resume/index.html",
@@ -77,25 +77,11 @@
     "text": "Education\n\nBachelor of Science in Industrial Engineering\nWest Virginia University / Morgantown, WV\nIndustrial engineering focuses on designing, improving, and installing integrated systems of people, materials, information, equipment, and energy. The discipline emphasizes performance, reliability, maintainability, schedule adherence, and cost control.\n\n\nCertifications\n\nLean Six Sigma Green Belt – Institute of Industrial and Systems Engineers\nContinuous Improvement Fundamentals – Oshkosh Corporation\nEligible for Certified Associate in Project Management (CAPM) – Project Management Institute"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ozan Ozbeker",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
     "section": "",
-    "text": "Hello! I’m Ozan, an industrial engineer turned data scientist. My passion for building and problem-solving started early, from playing with Legos as a kid to crafting worlds in Minecraft. That same drive led me to industrial engineering and, eventually, to the world of data science, where I combine creativity with technology to tackle complex challenges.\nI’m currently based in Morgantown, WV, working remotely at OneMagnify, and I periodically teach courses at West Virginia University.\nWhen I’m not immersed in data or coding, you’ll likely find me at a live music event, especially if it’s Metal(core), pop-punk, or EDM. If I’m not at a concert, I’m probably cycling, playing the guitar, or experimenting with a new data science project.\nOn this site, you’ll find my resume and a mix of personal & professional projects. I also have a blog, where I explore tools and technologies in the data world alongside other topics that spark my curiosity. If you’re interested in the courses & workshops that I’ve thought, you can find them at Teaching.\nFeel free to reach out and connect—I’d love to hear from you!\n\n\n Back to topReuseCC BY-NC-ND 4.0"
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Bytes & Bookmarks",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items\n\n Back to top"
-  },
-  {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nCategories\n\n\n\n\n\n\n\n\n\nGSCM 425\n\n\nSupply Chain Network Design\n\n\nCollege Course, Optimization, Python, Gurobi, uv\n\n\n\n\n\n\n\nIENG 331\n\n\nComputer Applications in Industrial Engineering\n\n\nCollege Course, Data Analysis, Python, Polars, Plotly, uv, Quarto\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "A curated selection of projects demonstrating my expertise across various data science technologies and methodologies.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/index.html#showcase",
@@ -110,34 +96,6 @@
     "title": "Projects",
     "section": "Personal",
     "text": "Personal\nCreative and self-driven projects I pursued for fun or personal growth, shared here to spark inspiration or provide value to others.\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching/wvu-gscm-425/index.html",
-    "href": "teaching/wvu-gscm-425/index.html",
-    "title": "GSCM 425",
-    "section": "",
-    "text": "https://wvu-gscm-425.github.io/"
-  },
-  {
-    "objectID": "teaching/wvu-gscm-425/index.html#course-website",
-    "href": "teaching/wvu-gscm-425/index.html#course-website",
-    "title": "GSCM 425",
-    "section": "",
-    "text": "https://wvu-gscm-425.github.io/"
-  },
-  {
-    "objectID": "teaching/wvu-gscm-425/index.html#course-description",
-    "href": "teaching/wvu-gscm-425/index.html#course-description",
-    "title": "GSCM 425",
-    "section": "Course Description",
-    "text": "Course Description\nThis course offers a deep dive into supply chain network design, guiding students through the process of formulating real-world supply chain problems, gathering and validating data, and applying mathematical programming techniques to find optimal solutions. Students will develop basic yet practical Python programming skills to use Gurobi’s optimizer and will also leverage Excel Solver for comparative analysis. Core topics include facility location, transportation and transshipment models, multi-objective and scenario-based optimization, and sensitivity analysis in the face of uncertainty. Emphasis is placed on the practical implementation of these tools and the communication of results in a managerial context."
-  },
-  {
-    "objectID": "teaching/wvu-gscm-425/index.html#learning-objectives",
-    "href": "teaching/wvu-gscm-425/index.html#learning-objectives",
-    "title": "GSCM 425",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\nUpon successful completion of this course, students will be able to:\n\nDemonstrate Fundamental Python Skills: Use Python effectively for data handling and basic scripting in preparation for optimization tasks.\nFormulate and Solve Supply Chain Network Problems: Model and solve facility location, transportation, and other network design challenges using both Gurobi and Excel Solver.\nEvaluate and Compare Optimization Tools: Interpret results produced by different solvers, comparing solution quality, run times, and applicability in real-world supply chain scenarios.\nApply Advanced Analysis Techniques: Incorporate scenario analysis, multi-objective optimization, and sensitivity testing to account for uncertainty and trade-offs in decision making.\nCommunicate and Collaborate: Work in teams to analyze data, develop optimization models, and present solution insights and recommendations to stakeholders."
   },
   {
     "objectID": "teaching/courses/wvu-gscm-425/index.html",
@@ -166,33 +124,5 @@
     "title": "GSCM 425",
     "section": "Learning Objectives",
     "text": "Learning Objectives\nUpon successful completion of this course, students will be able to:\n\nDemonstrate Fundamental Python Skills: Use Python effectively for data handling and basic scripting in preparation for optimization tasks.\nFormulate and Solve Supply Chain Network Problems: Model and solve facility location, transportation, and other network design challenges using both Gurobi and Excel Solver.\nEvaluate and Compare Optimization Tools: Interpret results produced by different solvers, comparing solution quality, run times, and applicability in real-world supply chain scenarios.\nApply Advanced Analysis Techniques: Incorporate scenario analysis, multi-objective optimization, and sensitivity testing to account for uncertainty and trade-offs in decision making.\nCommunicate and Collaborate: Work in teams to analyze data, develop optimization models, and present solution insights and recommendations to stakeholders."
-  },
-  {
-    "objectID": "teaching/courses/wvu-ieng-331/index.html",
-    "href": "teaching/courses/wvu-ieng-331/index.html",
-    "title": "IENG 331",
-    "section": "",
-    "text": "https://wvu-ieng-331.github.io"
-  },
-  {
-    "objectID": "teaching/courses/wvu-ieng-331/index.html#course-website",
-    "href": "teaching/courses/wvu-ieng-331/index.html#course-website",
-    "title": "IENG 331",
-    "section": "",
-    "text": "https://wvu-ieng-331.github.io"
-  },
-  {
-    "objectID": "teaching/courses/wvu-ieng-331/index.html#course-description",
-    "href": "teaching/courses/wvu-ieng-331/index.html#course-description",
-    "title": "IENG 331",
-    "section": "Course Description",
-    "text": "Course Description\nThis course introduces Industrial Engineering students to the practical application of Python, SQL, and Excel for data analysis, process automation, and visualization, emphasizing real-world relevance and hands-on learning. Through projects and assignments, students will acquire skills to automate workflows, analyze datasets, and create effective data-driven solutions. The curriculum is designed to align with industry needs, fostering technical proficiency and communication skills for future challenges​."
-  },
-  {
-    "objectID": "teaching/courses/wvu-ieng-331/index.html#learning-objectives",
-    "href": "teaching/courses/wvu-ieng-331/index.html#learning-objectives",
-    "title": "IENG 331",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\nUpon successful completion of this course, students will be able to:\n\nImplement Python Programming Skills: Master the fundamentals of computer programming using Python, with a focus on industrial engineering applications.\nRecognize and Utilize Data Structures: Identify common data structures and their practical applications in solving engineering problems.\nAutomate Analytical Workflows: Develop, debug, and refine programs to automate data processing and analytical operations.\nLeverage Data Libraries: Apply specialized Python libraries for data cleaning, manipulation, visualization, and analysis, streamlining complex workflows.\nIntegrate with Databases: Connect to, query, design, and manage external datasets using tools like SQL and relevant Python libraries.\nVisualize and Communicate Insights: Create effective data visualizations to communicate findings to technical and non-technical audiences, aligning with industry expectations.\nCollaborate and Utilize Version Control: Utilize Git and GitHub for collaboration, version control, and portfolio building, fostering professional software engineering practices.\nEngage with Real-World Data: Develop proficiency in handling diverse, real-world datasets through hands-on projects, preparing for industry or academic pursuits.\n\nThese objectives are designed to align with ABET-defined Student Outcomes, fostering critical skills in problem-solving, communication, teamwork, and lifelong learning. Additionally, they emphasize practical relevance, ensuring students are prepared for dynamic roles in industrial engineering and beyond."
   }
 ]

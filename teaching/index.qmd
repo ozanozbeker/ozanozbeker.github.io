@@ -1,6 +1,6 @@
 ---
 title: "Teaching"
-subtitle: "Explore the courses and workshops I’ve taught, complete with links to websites and open-source materials."
+subtitle: "Explore the courses and workshops I've taught, complete with links to websites and open-source materials."
 listing:
   type: table
   contents: "/*/*/index.qmd"
