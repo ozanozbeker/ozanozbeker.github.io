@@ -6,7 +6,7 @@ format:
     toc-title: "Sections"
     other-links:
       - text: "Resume PDF"
-        href: docs/ozan-ozbeker-resume.pdf
+        href: files/ozan-ozbeker-resume.pdf
         icon: file-earmark-text
       - text: "GitHub"
         href: https://github.com/ozanozbeker/
@@ -22,124 +22,102 @@ comments: false
 
 ## Summary {#sec-summary}
 
-As a **Data Scientist** at [OneMagnify](https://onemagnify.com/), I manage end-to-end data science projects for Fortune 500 clients, delivering solutions that drive measurable business value. I've designed and implemented robust ETL pipelines, dynamic dashboards in Tableau, and predictive models to optimize client operations. My expertise in R, Python, SQL, and Tableau allows me to provide end-to-end support, from data engineering to business intelligence and advanced analytics, ensuring impactful and actionable insights for stakeholders.
+As a **Data Scientist** at [OneMagnify](https://onemagnify.com/), I lead full-lifecycle data science initiatives for Fortune 500 clients, delivering solutions that drive measurable business impact. My responsibilities span designing and implementing robust ETL pipelines, developing interactive Tableau dashboards, and creating predictive models that optimize client operations. Proficiency in R, Python, SQL, and Tableau allows me to provide end-to-end support—from data engineering to advanced analytics and business intelligence, ensuring that stakeholders receive actionable insights.
 
-My diverse skill set is further complemented by certifications in Lean Six Sigma and Continuous Improvement, as well as hands-on teaching experience, making me adept at leading technical and cross-functional teams to deliver data-driven results.
-
-### Tech Stack
-
-##### Data Manipulation & Analysis
-
--   **R:** [{tidyverse}](https://www.tidyverse.org/), [{duckplyr}](https://duckplyr.tidyverse.org/index.html), [{data.table}](https://rdatatable.gitlab.io/data.table/)
--   **Python:** Polars, Ibis
--   **SQL:** PostreSQL, MS SQL Server, DuckDB
--   **Excel:** Power Query, Pivot Tables, Data Validation, XLOOKUP/INDEX-MATCH
-
-##### Data Visualization & Reporting
-
--   **Static Visualizations:** [{ggplot2}](https://ggplot2.tidyverse.org/), [{gt}](https://gt.rstudio.com/)
--   **Interactive Visualizations:** [{plotly}](https://plotly.com/), [{reactable}](https://glin.github.io/reactable/index.html)
--   **Dynamic Documents & Presentations:** [Quarto](https://quarto.org/)
-
-##### Dashboarding & Data Apps
--   **Enterprise Tools:** Tableau Desktop & Prep, Power BI
--   **Open-Source Frameworks:** [Shiny]((https://shiny.posit.co/)) (R)
-
-##### Web Development, & Scraping
-
--   **Web Technologies:** HTML, SASS/SCSS/CSS
--   **HTTP Libraries:** [{httr2}](https://httr2.r-lib.org/)
--   **Web Scraping Tools:** [{rvest}](https://rvest.tidyverse.org/), Selenium/[{RSelenium}](https://docs.ropensci.org/RSelenium/index.html)
-
-##### Modeling & MLOps
-
--   **Model Development:** [{tidymodels}](https://www.tidymodels.org/)
--   **Model Deployment:** [{vetiver}](https://rstudio.github.io/vetiver-r/), [{plumber}](https://www.rplumber.io/)
-
-##### DevOps & Infrastructure
-
--   **Containers:** Docker
--   **Cloud Infrastructure:** AWS (EC2, S3, IAM)
--   **CI/CD:** GitHub Actions
--   **Logging:** {log4r}
+My capabilities are further enhanced by certifications in Lean Six Sigma and Continuous Improvement, as well as hands-on teaching experience. Together, these qualifications enable me to guide both technical and cross-functional teams toward data-driven, impactful results.
 
 ## Experience {#sec-experience}
 
+### Adjunct Instructor
+
+[West Virginia University](https://www.wvu.edu/) / Morgantown, WV / January 2025 - Current
+
+Back at my alma mater, I serve as an Adjunct Instructor in the [Statler College of Engineering](https://www.statler.wvu.edu/) and [Chambers College of Business](https://business.wvu.edu/). I have redesigned each course from the ground up, leveraging industry experience, modern technologies, and high-quality resources, all while meeting the course requirements. For more details on the courses, please see [Teaching](../teaching/index.qmd). 
+
+- **IENG 331 | Computer Applications in Industrial Engineering**  
+  Originally a slow-paced introduction to Python that emphasized software engineering basics, this course has been transformed into an immersive data analysis experience tailored for Industrial Engineering. Students now learn essential Python concepts and use tools like Polars and Plotly to collect, clean, and visualize data from multiple sources. The curriculum also includes advanced Excel and SQL modules, culminating in a final project where students compare these tools, evaluating their strengths and limitations based on real-world tasks. In addition, I introduce version control using Git and GitHub, illustrating best practices for collaborative code development.
+
+- **GSCM 425 | Supply Chain Network Design**  
+  This course focuses on linear programming applications in supply chain network design, teaching students how to gather relevant data, validate and debug models, and perform sensitivity analysis. While students arrive with a basic understanding of optimization and Excel Solver, I expanded the curriculum to include Python fundamentals and the Gurobi optimizer through the gurobipy package. The second half of the course explores Facility Location Models, Transportation and Transshipment, Design under Uncertainty, and Multi-Objective Optimization—demonstrating how to solve these problems with both Excel and Python/Gurobi. The final project requires students to create a network design challenge and present their solution strategies, comparing the pros and cons of each approach.
+
 ### Data Scientist
 
-[[**OneMagnify**](https://onemagnify.com/) (Previously [**Splash Analytics**](https://splashanalytics.com/))]{.resume-company}
+[OneMagnify](https://onemagnify.com/) (Previously [Splash Analytics](https://splashanalytics.com/)) / Remote, USA / January 2023 - Current
 
-[**Remote, USA** \| January 2023 - Current]{.resume-location-date}
+In a boutique analytics consulting environment, I manage end-to-end data science projects for Fortune 500 clients in the replacement parts sector. My role spans client relationship management through solution delivery, ensuring measurable business value.
 
-As part of a boutique analytics consulting firm, I manage end-to-end data science projects across the full data stack for Fortune 500 clients in the replacement parts industry. I lead engagements from client relationship management to delivering impactful data-driven solutions.
+- **Consulting & Client Engagement**  
+  I oversee multiple high-impact engagements, liaising with Fortune 500 clients to define project objectives and develop tailored data strategies. By leading regular client meetings, setting clear project milestones, and delivering data-driven solutions, I foster long-term value and satisfaction.
 
--   **Consulting & Client Engagement:** Lead multiple high-stakes engagements with Fortune 500 clients, managing relationships, gathering requirements, and presenting tailored data solutions. My role includes conducting client meetings, setting project expectations, and delivering actionable insights, ensuring satisfaction and long-term value creation.
+- **Data Science & Analytics**  
+  I produce weekly price recommendation models for Amazon ASINs that incorporate competitor metrics, seller performance, and profit margins. Additionally, I support end-of-life part forecasting through a variety of models—including ARIMA, ETS, Prophet, and XGBoost, enhancing inventory management for discontinued products.
 
--   **Data Science & Analytics:** Developed weekly price recommendation models for Amazon ASINs, integrating competitive analysis, seller performance, and margin targets. Support end-of-life part forecasts using ARIMA, ETS, Prophet, and XGBoost, optimizing inventory management for discontinued replacement parts.
+- **Business Intelligence**  
+  I create sophisticated HTML-based reports that go beyond traditional PDF/Word/PowerPoint outputs, offering advanced analytics features and enhanced portability. I also maintain five Tableau workbooks on a client’s Tableau Server, providing interactive dashboards that monitor $30M in annual sales across 6,000 SKUs. Leveraging web scraping, I deliver competitive marketplace reports to identify missed revenue opportunities and potential counterfeit activities, helping clients refine product strategies.
 
--   **Business Intelligence:** Developed customized HTML reports that surpassed the limitations of traditional formats like PDF/Word/PowerPoint, offering advanced features and portability. Maintained 5 Tableau workbooks on the client's Tableau Server, delivering dashboards that provided a single view of seller performance on Amazon. These insights helped manage $30M in annual sales across 6,000 SKUs. Created competitive marketplace reports using web scraping to highlight missed revenue opportunities and counterfeit activity, helping clients strategize product offerings. 
+- **Data Engineering**  
+  I design and implement robust ETL pipelines, seamlessly ingesting data from FTP, Google Drive, Amazon S3, and various databases into internal systems. I also refine existing workflows to optimize the ingestion and transformation of large-scale datasets for multiple clients.
 
--   **Data Engineering:** Designed and implemented robust ETL pipelines, ingesting data from FTP, Google Drive, Amazon S3, and various databases into our internal systems. Enhanced existing workflows to streamline the ingestion and transformation of large datasets across clients.
-
--   **DevOps & Infrastructure:** Standardized the use of Git and GitHub for version control and project management, ensuring the accuracy and integrity of SQL queries across client projects. Established database schemas and standards for client data, ensuring consistency in our project folder structures, both locally and in development environments, akin to AWS EC2 and S3.
+- **DevOps & Infrastructure**  
+  I standardize the use of Git and GitHub for version control, ensuring data integrity and accountability across all SQL queries and data engineering tasks. Additionally, I establish database schemas and define folder structures for local and AWS-based development environments to maintain consistency across projects.
 
 ### Operations Leadership Development Program
 
-[[**Xylem, Inc**](https://www.xylem.com/en-us/)]{.resume-company}
+[Xylem, Inc](https://www.xylem.com/en-us) Chicago, IL & Uniontown, PA / July 2021 - December 2022
 
-[**Chicago, IL & Uniontown, PA** \| July 2021 - December 2022]{.resume-location-date}
+During my two rotations as a Business Data Analyst and a Continuous Improvement Engineer, I spearheaded cross-functional initiatives to implement data-driven improvements across multiple sites.
 
-During my two rotations as a Business Data Analyst and Continuous Improvement Engineer, I led multi-departmental teams across various sites, implementing data-driven projects and operational improvements.
+- **Excess & Obsolete Disposition Project**  
+  Utilizing DMAIC/DMADV methodologies, I developed a process to minimize excess and obsolete materials in warehouse operations, projecting $1M–$4M in savings over 3–5 years. I formed a cross-departmental E&O task force and applied techniques like Value Stream Mapping and Control Charts to enhance material rework, resale, and disposal strategies.
 
--   **Excess & Obsolete Disposition Project:** Applied DMAIC/DMADV methodologies to develop a process for reducing excess and obsolete materials in warehouses, projected to generate $1M–$4M in savings over 3–5 years. Created a cross-departmental E&O task force, leveraging Process Flowcharts, Value Stream Mapping, and Control Charts to improve material rework, resale, and disposal practices.
+- **Excess & Obsolete Identification Project**  
+  I streamlined quarterly E&O reporting by building SQL queries and Power Query–enabled Excel templates, standardizing reports across three manufacturing sites and reducing reporting time by 90%. All deliverables satisfied finance audit requirements.
 
--   **Excess & Obsolete Identification Project:** Automated the quarterly E&O reporting process by building SQL queries and Power Query-enabled Excel templates, standardizing reports across three manufacturing sites. This solution reduced the reporting process time by 90%, while meeting finance audit standards.
+- **Physical Inventory Event Overhaul**  
+  I partnered with Finance and Materials teams to optimize the annual cycle count event for three sites. This collaboration reduced event duration by one day for two sites and diminished manager preparation time. I also created process flowcharts, work instructions, and checklists to ensure smooth execution.
 
--   **Physical Inventory Event Overhaul:** Collaborated with Finance and Materials teams to streamline the annual cycle count event for three sites, reducing event time by one day for two sites and decreasing manager preparation time. Developed process flowcharts, work instructions, and checklists to ensure smooth execution.
+- **SQL Reporting & Automation**  
+  I deployed SQL-based ad-hoc reports to validate supplier quotes, synchronize lot sizes, and quantify excess inventory within work cells, improving data accuracy and cross-departmental alignment.
 
--   **SQL Reporting & Automation:** Created SQL-based ad-hoc reports to validate supplier quotes, synchronize lot sizes, and measure excess inventory across work cells, improving decision-making and alignment across departments.
+- **Tableau Reporting**  
+  I designed dashboards for internal audit teams to track forecasting accuracy, product quality, and units produced. These real-time insights informed strategic decisions for Quality and Finance teams.
 
--   **Tableau Reporting:** Designed Tableau dashboards for internal audit teams, measuring forecasting accuracy, product quality benchmarks, and KPIs for units produced. These dashboards provided real-time insights, aiding strategic planning for Quality and Finance teams.
-
--   **Continuous Improvement Workshops:** Led and facilitated various workshops focused on Lean methodologies, 5S, FMEA, and Process Capability Analysis, driving continuous improvement initiatives and fostering a culture of operational excellence across multiple sites.
+- **Continuous Improvement Workshops**  
+  I organized and led workshops on Lean methodologies, 5S, FMEA, and Process Capability Analysis, fostering a culture of continuous improvement and operational excellence across multiple sites.
 
 ### Undergraduate Teaching Assistant
 
-[[**West Virginia University**](https://www.wvu.edu/)]{.resume-company}
+[West Virginia University](https://www.wvu.edu/) / Morgantown, WV / August 2019 - May 2021
 
-[**Morgantown, WV** \| August 2019 - May 2021]{.resume-location-date}
+In the Industrial Engineering department, I supported four core courses by providing hands-on teaching support, aiding curriculum development, and guiding students through complex technical concepts.
 
-As a Teaching Assistant in the Industrial Engineering department, I supported student learning across four key courses, contributing to curriculum development and enhancing student comprehension through hands-on teaching and guidance.
-
--   **Spring 2021** \| IENG 220: Re-engineering Management Systems
--   **Fall 2020** \| IENG 305: Intro to Systems Engineering
--   **Spring 2020** \| IENG 331: Computer Applications in Industrial Engineering
--   **Fall 2019** \| IENG 445: Project Management for Engineers
+- **Spring 2021**: IENG 220 – Re-engineering Management Systems  
+- **Fall 2020**: IENG 305 – Intro to Systems Engineering  
+- **Spring 2020**: IENG 331 – Computer Applications in Industrial Engineering  
+- **Fall 2019**: IENG 445 – Project Management for Engineers  
 
 ### Manufacturing Engineer Intern
 
-[[**JLG Industries**](https://www.jlg.com/)]{.resume-company}
+[JLG Industries](https://www.jlg.com) / McConnellsburg, PA / June 2019 - August 2019
 
-[**McConnellsburg, PA** \| June 2019 - August 2019]{.resume-location-date}
+As a summer intern, I contributed to key process improvements on the manufacturing floor, collaborating closely with engineering teams to enhance operational efficiency.
 
-During my internship at JLG Industries, I contributed to process improvements and operational efficiency on the manufacturing floor, working closely with engineering teams on key projects.
+- **Test – Inspect – Green Tag (TIG) Line**  
+  I completed a 5S audit that eliminated redundant equipment and parts, increasing workflow efficiency, and created Standard Work Instructions (SWIs) for the five stations encompassing three product lines, ensuring reliable and consistent inspection processes. I also assisted in implementing a scanner-driven system for defect logging within the Electronic Quality Control (EQC) system, standardizing the defect entry process.
 
--   **Test - Inspect - Green Tag (TIG) Line:** Conducted a comprehensive 6S audit to optimize workstation layouts by eliminating unnecessary equipment and parts, which improved workflow and increased efficiency. Developed Standard Work Instructions (SWIs) from scratch for five stations, covering three different products, ensuring consistency and reliability in the inspection and tagging processes.
-
--   **Tire Manipulator:** Implemented a scanner-based system for defect entry into the Electronic Quality Control (EQC) system, standardizing the defect entry process and improving data accuracy. Designed detailed floor plans for both current and future station layouts using laser measurements and AutoCAD, enabling optimized workspace planning for the Tire Manipulator project.
+- **Tire Manipulator**  
+  I also used laser measurements and AutoCAD to map current and future station layouts, optimizing workspace configurations.
 
 ## Education {#sec-education}
 
 ### Bachelor of Science in Industrial Engineering
 
-[[**West Virginia University**](https://www.wvu.edu/)]{.resume-company}
+[West Virginia University](https://www.wvu.edu/) / Morgantown, WV
 
-[**Morgantown, WV**]{.resume-location-date}
-
-*Industrial engineering is the discipline of engineering concerned with the design, improvement, and installation of integrated systems of people, material, information, equipment, and energy to assure performance, reliability, maintainability, schedule adherence, and cost control.*
+Industrial engineering focuses on designing, improving, and installing integrated systems of people, materials, information, equipment, and energy. The discipline emphasizes performance, reliability, maintainability, schedule adherence, and cost control.
 
 ### Certifications
 
--   **Lean Six Sigma Green Belt** \| Institute of Industrial and Systems Engineers
--   **Continuous Improvement Fundamentals** \| Oshkosh Corporation
--   **Eligible for Certified Associate in Project Management (CAPM)** \| Project Management Institute
+- **Lean Six Sigma Green Belt** – Institute of Industrial and Systems Engineers
+- **Continuous Improvement Fundamentals** – Oshkosh Corporation
+- **Eligible for Certified Associate in Project Management (CAPM)** – Project Management Institute

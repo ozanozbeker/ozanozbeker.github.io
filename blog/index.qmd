@@ -1,5 +1,9 @@
 ---
-title: "Data Science, Technology, & More"
+title: "Bytes & Bookmarks"
+subtitle: "A space for my thoughts on tech, books, and whatever sparks my curiosity."
+description: |
+  - **Currently Reading:** *The Signal and the Noise* by Nate Silver
+  - **Currently Working On:** Course curriculum for IENG 331 & GSCM 425
 listing:
   type: default
   contents: /*/index.qmd
@@ -8,7 +12,6 @@ listing:
   feed: true
   filter-ui: true
   categories: numbered
-  image-placeholder: thumbnail-placeholder.jpg
   fields: [image, title, subtitle, date, reading-time, description, categories]
 comments: false
 ---

@@ -8,8 +8,15 @@
 <title>Ozan Ozbeker</title>
 <link>https://ozanozbeker.com/blog/</link>
 <atom:link href="https://ozanozbeker.com/blog/index.xml" rel="self" type="application/rss+xml"/>
-<description>The professional website of Ozan Ozbeker.</description>
-<generator>quarto-1.6.39</generator>
-<lastBuildDate>Tue, 17 Dec 2024 13:40:41 GMT</lastBuildDate>
+<description>- **Currently Reading:** *The Signal and the Noise* by Nate Silver
+- **Currently Working On:** Course curriculum for IENG 331 &amp; GSCM 425
+</description>
+<image>
+<url>https://ozanozbeker.com/thumbnail.png</url>
+<title>Ozan Ozbeker</title>
+<link>https://ozanozbeker.com/blog/</link>
+</image>
+<generator>quarto-1.6.40</generator>
+<lastBuildDate>Wed, 29 Jan 2025 03:11:00 GMT</lastBuildDate>
 </channel>
 </rss>

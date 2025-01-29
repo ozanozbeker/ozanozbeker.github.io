@@ -1,0 +1,15 @@
+---
+title: "Teaching"
+subtitle: "Explore the courses and workshops I’ve taught, complete with links to websites and open-source materials."
+listing:
+  type: table
+  contents: "/*/*/index.qmd"
+  sort: true
+  sort-ui: true
+  feed: true
+  filter-ui: true
+  image-align: left
+  categories: numbered
+  fields: [image, title, subtitle, categories]
+comments: false
+---

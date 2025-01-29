@@ -6,5 +6,12 @@
   {
     "listing": "/blog/index.html",
     "items": []
+  },
+  {
+    "listing": "/teaching/index.html",
+    "items": [
+      "/teaching/courses/wvu-gscm-425/index.html",
+      "/teaching/courses/wvu-ieng-331/index.html"
+    ]
   }
 ]

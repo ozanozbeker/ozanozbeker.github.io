@@ -9,17 +9,19 @@ project:
     - blog/*/index.qmd
     - projects/index.qmd
     - projects/*/*/index.qmd # First star is type of project, second star is project folder
+    - teaching/index.qmd
+    - teaching/*/*/index.qmd # First star is type of teaching (course/workshop), second star is content folder
   resources: 
-    - /**/image-placeholder.jpg
-    - /**/image-placeholder.png
     - /**/thumbnail.jpg
     - /**/thumbnail.png
     - /**/images/*
-    - /**/docs/*
+    - /**/files/*
     - www
   preview: 
     timeout: 30
     port: 4200
+
+# license: CC BY-NC-ND
 
 website:
   # Info
@@ -35,8 +37,8 @@ website:
 
   # Footer
   page-footer:
-    left: "© Copyright 2024 Ozan Ozbeker"
-    right: "Website designed by me and powered by [Quarto](https://www.quarto.com)"
+    left: "© 2025 Ozan Ozbeker | [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
+    right: "Website designed by me and powered by [Quarto](https://www.quarto.com)!"
 
   # Navbar
   navbar:
@@ -49,6 +51,8 @@ website:
         text: Projects
       - href: blog/index.qmd
         text: Blog
+      - href: teaching/index.qmd
+        text: Teaching
   
 format:
   html:
@@ -63,7 +67,7 @@ format:
     highlight-style: nord
 
     # External Links
-    link-external-icon: false
+    link-external-icon: true
     link-external-newwindow: true
 
     # Theming

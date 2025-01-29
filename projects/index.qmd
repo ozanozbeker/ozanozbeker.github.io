@@ -1,4 +1,5 @@
 ---
+title: Projects
 listing:
   - id: showcase
     type: grid
@@ -7,7 +8,6 @@ listing:
     sort-ui: false
     filter-ui: false
     categories: true
-    image-placeholder: image-placeholder.jpg
     fields: [image, title, date, reading-time, description, categories]
   - id: personal
     type: grid
@@ -16,19 +16,18 @@ listing:
     sort-ui: false
     filter-ui: false
     categories: true
-    image-placeholder: thumbnail-placeholder.jpg
     fields: [image, title, date, reading-time, description, categories]
 comments: false
 ---
 
-## Showcase Projects
+## Showcase
 
 A curated selection of projects demonstrating my expertise across various data science technologies and methodologies.
 
 ::: {#showcase}
 :::
 
-## Personal Projects
+## Personal
 
 Creative and self-driven projects I pursued for fun or personal growth, shared here to spark inspiration or provide value to others.
 

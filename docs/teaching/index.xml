@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Ozan Ozbeker</title>
+<link>https://ozanozbeker.com/teaching/</link>
+<atom:link href="https://ozanozbeker.com/teaching/index.xml" rel="self" type="application/rss+xml"/>
+<description>The professional website of Ozan Ozbeker.</description>
+<image>
+<url>https://ozanozbeker.com/thumbnail.png</url>
+<title>Ozan Ozbeker</title>
+<link>https://ozanozbeker.com/teaching/</link>
+</image>
+<generator>quarto-1.6.40</generator>
+<lastBuildDate>Wed, 29 Jan 2025 03:28:36 GMT</lastBuildDate>
+<item>
+  <title>GSCM 425</title>
+  <dc:creator>Mr. Ozan Ozbeker</dc:creator>
+  <link>https://ozanozbeker.com/teaching/courses/wvu-gscm-425/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="course-website" class="level2">
+<h2 class="anchored" data-anchor-id="course-website">Course Website</h2>
+<p><a href="https://wvu-gscm-425.github.io/" class="uri">https://wvu-gscm-425.github.io/</a></p>
+</section>
+<section id="course-description" class="level2">
+<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
+<p>This course offers a deep dive into supply chain network design, guiding students through the process of formulating real-world supply chain problems, gathering and validating data, and applying mathematical programming techniques to find optimal solutions. Students will develop basic yet practical Python programming skills to use Gurobi’s optimizer and will also leverage Excel Solver for comparative analysis. Core topics include facility location, transportation and transshipment models, multi-objective and scenario-based optimization, and sensitivity analysis in the face of uncertainty. Emphasis is placed on the practical implementation of these tools and the communication of results in a managerial context.</p>
+</section>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
+<p>Upon successful completion of this course, students will be able to:</p>
+<ol type="1">
+<li><strong>Demonstrate Fundamental Python Skills</strong>: Use Python effectively for data handling and basic scripting in preparation for optimization tasks.</li>
+<li><strong>Formulate and Solve Supply Chain Network Problems</strong>: Model and solve facility location, transportation, and other network design challenges using both Gurobi and Excel Solver.</li>
+<li><strong>Evaluate and Compare Optimization Tools</strong>: Interpret results produced by different solvers, comparing solution quality, run times, and applicability in real-world supply chain scenarios.</li>
+<li><strong>Apply Advanced Analysis Techniques</strong>: Incorporate scenario analysis, multi-objective optimization, and sensitivity testing to account for uncertainty and trade-offs in decision making.</li>
+<li><strong>Communicate and Collaborate</strong>: Work in teams to analyze data, develop optimization models, and present solution insights and recommendations to stakeholders.</li>
+</ol>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>College Course</category>
+  <category>Optimization</category>
+  <category>Python</category>
+  <category>Gurobi</category>
+  <category>uv</category>
+  <guid>https://ozanozbeker.com/teaching/courses/wvu-gscm-425/</guid>
+  <pubDate>Wed, 29 Jan 2025 03:28:36 GMT</pubDate>
+  <media:content url="https://ozanozbeker.com/teaching/courses/wvu-gscm-425/thumbnail.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>IENG 331</title>
+  <dc:creator>Mr. Ozan Ozbeker</dc:creator>
+  <link>https://ozanozbeker.com/teaching/courses/wvu-ieng-331/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="course-website" class="level2">
+<h2 class="anchored" data-anchor-id="course-website">Course Website</h2>
+<p><a href="https://wvu-ieng-331.github.io" class="uri">https://wvu-ieng-331.github.io</a></p>
+</section>
+<section id="course-description" class="level2">
+<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
+<p>This course introduces Industrial Engineering students to the practical application of Python, SQL, and Excel for data analysis, process automation, and visualization, emphasizing real-world relevance and hands-on learning. Through projects and assignments, students will acquire skills to automate workflows, analyze datasets, and create effective data-driven solutions. The curriculum is designed to align with industry needs, fostering technical proficiency and communication skills for future challenges​.</p>
+</section>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
+<p>Upon successful completion of this course, students will be able to:</p>
+<ol type="1">
+<li><strong>Implement Python Programming Skills:</strong> Master the fundamentals of computer programming using Python, with a focus on industrial engineering applications.</li>
+<li><strong>Recognize and Utilize Data Structures:</strong> Identify common data structures and their practical applications in solving engineering problems.</li>
+<li><strong>Automate Analytical Workflows:</strong> Develop, debug, and refine programs to automate data processing and analytical operations.</li>
+<li><strong>Leverage Data Libraries:</strong> Apply specialized Python libraries for data cleaning, manipulation, visualization, and analysis, streamlining complex workflows.</li>
+<li><strong>Integrate with Databases:</strong> Connect to, query, design, and manage external datasets using tools like SQL and relevant Python libraries.</li>
+<li><strong>Visualize and Communicate Insights:</strong> Create effective data visualizations to communicate findings to technical and non-technical audiences, aligning with industry expectations.</li>
+<li><strong>Collaborate and Utilize Version Control:</strong> Utilize Git and GitHub for collaboration, version control, and portfolio building, fostering professional software engineering practices.</li>
+<li><strong>Engage with Real-World Data:</strong> Develop proficiency in handling diverse, real-world datasets through hands-on projects, preparing for industry or academic pursuits.</li>
+</ol>
+<p>These objectives are designed to align with ABET-defined Student Outcomes, fostering critical skills in problem-solving, communication, teamwork, and lifelong learning. Additionally, they emphasize practical relevance, ensuring students are prepared for dynamic roles in industrial engineering and beyond.</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>College Course</category>
+  <category>Data Analysis</category>
+  <category>Python</category>
+  <category>Polars</category>
+  <category>Plotly</category>
+  <category>uv</category>
+  <category>Quarto</category>
+  <guid>https://ozanozbeker.com/teaching/courses/wvu-ieng-331/</guid>
+  <pubDate>Wed, 29 Jan 2025 03:28:36 GMT</pubDate>
+  <media:content url="https://ozanozbeker.com/teaching/courses/wvu-ieng-331/thumbnail.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+</channel>
+</rss>

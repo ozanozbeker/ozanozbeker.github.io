@@ -1,0 +1,36 @@
+### Tech Stack
+
+##### Data Manipulation & Analysis
+
+-   **R:** [{tidyverse}](https://www.tidyverse.org/), [{duckplyr}](https://duckplyr.tidyverse.org/index.html), [{data.table}](https://rdatatable.gitlab.io/data.table/)
+-   **Python:** Polars, Ibis
+-   **SQL:** PostreSQL, MS SQL Server, DuckDB
+-   **Excel:** Power Query, Pivot Tables, Data Validation, XLOOKUP/INDEX-MATCH
+
+##### Data Visualization & Reporting
+
+-   **Static Visualizations:** [{ggplot2}](https://ggplot2.tidyverse.org/), [{gt}](https://gt.rstudio.com/)
+-   **Interactive Visualizations:** [{plotly}](https://plotly.com/), [{reactable}](https://glin.github.io/reactable/index.html)
+-   **Dynamic Documents & Presentations:** [Quarto](https://quarto.org/)
+
+##### Dashboarding & Data Apps
+-   **Enterprise Tools:** Tableau Desktop & Prep, Power BI
+-   **Open-Source Frameworks:** [Shiny]((https://shiny.posit.co/)) (R)
+
+##### Web Development, & Scraping
+
+-   **Web Technologies:** HTML, SASS/SCSS/CSS
+-   **HTTP Libraries:** [{httr2}](https://httr2.r-lib.org/)
+-   **Web Scraping Tools:** [{rvest}](https://rvest.tidyverse.org/), Selenium/[{RSelenium}](https://docs.ropensci.org/RSelenium/index.html)
+
+##### Modeling & MLOps
+
+-   **Model Development:** [{tidymodels}](https://www.tidymodels.org/)
+-   **Model Deployment:** [{vetiver}](https://rstudio.github.io/vetiver-r/), [{plumber}](https://www.rplumber.io/)
+
+##### DevOps & Infrastructure
+
+-   **Containers:** Docker
+-   **Cloud Infrastructure:** AWS (EC2, S3, IAM)
+-   **CI/CD:** GitHub Actions
+-   **Logging:** {log4r}
