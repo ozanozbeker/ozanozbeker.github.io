@@ -22,7 +22,7 @@ comments: false
 
 ## Summary {#sec-summary}
 
-As a **Data Scientist** at [OneMagnify](https://onemagnify.com/), I lead full-lifecycle data science initiatives for Fortune 500 clients, delivering solutions that drive measurable business impact. My responsibilities span designing and implementing robust ETL pipelines, developing interactive Tableau dashboards, and creating predictive models that optimize client operations. Proficiency in R, Python, SQL, and Tableau allows me to provide end-to-end support—from data engineering to advanced analytics and business intelligence, ensuring that stakeholders receive actionable insights.
+As a **Data Scientist** at [OneMagnify](https://onemagnify.com/), I lead full-lifecycle data science initiatives for Fortune 500 clients, delivering solutions that drive measurable business impact. My responsibilities span designing and implementing robust ETL pipelines, developing interactive Tableau dashboards, and creating predictive models that optimize client operations. Proficiency in Python, R, SQL, and Tableau allows me to provide end-to-end support—from data engineering to advanced analytics and business intelligence, ensuring that stakeholders receive actionable insights.
 
 My capabilities are further enhanced by certifications in Lean Six Sigma and Continuous Improvement, as well as hands-on teaching experience. Together, these qualifications enable me to guide both technical and cross-functional teams toward data-driven, impactful results.
 
@@ -32,7 +32,7 @@ My capabilities are further enhanced by certifications in Lean Six Sigma and Con
 
 [West Virginia University](https://www.wvu.edu/) / Morgantown, WV / January 2025 - Current
 
-Back at my alma mater, I serve as an Adjunct Instructor in the [Statler College of Engineering](https://www.statler.wvu.edu/) and [Chambers College of Business](https://business.wvu.edu/). I have redesigned each course from the ground up, leveraging industry experience, modern technologies, and high-quality resources, all while meeting the course requirements. For more details on the courses, please see [Teaching](../teaching/index.qmd). 
+At my alma mater, I serve as an Adjunct Instructor in the [Statler College of Engineering](https://www.statler.wvu.edu/) and [Chambers College of Business](https://business.wvu.edu/). I have redesigned each course from the ground up, leveraging industry experience, modern technologies, and high-quality resources, all while meeting the course requirements. For more details on the courses, please see [Teaching](../teaching/index.qmd). 
 
 - **IENG 331 | Computer Applications in Industrial Engineering**  
   Originally a slow-paced introduction to Python that emphasized software engineering basics, this course has been transformed into an immersive data analysis experience tailored for Industrial Engineering. Students now learn essential Python concepts and use tools like Polars and Plotly to collect, clean, and visualize data from multiple sources. The curriculum also includes advanced Excel and SQL modules, culminating in a final project where students compare these tools, evaluating their strengths and limitations based on real-world tasks. In addition, I introduce version control using Git and GitHub, illustrating best practices for collaborative code development.
@@ -44,7 +44,7 @@ Back at my alma mater, I serve as an Adjunct Instructor in the [Statler College 
 
 [OneMagnify](https://onemagnify.com/) (Previously [Splash Analytics](https://splashanalytics.com/)) / Remote, USA / January 2023 - Current
 
-In a boutique analytics consulting environment, I manage end-to-end data science projects for Fortune 500 clients in the replacement parts sector. My role spans client relationship management through solution delivery, ensuring measurable business value.
+As a data science consultant at a boutique consulting firm, I manage end-to-end data science projects for Fortune 500 clients in the replacement parts sector. My role spans client relationship management through solution delivery, ensuring measurable business value.
 
 - **Consulting & Client Engagement**  
   I oversee multiple high-impact engagements, liaising with Fortune 500 clients to define project objectives and develop tailored data strategies. By leading regular client meetings, setting clear project milestones, and delivering data-driven solutions, I foster long-term value and satisfaction.
@@ -53,7 +53,7 @@ In a boutique analytics consulting environment, I manage end-to-end data science
   I produce weekly price recommendation models for Amazon ASINs that incorporate competitor metrics, seller performance, and profit margins. Additionally, I support end-of-life part forecasting through a variety of models—including ARIMA, ETS, Prophet, and XGBoost, enhancing inventory management for discontinued products.
 
 - **Business Intelligence**  
-  I create sophisticated HTML-based reports that go beyond traditional PDF/Word/PowerPoint outputs, offering advanced analytics features and enhanced portability. I also maintain five Tableau workbooks on a client’s Tableau Server, providing interactive dashboards that monitor $30M in annual sales across 6,000 SKUs. Leveraging web scraping, I deliver competitive marketplace reports to identify missed revenue opportunities and potential counterfeit activities, helping clients refine product strategies.
+  I create sophisticated HTML-based reports that go beyond traditional PDF/Word/PowerPoint outputs, offering advanced analytics features and enhanced portability. I also maintain five Tableau workbooks on a client's Tableau Server, providing interactive dashboards that monitor $30M in annual sales across 6,000 SKUs. Leveraging web scraping, I deliver competitive marketplace reports to identify missed revenue opportunities and potential counterfeit activities, helping clients refine product strategies.
 
 - **Data Engineering**  
   I design and implement robust ETL pipelines, seamlessly ingesting data from FTP, Google Drive, Amazon S3, and various databases into internal systems. I also refine existing workflows to optimize the ingestion and transformation of large-scale datasets for multiple clients.
@@ -63,7 +63,7 @@ In a boutique analytics consulting environment, I manage end-to-end data science
 
 ### Operations Leadership Development Program
 
-[Xylem, Inc](https://www.xylem.com/en-us) Chicago, IL & Uniontown, PA / July 2021 - December 2022
+[Xylem, Inc](https://www.xylem.com/en-us) / Chicago, IL & Uniontown, PA / July 2021 - December 2022
 
 During my two rotations as a Business Data Analyst and a Continuous Improvement Engineer, I spearheaded cross-functional initiatives to implement data-driven improvements across multiple sites.
 
