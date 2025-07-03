@@ -78,3 +78,6 @@ format:
 brand:
   light: light-brand.yml
   dark: dark-brand.yml
+
+execute:
+  freeze: auto
