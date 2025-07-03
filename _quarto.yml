@@ -1,0 +1,80 @@
+project:
+  type: website
+
+  preview:
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+website:
+  title: "Ozan Ozbeker"
+  description: "Ozan Ozbeker is a data scientist by day & adjunct instructor by some afternoons."
+
+  search: false
+  sidebar:
+    style: floating
+    tools:
+      - icon: github
+        href: https://github.com/ozanozbeker
+      - icon: linkedin
+        href: https://linkedin.com/in/ozanozbeker
+      - icon: envelope
+        href: mailto:contact@ozanozbeker.com
+      - icon: rss # to setup RSS subscription: https://quarto.org/docs/websites/website-blog.html#subscriptions
+        href: index.xml
+    contents:
+      - href: about-me/index.qmd
+        text: about me
+      - href: blog/index.qmd
+        text: blog
+      - href: projects/index.qmd
+        text: projects
+      - href: resume/index.qmd
+        text: resume
+      - href: teaching/index.qmd
+        text: teaching
+      - href: tech-stack/index.qmd
+        text: tech stack
+
+  repo-url: https://github.com/ozanozbeker/ozanozbeker.github.io
+  site-url: https://ozanozbeker.com
+
+  page-footer:
+    center: "© 2025 Ozan Ozbeker | [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
+
+  favicon: resources/code.svg
+  twitter-card: true
+  open-graph: true
+
+format:
+  html:
+    grid:
+      body-width: 800px
+
+    theme:
+      light:
+        - simplex
+        - brand
+      dark:
+        - simplex
+        - brand
+
+    respect-user-color-scheme: true
+
+    toc: true
+    toc-depth: 3
+    toc-expand: true
+
+    # reference-location: margin
+    footnotes-hover: true
+
+    html-math-method: katex
+
+    smooth-scroll: true
+
+    link-external-icon: true
+    link-external-newwindow: true
+
+brand:
+  light: light-brand.yml
+  dark: dark-brand.yml

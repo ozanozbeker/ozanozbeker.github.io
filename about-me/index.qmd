@@ -1,0 +1,31 @@
+---
+title: "Ozan Ozbeker"
+subtitle: "Data Scientist & Adjunct Instructor"
+image: ../resources/casual-picture.png
+format:
+  html:
+    page-layout: full
+    other-links:
+      - text: Spotify
+        href: https://open.spotify.com/user/1294097028
+        icon: spotify
+about:
+  template: jolla
+  # image-width: 23em
+---
+
+::: {.text-start}
+Hey again!
+
+A bit more about me: I'm especially interested in systems thinking, reproducible workflows, and making complex ideas understandable. I don't believe in hyper-specializing. I admire the Renaissance polymaths like Da Vinci, and make it a goal to be able to contribute across the data stack. Whether that means building pipelines, developing forecasts, deploying web apps, or just making things a little less messy, I like to have my hands in all of it.
+
+I care deeply about open-source tools and transparent, reusable solutions.^[Yes, I'm a professional Tableau hater.] I try to reflect that mindset in the way I work, focusing on clarity, openness, and long-term maintainability rather than flashy dashboards or black-box outputs. I never realized how important good code & documentation is until I a couple trials by fire, and I don't want to do that to anybody else.^[Especially future me.]
+
+This year, I've been diving deep into Python as we shift away from R. (Don't get me started.) Luckily, I made the move just as tools like [Polars](https://pola.rs/), [uv](https://docs.astral.sh/uv/), & [marimo](https://marimo.io/) have hit their stride. It's made the transition surprisingly smooth, especially compared to my college days of downloading 10 gigs of Anaconda bloatware. The {[tidyverse](https://marimo.io/)} still holds a special place in my heart, and I would not be the analytical programmer I am without [R for Data Science (2e)](https://r4ds.hadley.nz/).^[Ironically, I started learning R just as {tidyverse} 2.0 & R4DS 2e came out. I'm a pretty lucky guy apparently.] But I'm enjoying the Python ecosystem more broadly, especially beyond just analytics.
+
+I'm also realizing how much software engineering and industrial engineering overlap. At the end of the day, both are about optimizing your systems and continuous improvement. Building tools, web apps, and reports in a clean, Pythonic style scratches the same itch as designing physical systems. It feels like a natural evolution of the way I've always liked to work.
+
+Outside of work, I spend time at concerts, on bike rides, playing guitar, or buried in a side project that may or may not ever get finished. I also like learning skills related to my core work and adjacent. Lately, that's been diving into self-hosting and homelabs.^[At some point I do want to build a MIDI-powered laser board, but baby steps.]
+
+If any of this resonates, feel free to reach out!
+:::

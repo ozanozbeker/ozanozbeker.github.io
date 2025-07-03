@@ -1,0 +1,64 @@
+meta:
+  name: light-brand.yml
+  link: https://github.com/ozanozbeker/ozanozbeker.github.io/light-brand.yml
+
+color:
+  palette:
+    gold: "#C0AC78"
+    gold-dark: "#A1894B"
+    white: "#FFFFFF"
+    light-gray: "#767676"
+    gray: "#494949"
+    dark-gray: "#292929"
+    black: "#0F0F0F"
+    green: "#16302B"
+    blue: "#124352"
+    pink: "#804A5B"
+    purple: "#492435"
+  primary: gold-dark
+  secondary: purple
+  background: white
+  foreground: dark-gray
+  success: green
+  info: blue
+  warning: pink
+  danger: purple
+  light: white
+  dark: black
+
+typography:
+  fonts:
+    - family: Noto Sans Mono
+      source: google
+    - family: JetBrains Mono
+      source: google
+  headings:
+    family: Noto Sans Mono
+    color: black
+  base:
+    family: Noto Sans Mono
+  monospace: JetBrains Mono
+  monospace-inline:
+    color: gray
+    background-color: black
+  monospace-block:
+    color: gray
+    background-color: black
+  link:
+    color: primary
+    decoration: none
+
+defaults:
+  bootstrap:
+    defaults:
+      enable-rounded: true
+    rules: |
+      h1.title {
+        color: $brand-gold-dark;
+        font-weight: lighter;
+        font-size: 2.5em;
+      }
+
+      h1, h2, h3 {
+        font-weight: normal;
+      }

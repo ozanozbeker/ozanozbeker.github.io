@@ -1,0 +1,34 @@
+---
+title: projects
+listing:
+  - id: showcase
+    type: grid
+    contents: showcase
+    sort: ["date desc", "title desc"]
+    sort-ui: false
+    filter-ui: false
+    categories: true
+    fields: [title, date, reading-time, description, categories]
+  - id: personal
+    type: grid
+    contents: personal
+    sort: ["date desc", "title desc"]
+    sort-ui: false
+    filter-ui: false
+    categories: true
+    fields: [title, date, reading-time, description, categories]
+---
+
+## showcase
+
+Projects demonstrating my expertise across various data science technologies and methodologies.
+
+::: {#showcase}
+:::
+
+## personal
+
+Creative and self-driven projects I pursued for fun or personal growth.
+
+::: {#personal}
+:::

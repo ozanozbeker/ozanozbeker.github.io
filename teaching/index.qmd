@@ -1,0 +1,21 @@
+---
+title: "teaching"
+subtitle: "Courses I've taught"
+listing:
+  type: table
+  contents: courses
+  filter-ui: false
+  sort-ui:
+    - "date"
+    - "title"
+  sort:
+    - "date"
+    - "title"
+  date-format: "MMMM YYYY"
+  categories: numbered
+  fields:
+    - date
+    - title
+    - categories
+  feed: false
+---

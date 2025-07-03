@@ -1,0 +1,78 @@
+---
+title: "resume"
+format:
+  html:
+    toc-title: "Sections"
+    other-links:
+      # - text: "Resume PDF"
+      #   href: files/ozan-ozbeker-resume.pdf
+      #   icon: file-earmark-text
+      - text: "GitHub"
+        href: https://github.com/ozanozbeker/
+        icon: github
+      - text: "LinkedIn"
+        href: https://www.linkedin.com/in/ozanozbeker/
+        icon: linkedin
+      - text: "Email"
+        href: mailto:contact@ozanozbeker.com
+        icon: envelope
+---
+
+## summary
+
+I'm a data scientist at [OneMagnify](https://onemagnify.com/), where I lead end-to-end analytics projects for Fortune 500 clients. My work spans data engineering, statistical modeling, and business intelligence—driving impact through insights, infrastructure, and intelligent decision-making. I'm fluent in Python, SQL, & R, and I build systems that transform raw data into results.
+
+## experience
+
+### adjunct instructor
+
+[West Virginia University](https://www.wvu.edu/) / January 2025 - Present
+
+I teach data-focused courses in the Colleges of Engineering and Business, redesigning curriculum to reflect real-world industry practices. See [Teaching](../teaching/index.qmd) for course details.
+
+### data scientist
+
+[OneMagnify](https://onemagnify.com/) (Previously [Splash Analytics](https://splashanalytics.com/)) / January 2023 - Present
+
+I lead full-scope consulting projects for Fortune 500 clients, especially in aftermarket and e-commerce. My work includes: 
+
+- Pricing and forecasting models (ARIMA, ETS, XGBoost)  
+- ETL pipelines from cloud and on-prem sources  
+- Web scraping and competitive analytics  
+- Interactive dashboards and HTML-based reporting  
+- Git-based workflows and DevOps standards
+
+### operations leadership development program
+
+[Xylem, Inc](https://www.xylem.com/en-us) / July 2021 - December 2022
+
+Two cross-functional roles in data analysis and process improvement. Highlights include:  
+
+- $1M+ projected savings from Excess & Obsolete inventory reduction projects  
+- Tableau dashboards for finance and audit teams  
+- SQL-powered automation and reporting tools  
+- Facilitated Lean/CI workshops across multiple sites
+
+### undergraduate teaching assistant
+
+[West Virginia University](https://www.wvu.edu/) / August 2019 - May 2021
+
+Supported instruction for four core courses in systems engineering and project management.
+
+### manufacturing engineer intern
+
+[JLG Industries](https://www.jlg.com) / June 2019 - August 2019
+
+Contributed to quality and process improvements on the manufacturing floor, including 5S audits and SWI development.
+
+## education
+
+### bachelor of science in industrial engineering
+
+[West Virginia University](https://www.wvu.edu/)
+
+### certifications
+
+- **Lean Six Sigma Green Belt** – Institute of Industrial and Systems Engineers
+- **Continuous Improvement Fundamentals** – Oshkosh Corporation
+- **Eligible for Certified Associate in Project Management (CAPM)** – Project Management Institute

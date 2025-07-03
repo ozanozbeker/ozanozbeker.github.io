@@ -1,0 +1,123 @@
+---
+title: "Resume"
+format:
+  html: 
+    number-sections: false
+    toc-title: "Sections"
+    other-links:
+      - text: "Resume PDF"
+        href: files/ozan-ozbeker-resume.pdf
+        icon: file-earmark-text
+      - text: "GitHub"
+        href: https://github.com/ozanozbeker/
+        icon: github
+      - text: "LinkedIn"
+        href: https://www.linkedin.com/in/ozanozbeker/
+        icon: linkedin
+      - text: "Email"
+        href: mailto:ozanozbeker99@outlook.com
+        icon: envelope
+comments: false
+---
+
+## Summary {#sec-summary}
+
+As a **Data Scientist** at [OneMagnify](https://onemagnify.com/), I lead full-lifecycle data science initiatives for Fortune 500 clients, delivering solutions that drive measurable business impact. My responsibilities span designing and implementing robust ETL pipelines, developing interactive Tableau dashboards, and creating predictive models that optimize client operations. Proficiency in Python, R, SQL, and Tableau allows me to provide end-to-end support—from data engineering to advanced analytics and business intelligence, ensuring that stakeholders receive actionable insights.
+
+My capabilities are further enhanced by certifications in Lean Six Sigma and Continuous Improvement, as well as hands-on teaching experience. Together, these qualifications enable me to guide both technical and cross-functional teams toward data-driven, impactful results.
+
+## Experience {#sec-experience}
+
+### Adjunct Instructor
+
+[West Virginia University](https://www.wvu.edu/) / Morgantown, WV / January 2025 - Current
+
+At my alma mater, I serve as an Adjunct Instructor in the [Statler College of Engineering](https://www.statler.wvu.edu/) and [Chambers College of Business](https://business.wvu.edu/). I have redesigned each course from the ground up, leveraging industry experience, modern technologies, and high-quality resources, all while meeting the course requirements. For more details on the courses, please see [Teaching](../teaching/index.qmd). 
+
+- **IENG 331 | Computer Applications in Industrial Engineering**  
+  Originally a slow-paced introduction to Python that emphasized software engineering basics, this course has been transformed into an immersive data analysis experience tailored for Industrial Engineering. Students now learn essential Python concepts and use tools like Polars and Plotly to collect, clean, and visualize data from multiple sources. The curriculum also includes advanced Excel and SQL modules, culminating in a final project where students compare these tools, evaluating their strengths and limitations based on real-world tasks. In addition, I introduce version control using Git and GitHub, illustrating best practices for collaborative code development.
+
+- **GSCM 425 | Supply Chain Network Design**  
+  This course focuses on linear programming applications in supply chain network design, teaching students how to gather relevant data, validate and debug models, and perform sensitivity analysis. While students arrive with a basic understanding of optimization and Excel Solver, I expanded the curriculum to include Python fundamentals and the Gurobi optimizer through the gurobipy package. The second half of the course explores Facility Location Models, Transportation and Transshipment, Design under Uncertainty, and Multi-Objective Optimization—demonstrating how to solve these problems with both Excel and Python/Gurobi. The final project requires students to create a network design challenge and present their solution strategies, comparing the pros and cons of each approach.
+
+### Data Scientist
+
+[OneMagnify](https://onemagnify.com/) (Previously [Splash Analytics](https://splashanalytics.com/)) / Remote, USA / January 2023 - Current
+
+As a data science consultant at a boutique consulting firm, I manage end-to-end data science projects for Fortune 500 clients in the replacement parts sector. My role spans client relationship management through solution delivery, ensuring measurable business value.
+
+- **Consulting & Client Engagement**  
+  I oversee multiple high-impact engagements, liaising with Fortune 500 clients to define project objectives and develop tailored data strategies. By leading regular client meetings, setting clear project milestones, and delivering data-driven solutions, I foster long-term value and satisfaction.
+
+- **Data Science & Analytics**  
+  I produce weekly price recommendation models for Amazon ASINs that incorporate competitor metrics, seller performance, and profit margins. Additionally, I support end-of-life part forecasting through a variety of models—including ARIMA, ETS, Prophet, and XGBoost, enhancing inventory management for discontinued products.
+
+- **Business Intelligence**  
+  I create sophisticated HTML-based reports that go beyond traditional PDF/Word/PowerPoint outputs, offering advanced analytics features and enhanced portability. I also maintain five Tableau workbooks on a client's Tableau Server, providing interactive dashboards that monitor $30M in annual sales across 6,000 SKUs. Leveraging web scraping, I deliver competitive marketplace reports to identify missed revenue opportunities and potential counterfeit activities, helping clients refine product strategies.
+
+- **Data Engineering**  
+  I design and implement robust ETL pipelines, seamlessly ingesting data from FTP, Google Drive, Amazon S3, and various databases into internal systems. I also refine existing workflows to optimize the ingestion and transformation of large-scale datasets for multiple clients.
+
+- **DevOps & Infrastructure**  
+  I standardize the use of Git and GitHub for version control, ensuring data integrity and accountability across all SQL queries and data engineering tasks. Additionally, I establish database schemas and define folder structures for local and AWS-based development environments to maintain consistency across projects.
+
+### Operations Leadership Development Program
+
+[Xylem, Inc](https://www.xylem.com/en-us) / Chicago, IL & Uniontown, PA / July 2021 - December 2022
+
+During my two rotations as a Business Data Analyst and a Continuous Improvement Engineer, I spearheaded cross-functional initiatives to implement data-driven improvements across multiple sites.
+
+- **Excess & Obsolete Disposition Project**  
+  Utilizing DMAIC/DMADV methodologies, I developed a process to minimize excess and obsolete materials in warehouse operations, projecting $1M–$4M in savings over 3–5 years. I formed a cross-departmental E&O task force and applied techniques like Value Stream Mapping and Control Charts to enhance material rework, resale, and disposal strategies.
+
+- **Excess & Obsolete Identification Project**  
+  I streamlined quarterly E&O reporting by building SQL queries and Power Query–enabled Excel templates, standardizing reports across three manufacturing sites and reducing reporting time by 90%. All deliverables satisfied finance audit requirements.
+
+- **Physical Inventory Event Overhaul**  
+  I partnered with Finance and Materials teams to optimize the annual cycle count event for three sites. This collaboration reduced event duration by one day for two sites and diminished manager preparation time. I also created process flowcharts, work instructions, and checklists to ensure smooth execution.
+
+- **SQL Reporting & Automation**  
+  I deployed SQL-based ad-hoc reports to validate supplier quotes, synchronize lot sizes, and quantify excess inventory within work cells, improving data accuracy and cross-departmental alignment.
+
+- **Tableau Reporting**  
+  I designed dashboards for internal audit teams to track forecasting accuracy, product quality, and units produced. These real-time insights informed strategic decisions for Quality and Finance teams.
+
+- **Continuous Improvement Workshops**  
+  I organized and led workshops on Lean methodologies, 5S, FMEA, and Process Capability Analysis, fostering a culture of continuous improvement and operational excellence across multiple sites.
+
+### Undergraduate Teaching Assistant
+
+[West Virginia University](https://www.wvu.edu/) / Morgantown, WV / August 2019 - May 2021
+
+In the Industrial Engineering department, I supported four core courses by providing hands-on teaching support, aiding curriculum development, and guiding students through complex technical concepts.
+
+- **Spring 2021**: IENG 220 – Re-engineering Management Systems  
+- **Fall 2020**: IENG 305 – Intro to Systems Engineering  
+- **Spring 2020**: IENG 331 – Computer Applications in Industrial Engineering  
+- **Fall 2019**: IENG 445 – Project Management for Engineers  
+
+### Manufacturing Engineer Intern
+
+[JLG Industries](https://www.jlg.com) / McConnellsburg, PA / June 2019 - August 2019
+
+As a summer intern, I contributed to key process improvements on the manufacturing floor, collaborating closely with engineering teams to enhance operational efficiency.
+
+- **Test – Inspect – Green Tag (TIG) Line**  
+  I completed a 5S audit that eliminated redundant equipment and parts, increasing workflow efficiency, and created Standard Work Instructions (SWIs) for the five stations encompassing three product lines, ensuring reliable and consistent inspection processes. I also assisted in implementing a scanner-driven system for defect logging within the Electronic Quality Control (EQC) system, standardizing the defect entry process.
+
+- **Tire Manipulator**  
+  I also used laser measurements and AutoCAD to map current and future station layouts, optimizing workspace configurations.
+
+## Education {#sec-education}
+
+### Bachelor of Science in Industrial Engineering
+
+[West Virginia University](https://www.wvu.edu/) / Morgantown, WV
+
+Industrial engineering focuses on designing, improving, and installing integrated systems of people, materials, information, equipment, and energy. The discipline emphasizes performance, reliability, maintainability, schedule adherence, and cost control.
+
+### Certifications
+
+- **Lean Six Sigma Green Belt** – Institute of Industrial and Systems Engineers
+- **Continuous Improvement Fundamentals** – Oshkosh Corporation
+- **Eligible for Certified Associate in Project Management (CAPM)** – Project Management Institute

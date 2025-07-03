@@ -1,0 +1,26 @@
+---
+title: "WVU GSCM 425"
+subtitle: "Spring 2025: Supply Chain Network Design"
+description: "An in-depth study of how to parse supply chain problems into a network design formulation and how to collect appropriate data to use on these models. Students will also learn how to validate, debug, and test the sensitivity of models to various input and model assumptions."
+categories: ["Optimization", "Python", "Gurobi"]
+date: 2025-01-13
+author: 
+  - name: Mr. Ozan Ozbeker
+    email: ozan.ozbeker@mail.wvu.edu
+    affiliation:
+      - name: Management Information Systems and Supply Chain
+        url: https://business.wvu.edu/academics/management-information-systems
+---
+
+## Course Description
+
+This course offers a deep dive into supply chain network design, guiding students through the process of formulating real-world supply chain problems, gathering and validating data, and applying mathematical programming techniques to find optimal solutions. Students will develop basic yet practical Python programming skills to use Gurobi's optimizer. Core topics include facility location, transportation and transshipment models, multi-objective and scenario-based optimization, and sensitivity analysis in the face of uncertainty. Emphasis is placed on the practical implementation of these tools and the communication of results in a managerial context.
+
+## Learning Objectives
+
+Upon successful completion of this course, students will be able to:
+
+1. **Demonstrate Fundamental Python Skills**: Use Python effectively for data handling and basic scripting in preparation for optimization tasks.
+2. **Formulate and Solve Supply Chain Network Problems**: Model and solve facility location, transportation, and other network design challenges using both Gurobi and Excel Solver.
+3. **Evaluate and Compare Optimization Tools**: Interpret results produced by different solvers, comparing solution quality, run times, and applicability in real-world supply chain scenarios.
+4. **Communicate and Collaborate**: Work in teams to analyze data, develop optimization models, and present solution insights and recommendations to stakeholders.

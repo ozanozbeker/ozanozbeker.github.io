@@ -1,0 +1,171 @@
+[
+  {
+    "objectID": "tech-stack/index.html",
+    "href": "tech-stack/index.html",
+    "title": "tech stack",
+    "section": "",
+    "text": "I like keeping up with new tools and seeing what others are using. I’ve never seen a tech stack section of someone’s website, but maybe it’ll start a trend?",
+    "crumbs": [
+      "tech stack"
+    ]
+  },
+  {
+    "objectID": "teaching/courses/2025-spring-wvu-ieng-331/index.html",
+    "href": "teaching/courses/2025-spring-wvu-ieng-331/index.html",
+    "title": "WVU IENG 331",
+    "section": "",
+    "text": "This course introduces Industrial Engineering students to the practical application of Python for data analysis, process automation, and visualization, emphasizing real-world relevance and hands-on learning. Through projects and assignments, students will acquire skills to automate workflows, analyze datasets, and create effective data-driven solutions. The curriculum is designed to align with industry needs, fostering technical proficiency and communication skills for future challenges​."
+  },
+  {
+    "objectID": "teaching/courses/2025-spring-wvu-ieng-331/index.html#course-description",
+    "href": "teaching/courses/2025-spring-wvu-ieng-331/index.html#course-description",
+    "title": "WVU IENG 331",
+    "section": "",
+    "text": "This course introduces Industrial Engineering students to the practical application of Python for data analysis, process automation, and visualization, emphasizing real-world relevance and hands-on learning. Through projects and assignments, students will acquire skills to automate workflows, analyze datasets, and create effective data-driven solutions. The curriculum is designed to align with industry needs, fostering technical proficiency and communication skills for future challenges​."
+  },
+  {
+    "objectID": "teaching/courses/2025-spring-wvu-ieng-331/index.html#learning-objectives",
+    "href": "teaching/courses/2025-spring-wvu-ieng-331/index.html#learning-objectives",
+    "title": "WVU IENG 331",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nUpon successful completion of this course, students will be able to:\n\nImplement Python Programming Skills: Master the fundamentals of computer programming using Python, with a focus on industrial engineering applications.\nRecognize and Utilize Data Structures: Identify common data structures and their practical applications in solving engineering problems.\nAutomate Analytical Workflows: Develop, debug, and refine programs to automate data processing and analytical operations.\nLeverage Data Libraries: Apply specialized Python libraries for data cleaning, manipulation, visualization, and analysis, streamlining complex workflows.\nIntegrate with Databases: Connect to, query, design, and manage external datasets using relevant Python libraries.\nVisualize and Communicate Insights: Create effective data visualizations to communicate findings to technical and non-technical audiences, aligning with industry expectations.\nCollaborate and Utilize Version Control: Utilize Git and GitHub for collaboration, version control, and portfolio building, fostering professional software engineering practices.\nEngage with Real-World Data: Develop proficiency in handling diverse, real-world datasets through hands-on projects, preparing for industry or academic pursuits.\n\nThese objectives are designed to align with ABET-defined Student Outcomes, fostering critical skills in problem-solving, communication, teamwork, and lifelong learning. Additionally, they emphasize practical relevance, ensuring students are prepared for dynamic roles in industrial engineering and beyond."
+  },
+  {
+    "objectID": "about-me/index.html",
+    "href": "about-me/index.html",
+    "title": "Ozan Ozbeker",
+    "section": "",
+    "text": "Hey again!\nA bit more about me: I’m especially interested in systems thinking, reproducible workflows, and making complex ideas understandable. I don’t believe in hyper-specializing. I admire the Renaissance polymaths like Da Vinci, and make it a goal to be able to contribute across the data stack. Whether that means building pipelines, developing forecasts, deploying web apps, or just making things a little less messy, I like to have my hands in all of it.\nI care deeply about open-source tools and transparent, reusable solutions.1 I try to reflect that mindset in the way I work, focusing on clarity, openness, and long-term maintainability rather than flashy dashboards or black-box outputs. I never realized how important good code & documentation is until I a couple trials by fire, and I don’t want to do that to anybody else.2\nThis year, I’ve been diving deep into Python as we shift away from R. (Don’t get me started.) Luckily, I made the move just as tools like Polars, uv, & marimo have hit their stride. It’s made the transition surprisingly smooth, especially compared to my college days of downloading 10 gigs of Anaconda bloatware. The {tidyverse} still holds a special place in my heart, and I would not be the analytical programmer I am without R for Data Science (2e).3 But I’m enjoying the Python ecosystem more broadly, especially beyond just analytics.\nI’m also realizing how much software engineering and industrial engineering overlap. At the end of the day, both are about optimizing your systems and continuous improvement. Building tools, web apps, and reports in a clean, Pythonic style scratches the same itch as designing physical systems. It feels like a natural evolution of the way I’ve always liked to work.\nOutside of work, I spend time at concerts, on bike rides, playing guitar, or buried in a side project that may or may not ever get finished. I also like learning skills related to my core work and adjacent. Lately, that’s been diving into self-hosting and homelabs.4\nIf any of this resonates, feel free to reach out!",
+    "crumbs": [
+      "about me"
+    ]
+  },
+  {
+    "objectID": "about-me/index.html#footnotes",
+    "href": "about-me/index.html#footnotes",
+    "title": "Ozan Ozbeker",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nYes, I’m a professional Tableau hater.↩︎\nEspecially future me.↩︎\nIronically, I started learning R just as {tidyverse} 2.0 & R4DS 2e came out. I’m a pretty lucky guy apparently.↩︎\nAt some point I do want to build a MIDI-powered laser board, but baby steps.↩︎",
+    "crumbs": [
+      "about me"
+    ]
+  },
+  {
+    "objectID": "resume/index.html",
+    "href": "resume/index.html",
+    "title": "resume",
+    "section": "",
+    "text": "I’m a data scientist at OneMagnify, where I lead end-to-end analytics projects for Fortune 500 clients. My work spans data engineering, statistical modeling, and business intelligence—driving impact through insights, infrastructure, and intelligent decision-making. I’m fluent in Python, SQL, & R, and I build systems that transform raw data into results.",
+    "crumbs": [
+      "resume"
+    ]
+  },
+  {
+    "objectID": "resume/index.html#summary",
+    "href": "resume/index.html#summary",
+    "title": "resume",
+    "section": "",
+    "text": "I’m a data scientist at OneMagnify, where I lead end-to-end analytics projects for Fortune 500 clients. My work spans data engineering, statistical modeling, and business intelligence—driving impact through insights, infrastructure, and intelligent decision-making. I’m fluent in Python, SQL, & R, and I build systems that transform raw data into results.",
+    "crumbs": [
+      "resume"
+    ]
+  },
+  {
+    "objectID": "resume/index.html#experience",
+    "href": "resume/index.html#experience",
+    "title": "resume",
+    "section": "experience",
+    "text": "experience\n\nadjunct instructor\nWest Virginia University / January 2025 - Present\nI teach data-focused courses in the Colleges of Engineering and Business, redesigning curriculum to reflect real-world industry practices. See Teaching for course details.\n\n\ndata scientist\nOneMagnify (Previously Splash Analytics) / January 2023 - Present\nI lead full-scope consulting projects for Fortune 500 clients, especially in aftermarket and e-commerce. My work includes:\n\nPricing and forecasting models (ARIMA, ETS, XGBoost)\n\nETL pipelines from cloud and on-prem sources\n\nWeb scraping and competitive analytics\n\nInteractive dashboards and HTML-based reporting\n\nGit-based workflows and DevOps standards\n\n\n\noperations leadership development program\nXylem, Inc / July 2021 - December 2022\nTwo cross-functional roles in data analysis and process improvement. Highlights include:\n\n$1M+ projected savings from Excess & Obsolete inventory reduction projects\n\nTableau dashboards for finance and audit teams\n\nSQL-powered automation and reporting tools\n\nFacilitated Lean/CI workshops across multiple sites\n\n\n\nundergraduate teaching assistant\nWest Virginia University / August 2019 - May 2021\nSupported instruction for four core courses in systems engineering and project management.\n\n\nmanufacturing engineer intern\nJLG Industries / June 2019 - August 2019\nContributed to quality and process improvements on the manufacturing floor, including 5S audits and SWI development.",
+    "crumbs": [
+      "resume"
+    ]
+  },
+  {
+    "objectID": "resume/index.html#education",
+    "href": "resume/index.html#education",
+    "title": "resume",
+    "section": "education",
+    "text": "education\n\nbachelor of science in industrial engineering\nWest Virginia University\n\n\ncertifications\n\nLean Six Sigma Green Belt – Institute of Industrial and Systems Engineers\nContinuous Improvement Fundamentals – Oshkosh Corporation\nEligible for Certified Associate in Project Management (CAPM) – Project Management Institute",
+    "crumbs": [
+      "resume"
+    ]
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "projects",
+    "section": "",
+    "text": "Projects demonstrating my expertise across various data science technologies and methodologies.\n\n\n\n\n\n\n\n1 min\n\n\nquarto\n\npython\n\nreporting\n\n\n\nSending static emails with reactive artifacts, powered by Quarto & Python.\n\n\n\nJul 5, 2025\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "projects"
+    ]
+  },
+  {
+    "objectID": "projects/index.html#showcase",
+    "href": "projects/index.html#showcase",
+    "title": "projects",
+    "section": "",
+    "text": "Projects demonstrating my expertise across various data science technologies and methodologies.\n\n\n\n\n\n\n\n1 min\n\n\nquarto\n\npython\n\nreporting\n\n\n\nSending static emails with reactive artifacts, powered by Quarto & Python.\n\n\n\nJul 5, 2025\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "projects"
+    ]
+  },
+  {
+    "objectID": "projects/index.html#personal",
+    "href": "projects/index.html#personal",
+    "title": "projects",
+    "section": "personal",
+    "text": "personal\nCreative and self-driven projects I pursued for fun or personal growth.\n\n\n\n\n\n\n\nParameterized Emails with Quarto\n\n1 min\n\n\nquarto\n\npython\n\nreporting\n\n\n\nSending static emails with reactive artifacts, powered by Quarto & Python.\n\n\n\nJul 5, 2025\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "projects"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ozan Ozbeker",
+    "section": "",
+    "text": "Hey! I’m Ozan, a data scientist/engineer/detective with a background in industrial engineering. I currently work as a data analytics consultant at OneMagnify. Sometimes, I also teach at my alma mater, West Virginia University.\nOn this website, you’ll find my resume, projects, and blog, along with a teaching section covering courses I’ve taught (and hopefully some workshops & talks in the future). I’m also really interested in the tools others use, especially in the data realm. You can see mine at tech stack, and I’d love to learn about yours."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "blog",
+    "section": "",
+    "text": "Parameterized Emails with Quarto\n\n\n\nquarto\n\npython\n\nreporting\n\n\n\nSending static emails with reactive artifacts, powered by Quarto & Python.\n\n\n\n\n\nJul 5, 2025\n\n1 min\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "blog"
+    ]
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "teaching",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nCategories\n\n\n\n\n\n\n\n\nJanuary 2025\n\n\nWVU GSCM 425\n\n\nOptimization, Python, Gurobi\n\n\n\n\n\n\nJanuary 2025\n\n\nWVU IENG 331\n\n\nData Analysis, Python, Polars, Plotly\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "teaching"
+    ]
+  },
+  {
+    "objectID": "teaching/courses/2025-spring-wvu-gscm-425/index.html",
+    "href": "teaching/courses/2025-spring-wvu-gscm-425/index.html",
+    "title": "WVU GSCM 425",
+    "section": "",
+    "text": "This course offers a deep dive into supply chain network design, guiding students through the process of formulating real-world supply chain problems, gathering and validating data, and applying mathematical programming techniques to find optimal solutions. Students will develop basic yet practical Python programming skills to use Gurobi’s optimizer. Core topics include facility location, transportation and transshipment models, multi-objective and scenario-based optimization, and sensitivity analysis in the face of uncertainty. Emphasis is placed on the practical implementation of these tools and the communication of results in a managerial context."
+  },
+  {
+    "objectID": "teaching/courses/2025-spring-wvu-gscm-425/index.html#course-description",
+    "href": "teaching/courses/2025-spring-wvu-gscm-425/index.html#course-description",
+    "title": "WVU GSCM 425",
+    "section": "",
+    "text": "This course offers a deep dive into supply chain network design, guiding students through the process of formulating real-world supply chain problems, gathering and validating data, and applying mathematical programming techniques to find optimal solutions. Students will develop basic yet practical Python programming skills to use Gurobi’s optimizer. Core topics include facility location, transportation and transshipment models, multi-objective and scenario-based optimization, and sensitivity analysis in the face of uncertainty. Emphasis is placed on the practical implementation of these tools and the communication of results in a managerial context."
+  },
+  {
+    "objectID": "teaching/courses/2025-spring-wvu-gscm-425/index.html#learning-objectives",
+    "href": "teaching/courses/2025-spring-wvu-gscm-425/index.html#learning-objectives",
+    "title": "WVU GSCM 425",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nUpon successful completion of this course, students will be able to:\n\nDemonstrate Fundamental Python Skills: Use Python effectively for data handling and basic scripting in preparation for optimization tasks.\nFormulate and Solve Supply Chain Network Problems: Model and solve facility location, transportation, and other network design challenges using both Gurobi and Excel Solver.\nEvaluate and Compare Optimization Tools: Interpret results produced by different solvers, comparing solution quality, run times, and applicability in real-world supply chain scenarios.\nCommunicate and Collaborate: Work in teams to analyze data, develop optimization models, and present solution insights and recommendations to stakeholders."
+  }
+]

@@ -1,0 +1,32 @@
+---
+title: "WVU IENG 331"
+subtitle: "Spring 2025: Computer Applications in Industrial Engineering"
+description: "Introduction to computer applications in industrial engineering: emphasis on system design and analysis and the role of computers in productivity improvement."
+categories: ["Data Analysis", "Python", "Polars", "Plotly"]
+date: 2025-01-13
+author: 
+  - name: Mr. Ozan Ozbeker
+    email: ozan.ozbeker@mail.wvu.edu
+    affiliation:
+      - name: Industrial and Management Systems Engineering
+        url: https://imse.statler.wvu.edu/
+---
+
+## Course Description
+
+This course introduces Industrial Engineering students to the practical application of Python for data analysis, process automation, and visualization, emphasizing real-world relevance and hands-on learning. Through projects and assignments, students will acquire skills to automate workflows, analyze datasets, and create effective data-driven solutions. The curriculum is designed to align with industry needs, fostering technical proficiency and communication skills for future challenges​.
+
+## Learning Objectives
+
+Upon successful completion of this course, students will be able to:
+
+1. **Implement Python Programming Skills:** Master the fundamentals of computer programming using Python, with a focus on industrial engineering applications.
+2. **Recognize and Utilize Data Structures:** Identify common data structures and their practical applications in solving engineering problems.
+3. **Automate Analytical Workflows:** Develop, debug, and refine programs to automate data processing and analytical operations.
+4. **Leverage Data Libraries:** Apply specialized Python libraries for data cleaning, manipulation, visualization, and analysis, streamlining complex workflows.
+5. **Integrate with Databases:** Connect to, query, design, and manage external datasets using relevant Python libraries.
+6. **Visualize and Communicate Insights:** Create effective data visualizations to communicate findings to technical and non-technical audiences, aligning with industry expectations.
+7. **Collaborate and Utilize Version Control:** Utilize Git and GitHub for collaboration, version control, and portfolio building, fostering professional software engineering practices.
+8. **Engage with Real-World Data:** Develop proficiency in handling diverse, real-world datasets through hands-on projects, preparing for industry or academic pursuits.
+
+These objectives are designed to align with ABET-defined Student Outcomes, fostering critical skills in problem-solving, communication, teamwork, and lifelong learning. Additionally, they emphasize practical relevance, ensuring students are prepared for dynamic roles in industrial engineering and beyond.

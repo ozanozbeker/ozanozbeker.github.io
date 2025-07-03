@@ -1,0 +1,28 @@
+---
+sidebar: false
+format:
+  html:
+    grid:
+      body-width: 585px
+about:
+  template: jolla
+  links: 
+    - icon: github
+      text: "GitHub"
+      href: https://github.com/ozanozbeker/
+    - icon: linkedin
+      text: "LinkedIn"
+      href: https://www.linkedin.com/in/ozanozbeker/
+    - icon: envelope
+      text: "Email"
+      href: mailto:contact@ozanozbeker.com
+---
+
+::: {style="height: 15vh;" aria-hidden="true"}
+:::
+
+::: {.text-start}
+Hey! I'm [Ozan](about-me/index.qmd), a data scientist/engineer/detective with a background in industrial engineering. I currently work as a data analytics consultant at [OneMagnify](https://onemagnify.com). Sometimes, I also teach at my alma mater, [West Virginia University](https://www.wvu.edu/). 
+
+On this website, you'll find my [resume](resume/index.qmd), [projects](projects/index.qmd), and [blog](blog/index.qmd), along with a [teaching](teaching/index.qmd) section covering courses I've taught (and hopefully some workshops & talks in the future). I'm also really interested in the tools others use, especially in the data realm. You can see mine at [tech stack](tech-stack/index.qmd), and I'd love to learn about yours.
+:::

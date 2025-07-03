@@ -1,0 +1,10 @@
+---
+title: "Parameterized Emails with Quarto"
+description: "Sending static emails with reactive artifacts, powered by Quarto & Python."
+author: "Ozan Ozbeker"
+date: "2025-07-05"
+categories:
+  - quarto
+  - python
+  - reporting
+---
