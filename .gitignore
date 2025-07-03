@@ -209,3 +209,4 @@ __marimo__/
 # Quarto
 /.quarto/
 /_site/
+_styles.scss # this is just for testing styles, don't need for deploying
