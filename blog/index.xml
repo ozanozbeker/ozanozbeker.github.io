@@ -9,7 +9,7 @@
 <link>https://ozanozbeker.com/blog/</link>
 <atom:link href="https://ozanozbeker.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Ozan Ozbeker is a data scientist by day &amp; adjunct instructor by some afternoons.</description>
-<generator>quarto-1.7.32</generator>
+<generator>quarto-1.7.33</generator>
 <lastBuildDate>Sat, 05 Jul 2025 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Parameterized Emails with Quarto</title>
