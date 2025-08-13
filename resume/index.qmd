@@ -1,5 +1,5 @@
 ---
-title: "resume"
+title: resume
 format:
   html:
     toc-title: "Sections"
@@ -18,61 +18,121 @@ format:
         icon: envelope
 ---
 
-## summary
+## Summary
 
-I'm a data scientist at [OneMagnify](https://onemagnify.com/), where I lead end-to-end analytics projects for Fortune 500 clients. My work spans data engineering, statistical modeling, and business intelligence—driving impact through insights, infrastructure, and intelligent decision-making. I'm fluent in Python, SQL, & R, and I build systems that transform raw data into results.
+Results-driven Data Scientist with +4 years of experience delivering end-to-end data solutions that drive business impact and client success. Proven track record of transforming manual processes into scalable, automated systems while managing full data stack responsibilities from acquisition through deployment. Combines strong statistical foundation with modern data engineering practices to solve complex business problems. Recognized as a top 5% performer for technical excellence, client leadership, and strategic innovation. Experienced in client-facing roles with demonstrated ability to translate technical solutions into business value.
 
-## experience
+- **Data Science & Analytics**: Statistical modeling, time series analysis, experimental design, predictive analytics, machine learning, forecasting, data visualization
 
-### adjunct instructor
+- **Data Engineering**: Pipeline design and optimization, ETL/ELT processes, data architecture, cloud platforms (GCS & AWS), modern data stack (Polars, DuckDB, Dagster), database management
 
-[West Virginia University](https://www.wvu.edu/) / January 2025 - Present
+- **Technical Leadership**: Full-stack data solutions, process automation, performance optimization, technical mentoring, modernization of legacy systems, cross-functional collaboration
 
-I teach data-focused courses in the Colleges of Engineering and Business, redesigning curriculum to reflect real-world industry practices. See [Teaching](../teaching/index.qmd) for course details.
+- **Client Engagement**: Stakeholder management, technical communication, requirements gathering, solution design, project leadership, business development
 
-### data scientist
+## Experience
 
-[OneMagnify](https://onemagnify.com/) (Previously [Splash Analytics](https://splashanalytics.com/)) / January 2023 - Present
+### Adjunct Instructor
 
-I lead full-scope consulting projects for Fortune 500 clients, especially in aftermarket and e-commerce. My work includes: 
+[West Virginia University](https://www.wvu.edu/) / Morgantown, WV / January 2025 - Present
 
-- Pricing and forecasting models (ARIMA, ETS, XGBoost)  
-- ETL pipelines from cloud and on-prem sources  
-- Web scraping and competitive analytics  
-- Interactive dashboards and HTML-based reporting  
-- Git-based workflows and DevOps standards
+_Lectured & redesigned "IENG 331: Computer Applications in Industrial Engineering" curriculum, modernizing from traditional approach to practical data science and software engineering fundamentals covering Python, SQL, database management, and version control._
 
-### operations leadership development program
+#### Curriculum Development & Technical Education
 
-[Xylem, Inc](https://www.xylem.com/en-us) / July 2021 - December 2022
+- Developed comprehensive teaching materials incorporating industry-standard tools (DuckDB, Git, command line interfaces) to prepare students for modern data-driven roles.
 
-Two cross-functional roles in data analysis and process improvement. Highlights include:  
+- Bridge academic theory with industry practice by teaching statistical concepts alongside practical implementation, emphasizing reproducible research and collaborative development practices.
 
-- $1M+ projected savings from Excess & Obsolete inventory reduction projects  
-- Tableau dashboards for finance and audit teams  
-- SQL-powered automation and reporting tools  
-- Facilitated Lean/CI workshops across multiple sites
+### Data Scientist
 
-### undergraduate teaching assistant
+[OneMagnify](https://onemagnify.com/) / Remote, United States / January 2023 - Present
 
-[West Virginia University](https://www.wvu.edu/) / August 2019 - May 2021
+_Full-stack data scientist serving as data engineer, analyst, consultant, and client success lead across multiple high-impact engagements. Operate with complete autonomy managing technical relationships, project delivery, and strategic solution development for accounts generating $300K+ annual revenue._
 
-Supported instruction for four core courses in systems engineering and project management.
+#### Consulting & Client Engagement
 
-### manufacturing engineer intern
+- Lead technical relationship management as primary point of contact and solution architect for multiple high-value client accounts, consistently achieving 5-star ratings and strong retention. Independently manage client meetings, requirements gathering, and solution design while maintaining fully billable utilization generating approximately $25K monthly revenue.
 
-[JLG Industries](https://www.jlg.com) / June 2019 - August 2019
+- Transform complex business requirements into scalable technical solutions, serving simultaneously as project manager, technical lead, and client success representative. Navigate complex client dynamics and deliver solutions that consistently exceed expectations while building long-term strategic partnerships.
 
-Contributed to quality and process improvements on the manufacturing floor, including 5S audits and SWI development.
+- Develop and deliver custom analytical solutions tailored to specific client needs rather than generalized dashboards, specializing in converting manual processes into automated, repeatable systems that provide sustainable competitive advantages.
 
-## education
+#### Product Leadership & Strategic Innovation
 
-### bachelor of science in industrial engineering
+- Conceptualized and serve as product lead for our Amazon Competitive Intelligence platform, independently designing scalable framework supporting clients with 400-5000+ SKUs. Generated significant internal interest and external traction, with solution presented to clients' leadership and director-level stakeholders for potential enterprise deployment.
 
-[West Virginia University](https://www.wvu.edu/)
+- Built proprietary machine learning sales estimation model using XGBoost to replace third-party dependencies, establishing foundation for new business opportunities while reducing operational costs and increasing data control. Created scalable repository architecture enabling rapid deployment across multiple client engagements.
 
-### certifications
+- Developed comprehensive competitive marketplace reporting combining automated web scraping, real-time monitoring, and predictive analytics. Delivered integrated solutions tracking competitor performance, pricing dynamics, and market trends that directly influence strategic decisions and resource allocation.
 
-- **Lean Six Sigma Green Belt** – Institute of Industrial and Systems Engineers
-- **Continuous Improvement Fundamentals** – Oshkosh Corporation
-- **Eligible for Certified Associate in Project Management (CAPM)** – Project Management Institute
+#### Data Science & Analytics Innovation
+
+- Designed and implemented automated price optimization system incorporating competitive analysis, margin requirements, and marketplace dynamics for client's 100+ Amazon ASINs. Created weekly recommendation models that enabled strategic pricing decisions leading to improved margins while maintaining competitive positioning.
+
+- Redesigned legacy "Engagement Scoring" model serving 23 million customers across US and Canada, completely rebuilding statistical framework and migrating from outdated R/SAS system to modern Python architecture. Achieved 500% performance improvement while adding comprehensive data quality validation, logging, and error handling.
+
+- Developed real-time BuyBox monitoring and competitive analysis systems processing millions of data points monthly, enabling clients to respond rapidly to competitive threats and identify pricing opportunities. Created automated reporting systems delivering actionable insights through both static analysis and and interactive dashboards.
+
+#### Data Engineering & Technical Excellence
+
+- Architected modern data pipelines using medallion architecture principles, consolidating disparate data sources including SFTP, APIs, multiple databases across different VPNs, and cloud storage ito unified lakehouse structure for client engagements and internal projects. Improved data accessibility, processing speed, and system maintainability while reducing technical debt.
+
+- Established comprehensive data engineering standards including Git version control, modern python environment management, automated testing, and reproducible workflows. Led team transition from R to Python ecosystem while maintaining operational continuity and elevating overall technical capabilities.
+
+- Optimized critical data processing workflows by implementing modern DataFrame libraries (Polars) and analytical databases (DuckDB), achieving significant performance improvements while maintaining data quality and system reliability. Created internal Python packages enabling code reuse across multiple projects and team members.
+
+### Operations Leadership Development Program
+
+[Xylem, Inc](https://www.xylem.com/en-us) / Uniontown, PA & Morton Grove, IL / July 2021 - December 2022
+
+_Two-rotation leadership program providing comprehensive exposure to manufacturing operations, business analytics, and process improvement methodologies across multiple production facilities._
+
+#### Rotation 2: Manufacturing Engineer
+
+- Led comprehensive DMAIC project targeting excess and obsolete inventory reduction with projected hard savings of $1-4M over 3-5 years. developed data-driven classification methodology and cross-departmental disposition workflows that addressed both immediate warehouse constraints and long-term inventory optimization strategies. 
+
+- Facilitated organization-wide continuous improvement initiatives including Lean methodology workshops, 5S implementations, FMEA analyses, and statistical process capability studies. Drove cultural transformation towards operational excellence while establishing sustainable improvement processes across multiple manufacturing sites.
+
+- Applied advanced statistical methods including control charts, process capability analysis, and value stream mapping to identify improvement opportunities and establish performance baselines for ongoing monitoring and optimization efforts.
+
+#### Rotation 1: Business Data Analyst
+
+- Architected automated quarterly financial reporting system using SQL databases and advanced Excel automation techniques, achieving 90% process time reduction while ensuring audit compliance and standardization across three manufacturing sites. Created self-service reporting template enabling warehouse managers to maintain consistency without extensive training.
+
+- Redesigned annual physical inventory cycle counting procedures through comprehensive process mapping and statistical sampling methodologies. Reduced event duration by one full workday at two sites while improving accuracy and reducing preparation time for management teams.
+
+- Developed executive-level Tableau dashboards providing real-time visibility into quality metrics, forecasting accuracy, and operational performance indicators. Enabled data-driven decision making for Finance and Quality leadership while establishing sustainable reporting infrastructure for ongoing performance monitoring.
+
+### Undergraduate Teaching Assistant
+
+[West Virginia University](https://www.wvu.edu/) / Morgantown, WV / August 2019 - May 2021
+
+_Supported instruction for four core courses._
+
+- IENG 220: Re-engineering Management Systems
+- IENG 305: Intro to Systems Engineering
+- IENG 331: Computer Applications in Industrial Engineering
+- IENG 445: Project Management for Engineers
+
+### Manufacturing Engineer Intern
+
+[JLG Industries](https://www.jlg.com) / McConnellsburg, PA / June 2019 - August 2019
+
+- Implemented Lean Six Sigma improvements on critical production lines, developing standard work instructions and digital defect tracking systems that reduced variability and improved quality data collection.
+
+- Designed facility layouts using CAD software and statistical analysis, optimizing workflow efficiency and equipment utilization for tire installation processes.
+
+## Education
+
+### Bachelor of Science, Industrial Engineering 
+
+[West Virginia University](https://www.wvu.edu/) / Morgantown, WV / August 2017 - May 2021
+
+### Professional Certifications
+
+- Lean Six Sigma Green Belt – Institute of Industrial and Systems Engineers
+
+- Continuous Improvement Fundamentals – Oshkosh Corporation
+
+- Eligible for Certified Associate in Project Management (CAPM) – Project Management Institute
