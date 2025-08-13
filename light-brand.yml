@@ -10,7 +10,7 @@ color:
     light-gray: "#767676"
     gray: "#494949"
     dark-gray: "#292929"
-    black: "#0F0F0F"
+    black: "#0C0C0C"
     green: "#16302B"
     blue: "#124352"
     pink: "#804A5B"
@@ -28,21 +28,20 @@ color:
 
 typography:
   fonts:
-    - family: Noto Sans Mono
-      source: google
     - family: JetBrains Mono
       source: google
+      weight: [300, 400, 500, 600]
   headings:
-    family: Noto Sans Mono
+    family: JetBrains Mono
     color: black
   base:
-    family: Noto Sans Mono
+    family: JetBrains Mono
+    weight: 400
   monospace: JetBrains Mono
   monospace-inline:
     color: gray
     background-color: black
   monospace-block:
-    color: gray
     background-color: black
   link:
     color: primary
@@ -59,6 +58,6 @@ defaults:
         font-size: 2.5em;
       }
 
-      h1, h2, h3 {
-        font-weight: normal;
+      strong {
+        color: black;
       }

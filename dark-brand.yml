@@ -1,5 +1,5 @@
 meta:
-  name: light-brand.yml
+  name: dark-brand.yml
   link: https://github.com/ozanozbeker/ozanozbeker.github.io/dark-brand.yml
 
 color:
@@ -7,8 +7,8 @@ color:
     gold: "#C0AC78"
     gold-dark: "#A1894B"
     white: "#FFFFFF"
-    light-gray: "#E0E0E0"
-    gray: "#B1B1B1"
+    light-gray: "#C8C8C8"
+    gray: "#D4D4D4"
     dark-gray: "#686868"
     black: "#0C0C0C"
     green: "#16302B"
@@ -18,7 +18,7 @@ color:
   primary: gold
   secondary: white
   background: black
-  foreground: gray
+  foreground: light-gray
   success: green
   info: blue
   warning: pink
@@ -28,21 +28,20 @@ color:
 
 typography:
   fonts:
-    - family: Noto Sans Mono
-      source: google
     - family: JetBrains Mono
       source: google
+      weight: [200, 300, 400, 500, 600]
   headings:
-    family: Noto Sans Mono
+    family: JetBrains Mono
     color: white
   base:
-    family: Noto Sans Mono
+    family: JetBrains Mono
+    weight: 200
   monospace: JetBrains Mono
   monospace-inline:
-    color: gray
+    color: light-gray
     background-color: black
   monospace-block:
-    color: gray
     background-color: black
   link:
     color: primary
@@ -56,9 +55,8 @@ defaults:
       h1.title {
         color: $brand-gold;
         font-weight: lighter;
-        font-size: 2.5em;
       }
 
-      h1, h2, h3 {
-        font-weight: normal;
+      strong {
+        color: $brand-white;
       }
