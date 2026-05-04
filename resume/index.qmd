@@ -21,6 +21,8 @@ format:
         icon: envelope
 ---
 
+## Summary
+
 *Industrial Engineer turned Analytics Engineer running solo on Fortune 500 client engagements.*
 
 I started in operations at Xylem in 2021 and shifted to data within my first year. The shift continued at Splash Analytics in early 2023, a 15-person analytics consultancy that got acquired into OneMagnify shortly after. The senior data scientist I was hired to learn under quit three months in, so the stack I use day to day, Python and Polars, DuckDB, Quarto, Typer for CLIs, FastAPI for services, marimo for internal tools, and a portable four-layer datalake, is one I largely chose and built myself.
@@ -28,6 +30,8 @@ I started in operations at Xylem in 2021 and shifted to data within my first yea
 Day-to-day is solo full-stack data work for two flagship Fortune 500 engagements. I run the standing client cadence, scope new work directly with stakeholders on the call, and own delivery from ingestion through transformation, modeling, dashboards, and reports. Recently joined a 10-person team supporting our largest engagement specifically to productionize what data scientists are prototyping in notebooks.
 
 I am also an adjunct instructor at WVU, teaching the computing course I took as an undergrad.
+
+> This is the long-form version of my resume. The 1-page PDFs (ATS & Human) are in the sidebar.
 
 ## Experience
 
