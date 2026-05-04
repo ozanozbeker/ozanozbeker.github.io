@@ -11,7 +11,8 @@ project:
 
 website:
   title: "Ozan Ozbeker"
-  description: "Ozan Ozbeker is an analytics engineer by day & adjunct instructor by some afternoons."
+  description: "The professional website of Ozan Ozbeker."
+  llms-txt: true
   search: false
   sidebar:
     style: floating
@@ -27,14 +28,12 @@ website:
         text: About Me
       - href: resume/index.qmd
         text: Resume
+      - href: projects/index.qmd
+        text: Projects
       - href: tech-stack/index.qmd
         text: Tech Stack
       - href: teaching/index.qmd
         text: Teaching
-      - href: projects/index.qmd
-        text: Projects
-      - href: blog/index.qmd
-        text: Blog
 
   repo-url: https://github.com/ozanozbeker/ozanozbeker.github.io
   site-url: https://ozanozbeker.com

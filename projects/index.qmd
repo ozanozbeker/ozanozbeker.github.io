@@ -1,7 +1,7 @@
 ---
 title: Projects
 listing:
-  - id: showcase
+  - id: professional
     type: grid
     contents: showcase
     sort: ["date desc", "title desc"]
@@ -19,19 +19,16 @@ listing:
     fields: [title, date, reading-time, description, categories]
 ---
 
-> I've been pretty busy with life lately (teaching, new house, new city, etc.), but I have some stuff in the work I'm excited to share after this summer.
+## Professional
 
+**Work I've shipped on the job.** Names and specifics are abstracted where confidentiality requires it; architecture, decisions, and outcomes are not.
 
-## showcase
-
-Projects demonstrating my expertise across the data stack.
-
-::: {#showcase}
+::: {#professional}
 :::
 
-## personal
+## Personal
 
-Creative and self-driven projects I pursued for fun or personal growth.
+**Things I've built on my own time.** Same standards as my professional work: typed, tested, documented, and shipped.
 
 ::: {#personal}
 :::
