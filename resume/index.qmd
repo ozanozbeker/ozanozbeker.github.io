@@ -156,14 +156,6 @@ Internship covering operational-efficiency and quality-control work across long-
 
 **Bachelor of Science, Industrial Engineering** · West Virginia University, Morgantown, WV · Aug 2017 to May 2021
 
-## Tech Stack
-
-**Daily:** Python (Polars, DuckDB, Typer, marimo, httpx), SQL (DB2, Postgres, SQL Server, DuckDB), Quarto, uv, Ruff, basedpyright, Git, JSON, Parquet, NDJSON, ETL/ELT, REST APIs
-
-**Comfortable:** SQLAlchemy, FastAPI, pydantic, ADBC, Selenium, LightGBM, HTML/CSS, R (Tidyverse), Excel, Power BI, Shiny, Linux, Bash, Tableau, Windows Task Scheduler
-
-**Learning:** Dagster, dbt, dlt
-
 ## Certifications
 
 - Lean Six Sigma Green Belt, Institute of Industrial and Systems Engineers
