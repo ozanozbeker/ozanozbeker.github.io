@@ -16,11 +16,27 @@ author:
 
 This course offers a deep dive into supply chain network design, guiding students through the process of formulating real-world supply chain problems, gathering and validating data, and applying mathematical programming techniques to find optimal solutions. Students will develop basic yet practical Python programming skills to use Gurobi's optimizer. Core topics include facility location, transportation and transshipment models, multi-objective and scenario-based optimization, and sensitivity analysis in the face of uncertainty. Emphasis is placed on the practical implementation of these tools and the communication of results in a managerial context.
 
+## Course Structure
+
+The course is organized into modules that build progressively on one another:
+
+1. **Python for Optimization** — Practical Python skills for data handling and scripting in preparation for optimization tasks.
+2. **Network Design Problems** — Formulating and solving facility location, transportation, and transshipment models.
+3. **Advanced Optimization** — Multi-objective and scenario-based optimization, and sensitivity analysis under uncertainty.
+4. **Solver Tools** — Working with Gurobi alongside Excel Solver, comparing trade-offs in solution quality, run time, and applicability.
+5. **Communication and Teamwork** — Translating model output into managerial recommendations and collaborating across team-based projects.
+
 ## Learning Objectives
 
 Upon successful completion of this course, students will be able to:
 
 1. **Demonstrate Fundamental Python Skills**: Use Python effectively for data handling and basic scripting in preparation for optimization tasks.
-2. **Formulate and Solve Supply Chain Network Problems**: Model and solve facility location, transportation, and other network design challenges using both Gurobi and Excel Solver.
-3. **Evaluate and Compare Optimization Tools**: Interpret results produced by different solvers, comparing solution quality, run times, and applicability in real-world supply chain scenarios.
-4. **Communicate and Collaborate**: Work in teams to analyze data, develop optimization models, and present solution insights and recommendations to stakeholders.
+2. **Formulate Supply Chain Network Problems**: Translate real-world supply chain scenarios into mathematical programming formulations covering facility location, transportation, and transshipment.
+3. **Solve Optimization Models with Gurobi**: Implement and solve network design models using Gurobi's Python interface, interpreting solver output and verifying solution quality.
+4. **Apply Multi-Objective and Scenario-Based Optimization**: Extend baseline models to handle competing objectives and multiple scenarios reflecting real supply chain uncertainty.
+5. **Conduct Sensitivity Analysis**: Test the robustness of models to changes in input data and assumptions, and communicate the implications for decision-making.
+6. **Evaluate and Compare Optimization Tools**: Interpret results produced by different solvers, comparing solution quality, run times, and applicability across Gurobi and Excel Solver.
+7. **Communicate and Collaborate**: Work in teams to analyze data, develop optimization models, and present solution insights and recommendations to stakeholders.
+8. **Engage with Real-World Supply Chain Data**: Develop proficiency in handling diverse, real-world datasets through hands-on projects, preparing for industry or academic pursuits.
+
+These objectives emphasize practical relevance, ensuring students are prepared for analytics-driven roles in supply chain management and operations research.

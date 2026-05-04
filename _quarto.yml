@@ -6,10 +6,12 @@ project:
     watch-inputs: true
     navigate: true
 
+  resources:
+    - "**.pdf"
+
 website:
   title: "Ozan Ozbeker"
-  description: "Ozan Ozbeker is a data scientist by day & adjunct instructor by some afternoons."
-
+  description: "Ozan Ozbeker is an analytics engineer by day & adjunct instructor by some afternoons."
   search: false
   sidebar:
     style: floating
@@ -20,27 +22,25 @@ website:
         href: https://linkedin.com/in/ozanozbeker
       - icon: envelope
         href: mailto:contact@ozanozbeker.com
-      - icon: rss # to setup RSS subscription: https://quarto.org/docs/websites/website-blog.html#subscriptions
-        href: index.xml
     contents:
       - href: about-me/index.qmd
-        text: about me
-      - href: blog/index.qmd
-        text: blog
-      - href: projects/index.qmd
-        text: projects
+        text: About Me
       - href: resume/index.qmd
-        text: resume
-      - href: teaching/index.qmd
-        text: teaching
+        text: Resume
       - href: tech-stack/index.qmd
-        text: tech stack
+        text: Tech Stack
+      - href: teaching/index.qmd
+        text: Teaching
+      - href: projects/index.qmd
+        text: Projects
+      - href: blog/index.qmd
+        text: Blog
 
   repo-url: https://github.com/ozanozbeker/ozanozbeker.github.io
   site-url: https://ozanozbeker.com
 
   page-footer:
-    center: "© 2025 Ozan Ozbeker | [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
+    center: "© 2026 Ozan Ozbeker | [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
 
   favicon: resources/code.svg
   twitter-card: true
@@ -49,7 +49,8 @@ website:
 format:
   html:
     grid:
-      body-width: 800px
+      body-width: 700px
+      gutter-width: 1rem
 
     theme:
       light:

@@ -1,10 +1,5 @@
 ---
-title: blog
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  fields: [title, date, reading-time, description, categories]
-  feed: true
+title: Blog
 ---
+
+> I've been pretty busy with life lately (teaching, new house, new city, etc.), but I'll be starting to write on substack after this summer and this link will take you there.

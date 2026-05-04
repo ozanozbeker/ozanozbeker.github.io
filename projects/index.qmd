@@ -1,5 +1,5 @@
 ---
-title: projects
+title: Projects
 listing:
   - id: showcase
     type: grid
@@ -19,9 +19,12 @@ listing:
     fields: [title, date, reading-time, description, categories]
 ---
 
+> I've been pretty busy with life lately (teaching, new house, new city, etc.), but I have some stuff in the work I'm excited to share after this summer.
+
+
 ## showcase
 
-Projects demonstrating my expertise across various data science technologies and methodologies.
+Projects demonstrating my expertise across the data stack.
 
 ::: {#showcase}
 :::

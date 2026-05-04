@@ -31,15 +31,18 @@ typography:
     - family: JetBrains Mono
       source: google
       weight: [300, 400, 500, 600]
+    - family: Inter
+      source: google
+      weight: [300, 400, 500, 600]
   headings:
     family: JetBrains Mono
     color: black
   base:
-    family: JetBrains Mono
+    family: Inter
     weight: 400
   monospace: JetBrains Mono
   monospace-inline:
-    color: gray
+    color: gold
     background-color: black
   monospace-block:
     background-color: black
@@ -52,12 +55,38 @@ defaults:
     defaults:
       enable-rounded: true
     rules: |
+      body {
+        font-size: 0.9375rem;
+        line-height: 1.625;
+      }
+
       h1.title {
         color: $brand-gold-dark;
         font-weight: lighter;
-        font-size: 2.5em;
+        font-size: 2rem;
       }
+
+      h2 { font-size: 1.5rem; }
+      h3 { font-size: 1.25rem; }
+      h4 { font-size: 1.125rem; }
+      h5 { font-size: 1rem; }
+      h6 { font-size: 1rem; }
 
       strong {
         color: black;
+      }
+
+      .sidebar,
+      .sidebar a,
+      .navbar,
+      .navbar a {
+        font-family: 'JetBrains Mono', monospace;
+      }
+
+      h4, h5, h6 {
+        font-family: 'Inter', sans-serif;
+      }
+
+      h3 {
+        margin-bottom: 0.25rem;
       }

@@ -1,6 +1,6 @@
 ---
-title: "teaching"
-subtitle: "Courses I've taught"
+title: "Teaching"
+subtitle: "Courses I've Taught"
 listing:
   type: table
   contents: courses
@@ -9,7 +9,7 @@ listing:
     - "date"
     - "title"
   sort:
-    - "date"
+    - "date desc"
     - "title"
   date-format: "MMMM YYYY"
   categories: numbered

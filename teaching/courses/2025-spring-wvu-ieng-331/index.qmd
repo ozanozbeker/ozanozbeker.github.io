@@ -16,6 +16,16 @@ author:
 
 This course introduces Industrial Engineering students to the practical application of Python for data analysis, process automation, and visualization, emphasizing real-world relevance and hands-on learning. Through projects and assignments, students will acquire skills to automate workflows, analyze datasets, and create effective data-driven solutions. The curriculum is designed to align with industry needs, fostering technical proficiency and communication skills for future challenges​.
 
+## Course Structure
+
+The course is organized into modules that build progressively on one another:
+
+1. **Python Foundations** — Programming fundamentals, data structures, and control flow.
+2. **Data Workflows** — Automating analytical operations and applying specialized libraries for data cleaning and manipulation.
+3. **Databases** — Connecting to, querying, and managing external datasets from Python.
+4. **Visualization and Communication** — Building effective data visualizations with Plotly to communicate findings to technical and non-technical audiences.
+5. **Professional Practice** — Version control with Git and GitHub, collaboration workflows, and engaging with real-world datasets through hands-on projects.
+
 ## Learning Objectives
 
 Upon successful completion of this course, students will be able to:

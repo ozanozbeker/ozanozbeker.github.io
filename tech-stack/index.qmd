@@ -1,5 +1,37 @@
 ---
-title: "tech stack"
+title: "Tech Stack"
 ---
 
 I like keeping up with new tools and seeing what others are using. I've never seen a tech stack section of someone's website, but maybe it'll start a trend?
+
+### Languages
+
+Python, SQL, R, Bash, HTML/CSS
+
+### Python Libraries
+
+Polars, DuckDB, marimo, httpx, Typer, FastAPI, SQLAlchemy, pydantic, ADBC, Selenium, LightGBM, Shiny
+
+### Databases
+
+DuckDB, PostgreSQL, SQL Server, IBM DB2
+
+### Developer Tools
+
+uv, Ruff, basedpyright, Git
+
+### Data & Formats
+
+Parquet, NDJSON, JSON, REST APIs, ETL/ELT
+
+### Infrastructure
+
+Docker, Linux, Windows Task Scheduler
+
+### Reporting & BI
+
+Quarto, Power BI, Tableau, Excel
+
+### Currently Learning
+
+Dagster, dbt, dlt
