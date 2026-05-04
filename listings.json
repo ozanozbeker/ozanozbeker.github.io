@@ -9,6 +9,10 @@
   },
   {
     "listing": "/projects/index.html",
-    "items": []
+    "items": [
+      "/projects/professional/cw4e.html",
+      "/projects/professional/oxy.html",
+      "/projects/personal/morula.html"
+    ]
   }
 ]

@@ -119,7 +119,7 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Work I’ve shipped on the job. Names and specifics are abstracted where confidentiality requires it; architecture, decisions, and outcomes are not.\n\n\n\n\nNo matching items",
+    "text": "Work I’ve shipped on the job. Names and specifics are abstracted where confidentiality requires it; architecture, decisions, and outcomes are not.\n\n\n\n\n\n\n\n4 min\n\n\nTeaching\n\nPython\n\nSQL\n\nDuckDB\n\nQuarto\n\n\n\n\n\n\n\nJan 15, 2026\n\n\n\n\n\n\n\n\n\n\n4 min\n\n\nPython\n\nCLI\n\nWeb Scraping\n\nDatalake\n\n\n\n\n\n\n\nSep 1, 2025\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Projects"
     ]
@@ -129,7 +129,7 @@
     "href": "projects/index.html#professional",
     "title": "Projects",
     "section": "",
-    "text": "Work I’ve shipped on the job. Names and specifics are abstracted where confidentiality requires it; architecture, decisions, and outcomes are not.\n\n\n\n\nNo matching items",
+    "text": "Work I’ve shipped on the job. Names and specifics are abstracted where confidentiality requires it; architecture, decisions, and outcomes are not.\n\n\n\n\n\n\n\n4 min\n\n\nTeaching\n\nPython\n\nSQL\n\nDuckDB\n\nQuarto\n\n\n\n\n\n\n\nJan 15, 2026\n\n\n\n\n\n\n\n\n\n\n4 min\n\n\nPython\n\nCLI\n\nWeb Scraping\n\nDatalake\n\n\n\n\n\n\n\nSep 1, 2025\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Projects"
     ]
@@ -139,10 +139,80 @@
     "href": "projects/index.html#personal",
     "title": "Projects",
     "section": "Personal",
-    "text": "Personal\nThings I’ve built on my own time. Same standards as my professional work: typed, tested, documented, and shipped.\n\n\n\n\nNo matching items",
+    "text": "Personal\nThings I’ve built on my own time. Same standards as my professional work: typed, tested, documented, and shipped.\n\n\n\n\n\n\n\nmorula\n\n4 min\n\n\nPython\n\nEmail\n\nHTML\n\n\n\n\n\n\n\nApr 15, 2026\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Projects"
     ]
+  },
+  {
+    "objectID": "projects/professional/cw4e.html",
+    "href": "projects/professional/cw4e.html",
+    "title": "Computational Workflows for Engineers (cw4e)",
+    "section": "",
+    "text": "I took IENG 331 as an undergrad, was a TA for it, and came back as the instructor of record in January 2025. The course had been on the books for years but the curriculum was basic Python alone. Students would leave knowing language features without the surrounding context that makes Python actually useful for engineering work. There was no textbook that fit the redesign I had in mind, so I wrote one.\nThe book is also a working artifact for how I think about technical documentation. Every chapter is a runnable Quarto document. Code blocks execute as part of the build. The rendering pipeline is the same Quarto stack I use for client deliverables at OneMagnify. The course doubles as a long-running test case for the documentation discipline I bring to production work. If something is unclear in a chapter, it’s unclear when 75 students hit it the same week, and I find out fast."
+  },
+  {
+    "objectID": "projects/professional/cw4e.html#the-redesign",
+    "href": "projects/professional/cw4e.html#the-redesign",
+    "title": "Computational Workflows for Engineers (cw4e)",
+    "section": "The redesign",
+    "text": "The redesign\nQuarto for everything. One source format, three outputs. HTML book for the web, PDF for students who want offline copies, slides for lecture days, all from the same markdown. Code executes during the build, so any example that ships is an example that ran on the most recent compile.\nModern tooling from day one. uv for environment management instead of Anaconda. Ruff and basedpyright for code quality. DuckDB instead of a hosted SQL server. marimo for the data-heavy chapters. Students leave the course with a working development environment they can keep using, not a sandbox they have to abandon when the semester ends.\nIndustrial engineering students go on to do operations, supply chain, manufacturing, and consulting work. Environments where the boring stuff (reproducibility, dependency management, version control) actually matters more than syntactic depth in any one language feature.\nThe curriculum: basic Python, then advanced Python, then terminals and CLIs, then SQL with DuckDB, then tying it together. The “tying it together” piece is the part most computing courses skip and the part students need most. Knowing Python and knowing SQL is one thing. Knowing how a Python script reads a file, queries a database, and writes a report is the actual job.\nBuilt in the open on GitHub, hosted on the same domain as the rest of my work. No paywall, no LMS, no login. If someone at another university wants to fork it and adapt it for their course, they can. I’d consider that a win.\n\n\n\n\n\n\nNoteBy the numbers\n\n\n\n\nSole instructor of record across two academic years, ~150 students total.\nFree and public at ozanozbeker.com/cw4e.\nSame Quarto pipeline drives the book and my client deliverables. The discipline transfers in both directions."
+  },
+  {
+    "objectID": "projects/professional/cw4e.html#what-i-learned",
+    "href": "projects/professional/cw4e.html#what-i-learned",
+    "title": "Computational Workflows for Engineers (cw4e)",
+    "section": "What I learned",
+    "text": "What I learned\nTeaching the same material to ~75 students at once is the most ruthless documentation review process I’ve ever been through. Stuff that makes sense to me and three colleagues will fall apart against an actual cohort with mixed backgrounds and no incentive to be charitable. Every semester surfaces dozens of small things. An instruction that assumes a step I forgot to mention. An error message that means something different on Windows than on macOS. A paragraph that scans cleanly to me but parses ambiguously to a 19-year-old hitting the concept for the first time. The book is better than my client documentation is, and it’s because the feedback loop is faster and louder.\nThe other thing this clarified. The gap between “knows Python” and “can ship something” is not a Python gap. It’s a tooling, environments, terminals, and version-control gap. Students who fight Python concepts catch up by midterms. Students who don’t have a working dev environment fight every assignment for the whole semester. Front-loading the boring stuff is the single highest-leverage curriculum decision I’ve made."
+  },
+  {
+    "objectID": "projects/personal/morula.html",
+    "href": "projects/personal/morula.html",
+    "title": "morula",
+    "section": "",
+    "text": "NoteStatus\n\n\n\nDesign complete, implementation in progress. The SMTP sending layer this pairs with is already running in production at work as part of an internal package. morula is the body-construction half, being built as a public library on my own time.\nI send a lot of HTML email. Weekly client reports, monthly summaries, ad-hoc notifications. The recipients are on Outlook, which means the renderer is Microsoft Word’s HTML engine, which means most of what you know about modern HTML and CSS does not apply. Tables for layout. Inline styles only. System fonts only. PNG-embedded charts because anything else either won’t render or won’t render reliably.\nI miss blastula. Back when I was writing R, it was the tool I reached for whenever a report needed to go out by email. Composable blocks, sensible defaults, just worked. The Python ecosystem has plenty of email libraries but most of them focus on the sending side, and none of them feel like blastula. So I’m building one. morula is the Python email body builder I wish already existed.\nThe name is a nod. A morula is the embryonic stage that precedes a blastula, which felt right for a smaller, simpler, more upstream library that owes its lineage to the original.\nmorula is also open about its lineage in a more practical sense. blastula is open source under MIT, and I’ve been reading its source directly to understand the table-nesting patterns, the MSO conditional comments, and the rendering choices that took the blastula maintainers years to land on. The Python implementation is mine, the design owes them a real debt, and the docs will say so."
+  },
+  {
+    "objectID": "projects/personal/morula.html#the-design",
+    "href": "projects/personal/morula.html#the-design",
+    "title": "morula",
+    "section": "The design",
+    "text": "The design\nThe architecture follows blastula’s lead. A tested HTML scaffold filled with composable blocks, theme tokens for styling, and rendering helpers for the parts that need to become bytes. The Python-specific pieces are what’s new.\nA Cerberus-derived HTML scaffold saved as a Jinja2 template, with slots for header, body, and footer. Cerberus is the battle-tested table-based pattern that works across email clients. Jinja2 is the engine that fills the slots at runtime. Write the scaffold once, never think about it again.\nEvery section of the email is a Python function that returns an inline-styled HTML fragment. block_text, block_image, block_table, block_plot, block_button. Blocks compose by ordering. The body is a list of block return values.\nA top-level compose_email() function accepts lists of block HTML strings for header, body, and footer, renders them into the scaffold, and returns the final HTML string ready to hand to the sending layer.\nRendering helpers for the unsexy stuff that makes the blocks work. Markdown via markdown-it-py. Image base64 encoding with MIME detection. Plot rasterization (Plotly via kaleido, Altair via vl-convert-python, Matplotlib via its built-in PNG export, all producing PNG bytes that get base64-embedded). Polars DataFrame to inline-styled HTML table, first-class.\nAn EmailStyle dataclass holding design tokens (colors, fonts, spacing, button styling). Pass an instance into compose_email() and every block inherits the same theme. Per-client theming becomes a matter of swapping the style object.\n\n\n\n\n\nflowchart LR\n    A[block_text]\n    B[block_image]\n    C[block_table]\n    D[block_plot]\n    E[EmailStyle]\n    A --&gt; F[compose_email]\n    B --&gt; F\n    C --&gt; F\n    D --&gt; F\n    E --&gt; F\n    F --&gt; G[Jinja2 fills scaffold.html.j2]\n    G --&gt; H[Final HTML string]\n    H --&gt; I[Your sending layer]"
+  },
+  {
+    "objectID": "projects/personal/morula.html#whats-different-in-morula",
+    "href": "projects/personal/morula.html#whats-different-in-morula",
+    "title": "morula",
+    "section": "What’s different in morula",
+    "text": "What’s different in morula\nThree updates to the blastula approach, mostly reflecting how email rendering has shifted over the last decade.\nInline styles from the start. blastula uses a &lt;style&gt; block and counts on email clients to support it. That worked well in 2017. In 2026, full inline is the safer default. Less elegant in the source, more reliable in the inbox.\nNo @media queries. Outlook ignores them anyway. Designing for 600px fixed and letting mobile clients reflow naturally is simpler and avoids the failure modes.\nDataFrame-native table block. blastula was built around general HTML composition. Since most of my email content is “render this DataFrame as a table,” that case deserves to be first-class rather than something I build out of generic blocks."
+  },
+  {
+    "objectID": "projects/personal/morula.html#whats-done-whats-next",
+    "href": "projects/personal/morula.html#whats-done-whats-next",
+    "title": "morula",
+    "section": "What’s done, what’s next",
+    "text": "What’s done, what’s next\nWorking: the architecture decisions above are settled. The SMTP sending layer this pairs with is already in production at work in a separate codebase.\nIn progress: scaffold template, the first few block functions (text, image, table), the EmailStyle dataclass and design-token spec.\nPlanned: plot rasterization helpers, Polars to HTML table renderer, Markdown rendering, public PyPI release once the API is stable enough that I’d be embarrassed to break it.\nWatch the GitHub repo for the eventual release. Feedback on the design above is welcome before I’m too committed to change it."
+  },
+  {
+    "objectID": "projects/professional/oxy.html",
+    "href": "projects/professional/oxy.html",
+    "title": "oxy",
+    "section": "",
+    "text": "The team’s Amazon marketplace data came from a setup that drove a Chrome browser through Selenium, against the Helium 10 chrome-extension UI. Five to eight minutes per scrape, randomized, because Helium 10 was throttling and back-off was the only way to avoid getting flagged. There was a hidden ~100-search daily limit that nobody could find documented anywhere. Chrome version updates would silently break the driver. There was no API, so the weekly and monthly reports built on top of it all required a human to hit play.\nBy the time it landed on me, the system was failing weekly. Reports going out late. The team spending real hours per week firefighting a tool that was supposed to be invisible. So I went looking for an alternative, found Oxylabs (HTTP API, 50 requests per second, no browser, no bot-detection arms race), and built the replacement."
+  },
+  {
+    "objectID": "projects/professional/oxy.html#the-cli",
+    "href": "projects/professional/oxy.html#the-cli",
+    "title": "oxy",
+    "section": "The CLI",
+    "text": "The CLI\noxy is async over httpx, hits Oxylabs at the rate-limit ceiling, and runs as a single Typer-based CLI with two namespaces. oxy scrape for the API endpoints, oxy build for datalake operations. Defaults baked into the commands. Project-specific overrides live in YAML configs that the CLI loads with one flag.\nIt started as functions imported from a Python module, the way most internal tools do. After the third project where I was reconfiguring the same scripts I gave up and built the CLI properly. Installed once as a uv tool, runs from any project’s .bat file under Windows Task Scheduler."
+  },
+  {
+    "objectID": "projects/professional/oxy.html#the-datalake",
+    "href": "projects/professional/oxy.html#the-datalake",
+    "title": "oxy",
+    "section": "The datalake",
+    "text": "The datalake\noxy needed somewhere to put the data and the team didn’t have a shared layer for it, so I designed one. Four layers, all on a Windows network share, all in formats that move cleanly to S3 or GCS when company-wide cloud access lands.\n\n\n\n\n\nflowchart TD\n    A[Windows Task Scheduler] --&gt; B[.bat file per pipeline]\n    B --&gt; C[\"oxy scrape --config project.yml\"]\n    C --&gt;|async httpx, Oxylabs API| D[Raw: JSON, preserved verbatim]\n    D --&gt; E[\"oxy build --config project.yml\"]\n    E --&gt; F[Processed: Parquet per table per scrape]\n    F --&gt; G[Model: joined, conformed, query-ready]\n    G --&gt; H[Reports, Shiny apps, ad-hoc analyses]\n\n\n\n\n\n\nRaw is JSON keyed by scrape ID. Processed is Parquet, one file per logical table per scrape (NDJSON for append-heavy logs). Model is the joined, conformed analytics layer that downstream reports query directly. Mart is reserved for future presentation aggregates. About 4 GB of compressed Parquet in the model layer today, growing weekly.\nThe architectural point at this scale is that Polars and DuckDB are the right tools. Not Spark, not a warehouse. Free OSS tooling does the job, and the layout is portable, so when GCP access becomes available the migration is a copy operation, not a rewrite.\n\n\n\n\n\n\nNoteBy the numbers\n\n\n\n\nPer-scrape: 5 to 8 minutes down to ~50 ms.\nBulk workloads: ~5 days down to ~5 minutes.\nCurrently ~20,000 scrapes per month, fully unattended, across 5 projects for 2 client engagements.\nDaily-limit ceiling: gone. Chrome-version-update breakage: gone.\n\n\n\nIf I were doing this at a larger company I’d split the scrape and datalake namespaces into separate tools. At our team’s size, one tool was the right answer. The package owns the Oxylabs response schema and the datalake layout that depends on it, so schema changes are atomic.\nThe bigger lesson was about scope. The right time to build a CLI is the third project where you’re reconfiguring the same scripts. Earlier and you’re guessing at requirements. Later and you’ve already paid the cost the CLI was supposed to save you. The right time to swap browser automation for an HTTP API is when an HTTP API exists. I should have looked sooner."
   },
   {
     "objectID": "resume/index.html",
