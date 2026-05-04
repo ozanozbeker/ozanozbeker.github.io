@@ -1,19 +1,14 @@
 [
   {
-    "listing": "/projects/index.html",
-    "items": []
-  },
-  {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/posts/parameterized-emails-with-quarto/index.html"
-    ]
-  },
-  {
     "listing": "/teaching/index.html",
     "items": [
+      "/teaching/courses/2026-spring-wvu-ieng-331/index.html",
       "/teaching/courses/2025-spring-wvu-gscm-425/index.html",
       "/teaching/courses/2025-spring-wvu-ieng-331/index.html"
     ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": []
   }
 ]

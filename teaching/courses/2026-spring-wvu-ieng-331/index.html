@@ -2,15 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Ozan Ozbeker">
-<meta name="dcterms.date" content="2025-07-05">
-<meta name="description" content="Sending static emails with reactive artifacts, powered by Quarto &amp; Python.">
+<meta name="author" content="Mr.&nbsp;Ozan Ozbeker">
+<meta name="dcterms.date" content="2026-01-12">
+<meta name="description" content="Introduction to computer applications in industrial engineering: emphasis on system design and analysis and the role of computers in productivity improvement.">
 
-<title>Parameterized Emails with Quarto – Ozan Ozbeker</title>
+<title>WVU IENG 331 – Ozan Ozbeker</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,18 +32,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-540fbd43b50a879bb55c430ca1f86494.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-472ce291a2a0c3ec2a8401e975c17f4c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-540fbd43b50a879bb55c430ca1f86494.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-9fa6dbbe6219e357c3a17d5a2c09c803.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d2800b5aef52857891e752670e942548.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-9fa6dbbe6219e357c3a17d5a2c09c803.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-9aefb846ef114ccf15131675cf8fddc2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-4e009c2bb3eeb8ea95876531f21c1d77.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../site_libs/bootstrap/bootstrap-9aefb846ef114ccf15131675cf8fddc2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-6cc2bab1deddaf4180ec351bbf3d8b3e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-a486dcf5cfdcd48efe706e42e1c7f4ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-6cc2bab1deddaf4180ec351bbf3d8b3e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -62,11 +63,11 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<meta property="og:title" content="Parameterized Emails with Quarto – Ozan Ozbeker">
-<meta property="og:description" content="Sending static emails with reactive artifacts, powered by Quarto &amp; Python.">
+<meta property="og:title" content="WVU IENG 331 – Ozan Ozbeker">
+<meta property="og:description" content="Introduction to computer applications in industrial engineering: emphasis on system design and analysis and the role of computers in productivity improvement.">
 <meta property="og:site_name" content="Ozan Ozbeker">
-<meta name="twitter:title" content="Parameterized Emails with Quarto – Ozan Ozbeker">
-<meta name="twitter:description" content="Sending static emails with reactive artifacts, powered by Quarto &amp; Python.">
+<meta name="twitter:title" content="WVU IENG 331 – Ozan Ozbeker">
+<meta name="twitter:description" content="Introduction to computer applications in industrial engineering: emphasis on system design and analysis and the role of computers in productivity improvement.">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -269,7 +270,6 @@ ul.task-list li input[type="checkbox"] {
     <a href="https://github.com/ozanozbeker" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
     <a href="https://linkedin.com/in/ozanozbeker" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
     <a href="mailto:contact@ozanozbeker.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
-    <a href="../../../index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -279,37 +279,37 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../about-me/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">about me</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../blog/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">blog</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../projects/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">projects</span></a>
+ <span class="menu-text">About Me</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../resume/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">resume</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../teaching/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">teaching</span></a>
+ <span class="menu-text">Resume</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../tech-stack/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">tech stack</span></a>
+ <span class="menu-text">Tech Stack</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../teaching/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Teaching</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../projects/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Projects</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../blog/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Blog</span></a>
   </div>
 </li>
     </ul>
@@ -317,8 +317,16 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#course-description" id="toc-course-description" class="nav-link active" data-scroll-target="#course-description">Course Description</a></li>
+  <li><a href="#course-structure" id="toc-course-structure" class="nav-link" data-scroll-target="#course-structure">Course Structure</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -326,34 +334,48 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Parameterized Emails with Quarto</h1>
+<h1 class="title">WVU IENG 331</h1>
+<p class="subtitle lead">Spring 2026: Computer Applications in Industrial Engineering</p>
   <div class="quarto-categories">
-    <div class="quarto-category">quarto</div>
-    <div class="quarto-category">python</div>
-    <div class="quarto-category">reporting</div>
+    <div class="quarto-category">Data Analysis</div>
+    <div class="quarto-category">SQL</div>
+    <div class="quarto-category">Python</div>
+    <div class="quarto-category">Polars</div>
+    <div class="quarto-category">Altair</div>
+    <div class="quarto-category">Quarto</div>
+    <div class="quarto-category">Git</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Sending static emails with reactive artifacts, powered by Quarto &amp; Python.
+    Introduction to computer applications in industrial engineering: emphasis on system design and analysis and the role of computers in productivity improvement.
   </div>
 </div>
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Mr.&nbsp;Ozan Ozbeker <a href="mailto:ozan.ozbeker@mail.wvu.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://imse.statler.wvu.edu/">
+            Industrial and Management Systems Engineering
+            </a>
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Ozan Ozbeker </p>
-          </div>
-  </div>
-    
+      
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 5, 2025</p>
+      <p class="date">January 12, 2026</p>
     </div>
   </div>
   
@@ -365,8 +387,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="course-description" class="level2">
+<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
+<p>This course teaches Industrial Engineering students how to build data products using SQL, Python, and professional development tools. Rather than treating programming as a collection of one-off scripts, the curriculum emphasizes the construction of reliable, maintainable, and reproducible data systems that mirror real-world engineering practice. Students progress from foundational computing concepts through database querying, Python programming, and ultimately to building end-to-end data products that connect databases, analyze and visualize data, and ship as polished documents or command-line tools. The course follows the open textbook <a href="https://ozanozbeker.com/cw4e/"><em>Computational Workflows for Engineers</em> (CW4E)</a>.</p>
+</section>
+<section id="course-structure" class="level2">
+<h2 class="anchored" data-anchor-id="course-structure">Course Structure</h2>
+<p>The course is organized into four units that build progressively on one another:</p>
+<ol type="1">
+<li><strong>The Professional Toolkit</strong> — Computer fundamentals, file systems, document authoring with Quarto, the command line, version control with Git, and collaboration with GitHub.</li>
+<li><strong>Data with SQL</strong> — Databases, querying data, joining tables, analytical SQL, and data modeling.</li>
+<li><strong>Python</strong> — Fundamentals, collections, control flow, functions and modules, working with files, objects and type hints, project structure, and code quality tooling.</li>
+<li><strong>Building Data Products</strong> — Connecting Python to databases, DataFrames with Polars, data visualization with Altair, working with Excel, computational documents, Arrow and ADBC connectivity, and CLI tools with Typer.</li>
+</ol>
+</section>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
+<p>Upon successful completion of this course, students will be able to:</p>
+<ol type="1">
+<li><strong>Navigate the Professional Toolkit:</strong> Use the file system, command line, and Git/GitHub fluently to manage code and collaborate on engineering work.</li>
+<li><strong>Author Reproducible Documents:</strong> Produce polished technical reports and computational documents using Quarto that integrate prose, code, and results.</li>
+<li><strong>Query and Model Data with SQL:</strong> Write analytical SQL — including joins, aggregations, and window functions — against relational databases, and reason about how data is modeled and stored.</li>
+<li><strong>Program in Python:</strong> Apply Python fundamentals, collections, control flow, and functions to solve engineering problems, and structure code into well-organized projects with type hints and modern code quality tooling.</li>
+<li><strong>Build Data Products:</strong> Connect Python to databases, transform data with Polars DataFrames, and create effective visualizations with Altair to communicate findings to technical and non-technical audiences.</li>
+<li><strong>Integrate Familiar Tools:</strong> Read from and write to Excel programmatically, and move data efficiently between systems using Arrow and ADBC.</li>
+<li><strong>Ship Engineering Tools:</strong> Package analyses as command-line tools with Typer so that workflows are repeatable, shareable, and usable beyond a single notebook.</li>
+<li><strong>Engage with Real-World Data:</strong> Develop proficiency in handling diverse, real-world datasets through hands-on projects, preparing for industry or academic pursuits.</li>
+</ol>
+<p>These objectives align with ABET-defined Student Outcomes, fostering critical skills in problem-solving, communication, teamwork, and lifelong learning. The emphasis on building durable data products — rather than disposable scripts — prepares students for the computational realities of modern industrial engineering practice.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -433,13 +484,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -795,7 +847,7 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© 2025 Ozan Ozbeker | <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></p>
+<p>© 2026 Ozan Ozbeker | <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></p>
 </div>
     <div class="nav-footer-right">
       &nbsp;
