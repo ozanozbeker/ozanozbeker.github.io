@@ -3,7 +3,7 @@ title: Projects
 listing:
   - id: professional
     type: grid
-    contents: showcase
+    contents: professional
     sort: ["date desc", "title desc"]
     sort-ui: false
     filter-ui: false
