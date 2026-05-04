@@ -317,14 +317,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#languages" id="toc-languages" class="nav-link active" data-scroll-target="#languages">Languages</a></li>
-  <li><a href="#python-libraries" id="toc-python-libraries" class="nav-link" data-scroll-target="#python-libraries">Python Libraries</a></li>
+  <li><a href="#the-data-stack" id="toc-the-data-stack" class="nav-link active" data-scroll-target="#the-data-stack">The Data Stack</a></li>
+  <li><a href="#building-code-quality-shipping" id="toc-building-code-quality-shipping" class="nav-link" data-scroll-target="#building-code-quality-shipping">Building, Code Quality, &amp; Shipping</a></li>
+  <li><a href="#reporting-and-reproducibility" id="toc-reporting-and-reproducibility" class="nav-link" data-scroll-target="#reporting-and-reproducibility">Reporting and Reproducibility</a></li>
   <li><a href="#databases" id="toc-databases" class="nav-link" data-scroll-target="#databases">Databases</a></li>
-  <li><a href="#developer-tools" id="toc-developer-tools" class="nav-link" data-scroll-target="#developer-tools">Developer Tools</a></li>
-  <li><a href="#data-formats" id="toc-data-formats" class="nav-link" data-scroll-target="#data-formats">Data &amp; Formats</a></li>
-  <li><a href="#infrastructure" id="toc-infrastructure" class="nav-link" data-scroll-target="#infrastructure">Infrastructure</a></li>
-  <li><a href="#reporting-bi" id="toc-reporting-bi" class="nav-link" data-scroll-target="#reporting-bi">Reporting &amp; BI</a></li>
-  <li><a href="#currently-learning" id="toc-currently-learning" class="nav-link" data-scroll-target="#currently-learning">Currently Learning</a></li>
+  <li><a href="#supporting-cast" id="toc-supporting-cast" class="nav-link" data-scroll-target="#supporting-cast">Supporting Cast</a></li>
+  <li><a href="#currently-learning" id="toc-currently-learning" class="nav-link" data-scroll-target="#currently-learning">Currently Learning</a>
+  <ul class="collapse">
+  <li><a href="#outside-the-data-realm" id="toc-outside-the-data-realm" class="nav-link" data-scroll-target="#outside-the-data-realm">Outside the data realm</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -351,40 +352,72 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I like keeping up with new tools and seeing what others are using. I’ve never seen a tech stack section of someone’s website, but maybe it’ll start a trend?</p>
-<section id="languages" class="level3">
-<h3 class="anchored" data-anchor-id="languages">Languages</h3>
-<p>Python, SQL, R, Bash, HTML/CSS</p>
+<p>These are the tools I actually use, with notes on why. Updated when something changes.</p>
+<section id="the-data-stack" class="level2">
+<h2 class="anchored" data-anchor-id="the-data-stack">The Data Stack</h2>
+<p>Most of my work flows through Python and <a href="https://pola.rs/">Polars</a>, with <a href="https://parquet.apache.org/">Parquet</a> as my storage format and <a href="https://arrow.apache.org/adbc/">ADBC</a> as the database bridge (<a href="https://columnar.tech/dbc/"><code>dbc</code></a> shout-out). <a href="https://arrow.apache.org/">Arrow</a> and ADBC are the foundation under most of the tools I reach for. I’m a user, not a database or systems engineer, but the experience as a user is excellent: column-oriented, fast pulls from sources, and direct compatibility with Polars frames and Parquet files. It just works, and it works fast.</p>
+<p>Polars is my DataFrame tool of choice. I came from <a href="https://dplyr.tidyverse.org/">dplyr</a> in R (my original GOAT), and Polars feels like something between dplyr and SQL. Method chaining clicks in my head, and lazy frames with <code>sink_*</code> methods are memory-efficient in a way that scales past what fits in RAM. The thing I most like about the Polars API over dplyr is how <code>pl.col()</code> explicitly states what column you mean. dplyr mixes helper functions and bare-name references, which gets awkward once you start writing functions around it. I also find it easier to build method chains off an object than to remember which package each function came from, but that’s personal preference.</p>
+<p>I still reach for <a href="https://duckdb.org/">DuckDB</a> at the command line. For 99% of use cases I find Polars and DuckDB neck and neck for performance, I just prefer writing Polars. Both are heavy hitters and either can do the job well. Storing analytical data as Parquet is what makes them interchangeable: a teammate who prefers Python, Polars, <a href="https://pandas.pydata.org/">pandas</a>, or SQL can all work against the same files without conversion. I’m interested in learning more about <a href="https://ducklake.select">ducklake</a> in the future.</p>
+<p>A couple of libraries make the Python side of this stack feel even more solid: <a href="https://github.com/Quantco/dataframely">dataframely</a> for tabular validation. I haven’t used <a href="https://pandera.readthedocs.io/">pandera</a> much, but my impression is most of its features are pandas-only right now. dataframely is Polars-native and handles cross-table validation, like the kind you’d get from foreign-key constraints in a database, but on flat files. The maintainers (QuantCo) clearly care about the project, which I appreciate. I’ve also tried out <a href="https://docs.pydantic.dev/latest/">Pydantic</a>, but honestly for what I do, Python’s own dataclasses fills the void. Now, <a href="https://docs.pydantic.dev/latest/">Pydantic Settings</a> I’m a huge fan of.</p>
+<p><a href="https://dlthub.com/">dlt</a> for ingestion. I’m new to it but already impressed by the use case: cleaning nested, inconsistently-shaped JSON (Oxylabs responses are a great example) and handling schema evolution gracefully. Schema evolution is something I manage “by hand”, usually by registry-timestamped functions, but I’m excited to learn more about how dlt works in this regard.</p>
+<p>The center of all of this is <a href="https://marimo.io/">marimo</a>, the new notebook on the block. The UI is what stood out to me first, plus the <a href="https://docs.astral.sh/uv/">uv</a> and <a href="https://docs.astral.sh/ruff/">Ruff</a> compatibility is phenomenal. The fact that notebooks save as plain Python files, that you can build internal tools out of them, that execution is reactive, and that the UI keeps getting better. It’s an honest pleasure to work in. You can tell the team behind it really cares about their work. (That’s a recurring theme in my picks: I gravitate toward tools whose maintainers are clearly thoughtful about what they’re building. Not a knock on others, just where I land.)</p>
 </section>
-<section id="python-libraries" class="level3">
-<h3 class="anchored" data-anchor-id="python-libraries">Python Libraries</h3>
-<p>Polars, DuckDB, marimo, httpx, Typer, FastAPI, SQLAlchemy, pydantic, ADBC, Selenium, LightGBM, Shiny</p>
+<section id="building-code-quality-shipping" class="level2">
+<h2 class="anchored" data-anchor-id="building-code-quality-shipping">Building, Code Quality, &amp; Shipping</h2>
+<p>At the heart of this is <a href="https://zed.dev/">Zed</a>, another new editor on the block that’s lightweight and super snappy. Zed comes configured with Ruff and <a href="https://docs.basedpyright.com/">basedpyright</a> (which are also my tools of choice), and dropping in your config TOML files per project is a breeze. I’m not going to name any other editors, the speed and cleanliness of Zed has made it easily my go-to for scripts and production code, and I go back to marimo for exploration and data-heavy work. Both can use the same <code>ruff.toml</code> (and maybe <code>ty.toml</code> in my near future), so they play along with each other very well.</p>
+<p>basedpyright is my choice because it’s the default in Zed, which is how it ended up in my stack. I’m interested in trying <a href="https://github.com/astral-sh/ty">ty</a> and <a href="https://pyrefly.org/">pyrefly</a> when I get a chance, but basedpyright works well enough that the upgrade hasn’t been a priority.</p>
+<p>uv handles project, dependency, and Python-version management. The speed alone makes it worth the switch and the PEP-based defaults and the <code>[project.scripts]</code> block in <code>pyproject.toml</code> are why it’s stuck. Defining script entry points in <code>pyproject.toml</code> means a fresh teammate can clone a repo, run <code>uv sync</code>, and have working CLI commands without me writing setup docs.</p>
+<p>Most of my work eventually needs to run unattended, which where I work means Windows Task Scheduler kicking off <code>.bat</code> files. One <code>.bat</code> file per pipeline, each calling a defined entry point, so every pipeline is a named, importable, runnable unit rather than a folder of loose scripts. That’s a big part of why I’ve been building CLIs around my work.</p>
+<p><a href="https://typer.tiangolo.com/">Typer</a> is my CLI framework of choice. It’s a sister project to FastAPI, sharing the same type-hint-driven philosophy. I prefer using type hinting wherever I can in production code, and Typer is built around it.</p>
+<p>Speaking of sister projects, I’ve been delving into <a href="https://fastapi.tiangolo.com/">FastAPI</a> as we try to move some of our models and functions to be services. I like it for the same reasons as Typer, plus the docs between the two packages are wonderful.</p>
+<p>Git for version control, GitHub for hosting (personal) and GitLab at work. No surprises here.</p>
 </section>
-<section id="databases" class="level3">
-<h3 class="anchored" data-anchor-id="databases">Databases</h3>
-<p>DuckDB, PostgreSQL, SQL Server, IBM DB2</p>
+<section id="reporting-and-reproducibility" class="level2">
+<h2 class="anchored" data-anchor-id="reporting-and-reproducibility">Reporting and Reproducibility</h2>
+<p><a href="https://quarto.org/">Quarto</a> is the centerpiece. It renders this website, my client-facing reports, and a free public textbook for the course I teach (with hopes for more books down the line). One tool, three very different outputs, all from plain markdown with code that executes during rendering. Writing once and rendering as a webpage, a PDF, and a slide deck saves real time.</p>
+<p>For charts and tables, I lean on a few different libraries depending on the use-case:</p>
+<ul>
+<li><a href="https://plotly.com/python/">Plotly</a> looks the nicest and is the default in Shiny, but it’s too heavy for Quarto HTML files I’m sending over email.</li>
+<li><a href="https://altair-viz.github.io/">Altair</a> fills that gap. It’s easy to write, has great built-in interactivity in marimo (assuming the data isn’t huge), and stays light enough for embedded HTML.</li>
+<li><a href="https://plotnine.org/">Plotnine</a> and <a href="https://posit-dev.github.io/great-tables/">great-tables</a> (shout out Posit) are my go-tos for flat charts and tables, especially in email-friendly reports.</li>
+<li><a href="https://machow.github.io/reactable-py/">py-reactable</a> for interactive HTML tables when I need them, though sending HTML-with-JavaScript files through Outlook has been hit-or-miss for me. I haven’t tracked down the root cause, I just pick the best tool for the job.</li>
+</ul>
+<p>I work in whatever the client uses. Quarto reports with figures and tables are my preference for summaries and daily/weekly/monthly cadence. Excel and CSV are the way when the client wants larger or raw data, which is most business people most of the time. I’m not a fan of any of the dashboarding services in particular, but if a client is on Tableau or Power BI, I’m on Tableau or Power BI. <a href="https://shiny.posit.co/">Shiny</a> (Python and R) is what I reach for when interactive exploration is part of the deliverable.</p>
 </section>
-<section id="developer-tools" class="level3">
-<h3 class="anchored" data-anchor-id="developer-tools">Developer Tools</h3>
-<p>uv, Ruff, basedpyright, Git</p>
+<section id="databases" class="level2">
+<h2 class="anchored" data-anchor-id="databases">Databases</h2>
+<p><a href="https://www.postgresql.org/">PostgreSQL</a> can do it all, but rarely do you actually have a choice in the matter. Most of my work has been against <a href="https://www.microsoft.com/en-us/sql-server">SQL Server</a>, <a href="https://www.ibm.com/products/db2">IBM DB2</a>, and <a href="https://www.sap.com/products/technology-platform/hana.html">SAP HANA</a>, all of which exist because someone made a corporate-purchasing decision a decade ago and the data hasn’t moved since. They each have their quirks. PostgreSQL is the exception. PostgreSQL can do no wrong.</p>
+<p>DuckDB I covered above, it’s my local default.</p>
 </section>
-<section id="data-formats" class="level3">
-<h3 class="anchored" data-anchor-id="data-formats">Data &amp; Formats</h3>
-<p>Parquet, NDJSON, JSON, REST APIs, ETL/ELT</p>
+<section id="supporting-cast" class="level2">
+<h2 class="anchored" data-anchor-id="supporting-cast">Supporting Cast</h2>
+<p><a href="https://www.python-httpx.org/">httpx</a> is my HTTP client of choice. Async-first, requests-compatible API, and the HTTP client I reach for whenever something needs to hit an API at scale.</p>
+<p><a href="https://lightgbm.readthedocs.io/">LightGBM</a> when modeling is the answer. Tabular data, native categorical support, fast to train, and well-supported in Python. I’ve used it to train an in-house tabular model that replaced a third-party SaaS dependency at work.</p>
+<p><a href="https://www.sqlalchemy.org/">SQLAlchemy</a> when ADBC doesn’t have a driver. I don’t build web apps so I don’t really have a use for ORMs. My preferred pattern is raw SQL files loaded into Python and executed with Arrow via <code>from adbc_driver_manager import dbapi</code>. SQLAlchemy is the fallback for private databases like DB2 where ADBC coverage is thinner.</p>
+<p><a href="https://www.selenium.dev/">Selenium</a> when an API doesn’t exist and a browser has to be in the loop. Less and less of my work goes through it now that I’ve moved most of my browser-automation work over to async HTTP clients, but it’s still in the toolbox.</p>
+<p>Linux and Bash are the operating environment. WSL on my work Windows machine, native Linux on my home server, and bash scripts whenever something needs to glue tools together.</p>
+<p><a href="https://www.docker.com/">Docker</a> when I need to package something for deployment, but not daily. Most of what I ship runs as scripts, packages, or Quarto documents that don’t need containerization.</p>
 </section>
-<section id="infrastructure" class="level3">
-<h3 class="anchored" data-anchor-id="infrastructure">Infrastructure</h3>
-<p>Docker, Linux, Windows Task Scheduler</p>
-</section>
-<section id="reporting-bi" class="level3">
-<h3 class="anchored" data-anchor-id="reporting-bi">Reporting &amp; BI</h3>
-<p>Quarto, Power BI, Tableau, Excel</p>
-</section>
-<section id="currently-learning" class="level3">
-<h3 class="anchored" data-anchor-id="currently-learning">Currently Learning</h3>
-<p>Dagster, dbt, dlt</p>
+<section id="currently-learning" class="level2">
+<h2 class="anchored" data-anchor-id="currently-learning">Currently Learning</h2>
+<p><a href="https://dagster.io/">Dagster</a> and <a href="https://www.getdbt.com/">dbt</a>, with dlt covered above. Together they’re the declarative side of the modern data stack: Dagster for orchestration, dbt for transformations, dlt for ingestion. I’ve prototyped Dagster at work but haven’t shipped it, dbt I’m working through Fundamentals, dlt is the one that’s clicked fastest because the use case is one I run into all the time (nested JSON cleanup).</p>
+<p>I’ll have more to say about each as I get more reps in.</p>
+<section id="outside-the-data-realm" class="level3">
+<h3 class="anchored" data-anchor-id="outside-the-data-realm">Outside the data realm</h3>
+<p>I’m interested in the rest of the engineering stack too: dev ops, backend engineering, systems work. Not because I want to switch tracks. The way playing guitar helped me learn piano, picking up the surrounding stack helps me think more clearly about the data work. I’m aiming to be a full-stack data scientist, and full-stack means getting comfortable wearing more than one hat.</p>
+<p>A few things I’m actively working through:</p>
+<ul>
+<li><a href="https://www.boot.dev/">boot.dev</a> for structured curriculum, currently working through the Backend and DevOps tracks. Go, Docker, Linux, HTTP, networking, and CI/CD are the through-lines.</li>
+<li>Self-hosting on a home server: Ubuntu under the hood, Docker Compose for the apps, with a slowly-growing list of services (Home Assistant, dashboards, a Quarto-rendered version of this website as the test case before it goes live).</li>
+<li>Working through technical books on my own time. Linux and the shell, database management, advanced Python, data engineering, and machine learning.</li>
+<li><a href="https://cloud.google.com/">Google Cloud Platform</a> at work, where my largest engagement runs. Mostly observing as the team gets credentialed in, but the credentials are coming.</li>
+<li>Logging and observability with <a href="https://prometheus.io/">Prometheus</a> and similar tools. I’m not running them in production yet but I’m reading and prototyping.</li>
+</ul>
+<p>None of this is to claim I’m a backend engineer or a sysadmin. It’s to say the data work I do sits on top of these layers, and understanding the layers makes the work better.</p>
+<p>Also, I’m really trying to get back into the guitar. Those bad boys have been hanging on the wall for too long.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
