@@ -1,0 +1,59 @@
+# WVU IENG 331
+
+Spring 2026: Computer Applications in Industrial Engineering
+
+Data Analysis
+
+SQL
+
+Python
+
+Polars
+
+Altair
+
+Quarto
+
+Git
+
+Introduction to computer applications in industrial engineering: emphasis on system design and analysis and the role of computers in productivity improvement.
+
+Author
+
+Affiliation
+
+Mr. Ozan Ozbeker [](mailto:ozan.ozbeker@mail.wvu.edu)
+
+[Industrial and Management Systems Engineering](https://imse.statler.wvu.edu/)
+
+Published
+
+January 12, 2026
+
+## Course Description
+
+This course teaches Industrial Engineering students how to build data products using SQL, Python, and professional development tools. Rather than treating programming as a collection of one-off scripts, the curriculum emphasizes the construction of reliable, maintainable, and reproducible data systems that mirror real-world engineering practice. Students progress from foundational computing concepts through database querying, Python programming, and ultimately to building end-to-end data products that connect databases, analyze and visualize data, and ship as polished documents or command-line tools. The course follows the open textbook [*Computational Workflows for Engineers* (CW4E)](https://ozanozbeker.com/cw4e/).
+
+## Course Structure
+
+The course is organized into four units that build progressively on one another:
+
+1.  **The Professional Toolkit** — Computer fundamentals, file systems, document authoring with Quarto, the command line, version control with Git, and collaboration with GitHub.
+2.  **Data with SQL** — Databases, querying data, joining tables, analytical SQL, and data modeling.
+3.  **Python** — Fundamentals, collections, control flow, functions and modules, working with files, objects and type hints, project structure, and code quality tooling.
+4.  **Building Data Products** — Connecting Python to databases, DataFrames with Polars, data visualization with Altair, working with Excel, computational documents, Arrow and ADBC connectivity, and CLI tools with Typer.
+
+## Learning Objectives
+
+Upon successful completion of this course, students will be able to:
+
+1.  **Navigate the Professional Toolkit:** Use the file system, command line, and Git/GitHub fluently to manage code and collaborate on engineering work.
+2.  **Author Reproducible Documents:** Produce polished technical reports and computational documents using Quarto that integrate prose, code, and results.
+3.  **Query and Model Data with SQL:** Write analytical SQL — including joins, aggregations, and window functions — against relational databases, and reason about how data is modeled and stored.
+4.  **Program in Python:** Apply Python fundamentals, collections, control flow, and functions to solve engineering problems, and structure code into well-organized projects with type hints and modern code quality tooling.
+5.  **Build Data Products:** Connect Python to databases, transform data with Polars DataFrames, and create effective visualizations with Altair to communicate findings to technical and non-technical audiences.
+6.  **Integrate Familiar Tools:** Read from and write to Excel programmatically, and move data efficiently between systems using Arrow and ADBC.
+7.  **Ship Engineering Tools:** Package analyses as command-line tools with Typer so that workflows are repeatable, shareable, and usable beyond a single notebook.
+8.  **Engage with Real-World Data:** Develop proficiency in handling diverse, real-world datasets through hands-on projects, preparing for industry or academic pursuits.
+
+These objectives align with ABET-defined Student Outcomes, fostering critical skills in problem-solving, communication, teamwork, and lifelong learning. The emphasis on building durable data products — rather than disposable scripts — prepares students for the computational realities of modern industrial engineering practice.

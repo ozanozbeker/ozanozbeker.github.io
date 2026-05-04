@@ -1,0 +1,54 @@
+# WVU IENG 331
+
+Spring 2025: Computer Applications in Industrial Engineering
+
+Data Analysis
+
+Python
+
+Polars
+
+Plotly
+
+Introduction to computer applications in industrial engineering: emphasis on system design and analysis and the role of computers in productivity improvement.
+
+Author
+
+Affiliation
+
+Mr. Ozan Ozbeker [](mailto:ozan.ozbeker@mail.wvu.edu)
+
+[Industrial and Management Systems Engineering](https://imse.statler.wvu.edu/)
+
+Published
+
+January 13, 2025
+
+## Course Description
+
+This course introduces Industrial Engineering students to the practical application of Python for data analysis, process automation, and visualization, emphasizing real-world relevance and hands-on learning. Through projects and assignments, students will acquire skills to automate workflows, analyze datasets, and create effective data-driven solutions. The curriculum is designed to align with industry needs, fostering technical proficiency and communication skills for future challenges​.
+
+## Course Structure
+
+The course is organized into modules that build progressively on one another:
+
+1.  **Python Foundations** — Programming fundamentals, data structures, and control flow.
+2.  **Data Workflows** — Automating analytical operations and applying specialized libraries for data cleaning and manipulation.
+3.  **Databases** — Connecting to, querying, and managing external datasets from Python.
+4.  **Visualization and Communication** — Building effective data visualizations with Plotly to communicate findings to technical and non-technical audiences.
+5.  **Professional Practice** — Version control with Git and GitHub, collaboration workflows, and engaging with real-world datasets through hands-on projects.
+
+## Learning Objectives
+
+Upon successful completion of this course, students will be able to:
+
+1.  **Implement Python Programming Skills:** Master the fundamentals of computer programming using Python, with a focus on industrial engineering applications.
+2.  **Recognize and Utilize Data Structures:** Identify common data structures and their practical applications in solving engineering problems.
+3.  **Automate Analytical Workflows:** Develop, debug, and refine programs to automate data processing and analytical operations.
+4.  **Leverage Data Libraries:** Apply specialized Python libraries for data cleaning, manipulation, visualization, and analysis, streamlining complex workflows.
+5.  **Integrate with Databases:** Connect to, query, design, and manage external datasets using relevant Python libraries.
+6.  **Visualize and Communicate Insights:** Create effective data visualizations to communicate findings to technical and non-technical audiences, aligning with industry expectations.
+7.  **Collaborate and Utilize Version Control:** Utilize Git and GitHub for collaboration, version control, and portfolio building, fostering professional software engineering practices.
+8.  **Engage with Real-World Data:** Develop proficiency in handling diverse, real-world datasets through hands-on projects, preparing for industry or academic pursuits.
+
+These objectives are designed to align with ABET-defined Student Outcomes, fostering critical skills in problem-solving, communication, teamwork, and lifelong learning. Additionally, they emphasize practical relevance, ensuring students are prepared for dynamic roles in industrial engineering and beyond.

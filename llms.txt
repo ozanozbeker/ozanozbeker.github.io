@@ -1,0 +1,15 @@
+# Ozan Ozbeker
+
+> The professional website of Ozan Ozbeker.
+
+## Pages
+
+- [Tech Stack](https://ozanozbeker.com/tech-stack/index.llms.md)
+- [WVU IENG 331](https://ozanozbeker.com/teaching/courses/2025-spring-wvu-ieng-331/index.llms.md)
+- [Teaching](https://ozanozbeker.com/teaching/index.llms.md)
+- [index](https://ozanozbeker.com/index.llms.md)
+- [Projects](https://ozanozbeker.com/projects/index.llms.md)
+- [Resume](https://ozanozbeker.com/resume/index.llms.md)
+- [Ozan Ozbeker](https://ozanozbeker.com/about-me/index.llms.md)
+- [WVU IENG 331](https://ozanozbeker.com/teaching/courses/2026-spring-wvu-ieng-331/index.llms.md)
+- [WVU GSCM 425](https://ozanozbeker.com/teaching/courses/2025-spring-wvu-gscm-425/index.llms.md)

@@ -108,13 +108,40 @@
     ]
   },
   {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ozan Ozbeker",
     "section": "",
-    "text": "I’ve been pretty busy with life lately (teaching, new house, new city, etc.), but I’ll be starting to write on substack after this summer and this link will take you there.",
+    "text": "Hey! I’m Ozan, an Analytics Engineer based in Pittsburgh with a background in industrial engineering. By day, I run solo on Fortune 500 analytics engagements at OneMagnify, building Python pipelines, data lakes, and the internal tooling that holds them together. Some evenings, I teach computing courses for engineers at my alma mater, West Virginia University.\nOn this site you’ll find my resume, the projects I’ve shipped, the courses I teach, and my current tech stack. I’m always curious what others are using, let me know about yours."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Work I’ve shipped on the job. Names and specifics are abstracted where confidentiality requires it; architecture, decisions, and outcomes are not.\n\n\n\n\nNo matching items",
     "crumbs": [
-      "Blog"
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "projects/index.html#professional",
+    "href": "projects/index.html#professional",
+    "title": "Projects",
+    "section": "",
+    "text": "Work I’ve shipped on the job. Names and specifics are abstracted where confidentiality requires it; architecture, decisions, and outcomes are not.\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "projects/index.html#personal",
+    "href": "projects/index.html#personal",
+    "title": "Projects",
+    "section": "Personal",
+    "text": "Personal\nThings I’ve built on my own time. Same standards as my professional work: typed, tested, documented, and shipped.\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Projects"
     ]
   },
   {
@@ -168,48 +195,11 @@
     ]
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "I’ve been pretty busy with life lately (teaching, new house, new city, etc.), but I have some stuff in the work I’m excited to share after this summer.",
-    "crumbs": [
-      "Projects"
-    ]
-  },
-  {
-    "objectID": "projects/index.html#showcase",
-    "href": "projects/index.html#showcase",
-    "title": "Projects",
-    "section": "showcase",
-    "text": "showcase\nProjects demonstrating my expertise across the data stack.\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Projects"
-    ]
-  },
-  {
-    "objectID": "projects/index.html#personal",
-    "href": "projects/index.html#personal",
-    "title": "Projects",
-    "section": "personal",
-    "text": "personal\nCreative and self-driven projects I pursued for fun or personal growth.\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Projects"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ozan Ozbeker",
-    "section": "",
-    "text": "Hey! I’m Ozan, a data scientist/engineer/detective with a background in industrial engineering. I currently work as a data analytics consultant at OneMagnify. Sometimes, I also teach at my alma mater, West Virginia University.\nOn this website, you’ll find my resume, projects, and blog, along with a teaching section covering courses I’ve taught (and hopefully some workshops & talks in the future). I’m also really interested in the tools others use, especially in the data realm. You can see mine at tech stack, and I’d love to learn about yours."
-  },
-  {
     "objectID": "about-me/index.html",
     "href": "about-me/index.html",
     "title": "Ozan Ozbeker",
     "section": "",
-    "text": "Hey again!\nA bit more about me: I’m especially interested in systems thinking, reproducible workflows, and making complex ideas understandable. I don’t believe in hyper-specializing. I admire the Renaissance polymaths like Da Vinci, and make it a goal to be able to contribute across the data stack. Whether that means building pipelines, developing forecasts, deploying web apps, or just making things a little less messy, I like to have my hands in all of it.\nI care deeply about open-source tools and transparent, reusable solutions.1 I try to reflect that mindset in the way I work, focusing on clarity, openness, and long-term maintainability rather than flashy dashboards or black-box outputs. I never realized how important good code & documentation is until I a couple trials by fire, and I don’t want to do that to anybody else.2\nThis year, I’ve been diving deep into Python as we shift away from R. (Don’t get me started.) Luckily, I made the move just as tools like Polars, uv, & marimo have hit their stride. It’s made the transition surprisingly smooth, especially compared to my college days of downloading 10 gigs of Anaconda bloatware. The {tidyverse} still holds a special place in my heart, and I would not be the analytical programmer I am without R for Data Science (2e).3 But I’m enjoying the Python ecosystem more broadly, especially beyond just analytics.\nI’m also realizing how much software engineering and industrial engineering overlap. At the end of the day, both are about optimizing your systems and continuous improvement. Building tools, web apps, and reports in a clean, Pythonic style scratches the same itch as designing physical systems. It feels like a natural evolution of the way I’ve always liked to work.\nOutside of work, I spend time at concerts, on bike rides, playing guitar, or buried in a side project that may or may not ever get finished. I also like learning skills related to my core work and adjacent. Lately, that’s been diving into self-hosting and homelabs.4\nIf any of this resonates, feel free to reach out!",
+    "text": "Hey again!\nA bit more about me: I don’t believe in hyper-specializing. I admire the Renaissance polymaths like Da Vinci, and I aim to contribute across the data stack: pipelines, forecasts, web apps, or just making things a little less messy. Whatever the work needs.\nI care deeply about open-source tools and transparent, reusable solutions.1 I try to reflect that in how I work, focusing on clarity, openness, and long-term maintainability over flashy dashboards or black-box outputs. I didn’t realize how important good code and documentation were until I’d been through a couple of trials by fire, and I don’t want to do that to anybody else.2\nPython is the language I work in now. I’ve spent the last couple of years building production Python: CLIs with Typer, services with FastAPI, pipelines on Polars, notebooks in marimo, all managed by uv. The further I get from analytics-only work, the more the ecosystem earns its keep. I came up on R though, and the tidyverse still holds a special place. I would not be the analytical programmer I am without R for Data Science (2e).3 R taught me how to think analytically. Python lets me ship anything I can think of.\nI’m also realizing how much software engineering and industrial engineering overlap. Both are about optimizing systems and continuous improvement. Building tools, web apps, and reports in a clean Pythonic style scratches the same itch as designing physical systems. It feels like a natural evolution of how I’ve always wanted to work.\nOutside work I’m at concerts, on bike rides, playing guitar, or buried in a side project that may or may not ever get finished. Lately I’ve been getting into self-hosting and homelabs.4 I’m also slowly renovating a 1900s Tudor in Pittsburgh, which has turned out to be its own kind of full-stack project.\nIf any of this resonates, feel free to reach out.",
     "crumbs": [
       "About Me"
     ]
@@ -219,7 +209,7 @@
     "href": "about-me/index.html#footnotes",
     "title": "Ozan Ozbeker",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nYes, I’m a professional Tableau hater.↩︎\nEspecially future me.↩︎\nIronically, I started learning R just as {tidyverse} 2.0 & R4DS 2e came out. I’m a pretty lucky guy apparently.↩︎\nAt some point I do want to build a MIDI-powered laser board, but baby steps.↩︎",
+    "text": "Footnotes\n\n\nYes, I’m a professional Tableau hater.↩︎\nEspecially future me.↩︎\nIronically, I started learning R just as tidyverse 2.0 and R4DS 2e came out. Pretty lucky guy apparently.↩︎\nAt some point I want to build a MIDI-powered laser board, but baby steps.↩︎",
     "crumbs": [
       "About Me"
     ]

@@ -1,0 +1,142 @@
+# Resume
+
+## Summary
+
+*Industrial Engineer turned Analytics Engineer running solo on Fortune 500 client engagements.*
+
+I started in operations at Xylem in 2021 and shifted to data within my first year. The shift continued at Splash Analytics in early 2023, a 15-person analytics consultancy that got acquired into OneMagnify shortly after. The senior data scientist I was hired to learn under quit three months in, so the stack I use day to day, Python and Polars, DuckDB, Quarto, Typer for CLIs, FastAPI for services, marimo for internal tools, and a portable four-layer datalake, is one I largely chose and built myself.
+
+Day-to-day is solo full-stack data work for two flagship Fortune 500 engagements. I run the standing client cadence, scope new work directly with stakeholders on the call, and own delivery from ingestion through transformation, modeling, dashboards, and reports. Recently joined a 10-person team supporting our largest engagement specifically to productionize what data scientists are prototyping in notebooks.
+
+I am also an adjunct instructor at WVU, teaching the computing course I took as an undergrad.
+
+> This is the long-form version of my resume. The 1-page PDFs (ATS & Human) are in the sidebar.
+
+## Experience
+
+### Adjunct Instructor
+
+**West Virginia University** · Morgantown, WV · Jan 2025 to Apr 2026
+
+Sole instructor of record for a required course in WVU’s industrial-engineering curriculum. Taught roughly 150 students over two academic years. Was the teaching assistant for the same course as an undergraduate, returned as the instructor of record after starting at OneMagnify.
+
+**Redesigned the curriculum** from basic Python alone into a more complete computing course: basic and advanced Python, modern tooling (`uv`, Ruff, basedpyright), terminals and CLIs, SQL with DuckDB, and the connections between them. Students leave with a working development environment they can keep using and an understanding of how the topics fit together rather than a list of disconnected language features.
+
+**Authoring a free, public Quarto book** that serves as the course’s textbook and reference: [ozanozbeker.com/cw4e](https://ozanozbeker.com/cw4e). Built in the open so future students, students at other universities, and engineers learning on their own can use it. The book is also a working artifact for how I think about documentation: every chapter is a runnable Quarto document, code blocks execute as part of the build, and the rendering pipeline is the same Quarto stack I use for client deliverables at OneMagnify. The course doubles as a long-running test case for the documentation discipline I bring to production work.
+
+### Data Science Consultant
+
+**OneMagnify** (formerly Splash Analytics, acquired 2023) · Remote · Jan 2023 to Present
+
+OneMagnify’s analytics division was formed in 2023 when Splash Analytics (where I was hired) and RXA were both acquired. I work as the only data person on two Fortune 500 client engagements, where the formal title “Data Scientist” functions as an umbrella for whatever the work needs: data engineering, analytics engineering, light devops, modeling when modeling is the answer, and data cleaning underneath all of it. Recently joined a 10-person team supporting our largest engagement, where I’m specifically there to productionize work that’s been prototyped in notebooks.
+
+**Run the day-to-day client relationship for two flagship engagements:** lead the standing cadence (bi-weekly with one client, monthly with the other), demo new work, and translate business questions into scope on the call, looping in my Data Science Manager for contract-fit before committing. Manager-level stakeholders on the client side with their VPs as the next layer; my manager joins meetings when his calendar allows but I run them. Both engagements billed at 0.8 FTE in maintenance-and-improvements mode, with periodic scope expansions and one anticipated reduction at year-end. Adapt to whatever each client uses internally: Tableau for one, Shiny for the other, Power BI and Excel as needed. Our value as a small consulting shop is exactly that we adapt; I bring the data foundation, the client picks the surface.
+
+**Own the recurring reporting cadence for both flagship engagements:** monthly data refreshes, weekly and monthly Excel reports for stakeholders who want raw data, Quarto summary-over-time reports for stakeholders who want charts, and ad-hoc analyses on request. Pipelines that originate with client-sent files have a manual kickoff (clients send human-generated CSVs and Excel files at irregular intervals, with quality issues every cycle); everything downstream of that is automated, idempotent, and reproducible via `uv run`. Pipelines that work off existing data or my own scrapes run fully unattended on Windows Task Scheduler. Production code is scripts, never notebooks. Each project is structured as a `pyproject.toml`-defined package with named entry points, so a fresh teammate can run any pipeline end-to-end with two commands (`uv sync`, then `uv run pipeline`).
+
+The two-format split (Excel for raw data, Quarto for charts) reflects how my client stakeholders actually work: managers want filterable tables they can reproduce in their own analyses, and VPs want trend charts they can drop into their decks. Both deliverables come from the same underlying functions, imported by both the report-rendering script and the Shiny app that gives clients on-demand access to the same dataset.
+
+**Joined a 10-person team supporting our largest engagement (start of May 2026)** as the engineer responsible for turning data-science notebooks into production-ready scripts and packages. Code is typed, linted, packaged, and GitHub-hosted; deployment into the client’s GCP environment will follow as the team gets credentialed in. The team is mostly data scientists working in notebooks against a real GCP environment; my role is the bridge between exploration and production. Performance work (Polars over pandas where the data justifies it), type checking, package structure, and as GCP access is provisioned, the deployment surface itself. First time working as part of a dedicated data team after three years of running engagements solo.
+
+**Took ownership of a flagship customer-engagement-scoring pipeline (26M US and 8M Canada customers, runs every Sunday)** when the IBM DB2 driver broke under R/dbplyr and nobody else on the team knew R. Rebuilt the pipeline twice under production pressure: first to Python/Polars to unblock, then to native DB2 SQL once the intermediate Python steps proved unnecessary. Final architecture cut runtime from 16 hours to 4 hours by eliminating the data-transfer tax: Python now only orchestrates table rotation and run automation, while the scoring logic runs on the client’s database. Data quality checks run at every stage.
+
+The original pipeline had been ported from SAS to R/dbplyr before I joined; dbplyr’s translation layer hid the generated SQL, so when the DB2 driver started failing I couldn’t even see the queries to debug them. The Python/Polars rewrite was the unblock; the DB2-SQL rewrite was the cleanup, eliminating the per-run pull-process-push cycle.
+
+**Designed and built `oxy`, a Python CLI tool (Typer-based)** that replaced a fragile Selenium-on-Helium-10 setup with an async `httpx` wrapper around the Oxylabs HTTP API. Workloads that previously required ~5 days of unattended scraping (and would have been blocked by Helium 10’s hidden ~100-search daily limit anyway) now complete in roughly 5 minutes. Currently running ~20,000 scrape calls a month unattended across 5 internal projects for 2 consistent client engagements. Has also been used ad-hoc for other teams, though not as a permanent dependency.
+
+The previous setup automated a Chrome browser through Selenium against Helium 10’s chrome-extension UI: 5 to 8 minutes per scrape (random, depending on bot-detection back-off), capped at ~100 unique searches per day, constantly broken by Chrome version updates and driver-version drift. There was no API, so the weekly and monthly reports built on top had to be kicked off by hand. Researched alternatives, found Oxylabs (HTTP API, 50 requests per second, no browser, no bot-detection arms race), and built the replacement.
+
+`oxy` is async over `httpx`, hits Oxylabs at the rate-limit ceiling, and is structured as a single CLI with two namespaces: `oxy scrape` for the API endpoints and `oxy build` for datalake operations. Defaults are baked into the commands; project-specific overrides live in YAML configs that the CLI loads with a single flag. Raw JSON is preserved verbatim; the processed layer materializes to Parquet; downstream reports query the model layer directly. Everything orchestrates via Windows Task Scheduler running `.bat` files, which gives every engagement a reproducible pipeline definition that any team member can run, modify, or hand off without writing Python.
+
+The CLI started as functions imported from a Python module. After the third project where I was reconfiguring the same scripts, I moved to Typer with YAML overrides and installed once as a `uv` tool. Co-locating scrape and datalake namespaces in one package was deliberate: the package owns the Oxylabs schema and the layout that depends on it, so changes are atomic. I’d separate them if we were running an actual orchestrator, but at our team’s operational maturity, one tool is the right answer.
+
+**Built `omutil`, an internal Python package distributed via GitLab** with optional dependency groups (`omutil[database]`, `omutil[email]`, `omutil[brand]`), to standardize how I and other team members who choose to adopt it connect to client databases, send branded reports, and produce consistent deliverables.
+
+The database submodule ships pre-configured SQLAlchemy connection objects keyed to each client’s database: one import line and an analyst inherits the team’s connection conventions. Introduced ADBC drivers as the default transport, which is significantly faster than ODBC on large extracts and far easier to set up; combined with Polars and DuckDB’s shared Arrow backbone, data moves between SQL and Python with zero serialization cost.
+
+The email submodule wraps Python’s standard-library `email` and `smtplib` modules behind a method-chained API (`Email(password=...).to(...).bcc(...).body(...).send()`) that pulls our shared `reports@onemagnify.com` SMTP credentials from a `.env` file and handles the boilerplate. Built it because I missed R’s `blastula` interface; other colleagues now use the email submodule specifically, even when the rest of their work doesn’t run on `omutil`.
+
+The brand submodule packages client-specific SCSS, `brand.yml` configs, and logos for Quarto deliverables, so reports inherit consistent branding without each project re-implementing it.
+
+**Replaced the team’s Helium 10 dependency for sales estimates with `amazon-atlas`,** an in-house LightGBM model that predicts rolling 30-day Amazon unit sales for any ASIN. Distributed as both an installable Python package (`uv add amazon-atlas`) and a FastAPI service (`uvx amazon-atlas serve`). Trained on 2.5 years of accumulated Helium 10 estimates so historical numbers stay continuous; v2 will use ground-truth Oxylabs data once enough has been collected to retrain.
+
+Helium 10 was technically affordable but operationally fragile (browser automation, daily limit, manual report kickoffs) and its sales estimates aren’t ground truth, they’re its own model’s output. Trained `amazon-atlas` against those estimates so we could continue the historical series our clients had already been making decisions on for two years, while removing the operational dependency. Features are BSR rank, category, review count, and a few other tabular signals available in both H10 data and Oxylabs data. LightGBM specifically for native categorical support and training speed; the project had to ship fast because the H10 process was actively starting to fail.
+
+Validated against the only client that shares ground-truth sales data: H10’s estimates (and therefore the model trained on them) ran roughly 2x actual sales for that client’s catalog, so I baked a 0.5x post-processing modifier into their configuration. Other clients use unmodified estimates with explicit “this is an estimate” framing in their reports. Used at least weekly, larger batches monthly.
+
+The dual distribution (importable package vs FastAPI service) is deliberate scaffolding: the package path keeps latency at zero for projects already in Python, and the service path is the seam for eventually hosting the model in the company’s GCP environment so colleagues outside customer analytics can call it without installing anything. The service hasn’t been deployed and there are no near-term plans to.
+
+**Stood up a portable four-layer datalake (raw, processed, model, mart) on a Windows network share,** backing the scrape tooling and other long-running data assets. About 4 GB of Parquet under compression in the model layer today; the full lake is modest in size, which is part of the architectural point: at this scale, Polars and DuckDB are the right tools, not Spark or a warehouse, and free OSS tooling does the job.
+
+Raw is JSON files keyed by scrape ID, preserved verbatim. Processed is the same data shaped into one Parquet file per logical table per scrape (NDJSON for append-heavy logs). Model is the joined, conformed analytics layer that downstream reports query directly. Mart is reserved for future presentation-layer aggregates. Layout is storage-substrate-portable: the same directory structure works on a Windows network share, S3, or GCS, so when GCP access becomes available company-wide the migration is a copy operation, not a rewrite.
+
+I scan the model layer with Polars and DuckDB; reports that need it pull straight from Parquet. Access is currently scoped to my immediate customer-analytics team via network-share permissions.
+
+**Ship every internal report and analytics project as an installable Python package,** an idea I borrowed from the R community where every analysis is a versioned, named unit rather than a folder of loose scripts. Same functions used to render a weekly report can be imported into a Shiny app for ad-hoc client exploration; same connection logic loaded for a notebook is the one running in production.
+
+This is the structural decision that lets the rest of the stack work: `omutil` is a package because every project is a package, and projects can compose because they all install the same way. It also turns “give Ozan’s analysis to the next person” into `pip install` rather than archeology on a shared drive.
+
+Each engagement is consolidating into a per-engagement monorepo (work in progress, currently transitioning from per-project repos). Borrowed the monorepo idea from Dagster’s project structure even after deciding not to adopt Dagster itself: shared utilities, configs, and projects co-located in one repo per client cuts the long tail of “which Python version was this script written against” to one answer per engagement.
+
+**Built a production Shiny-for-Python application (deployed on shinyapps.io)** that gives a primary client interactive access to the full historical dataset behind the weekly reports. Same functions that render the weekly snapshot are imported into the app, so any date range, filter, or view the client wants is available on demand. Currently porting an older Shiny-for-R lifetime-buy-recommendation tool to Shiny-for-Python to consolidate ownership of the underlying calculation logic.
+
+The R-to-Python port pulls the calculation logic out of code I didn’t originally write into typed, tested Python under my ownership. Application framework copies cleanly between Shiny-for-R and Shiny-for-Python; the work is in the underlying calculations.
+
+**Build internal tools for myself and the team beyond the production work:** marimo monitoring dashboards that show all logs from the datalake in a single pane I can run anywhere from the terminal, and marimo-based data-cleaning apps for the human-generated client data that arrives with quality issues every month. Data cleaning is the foundation of everything else I do: most of the production work is automation around it.
+
+**Influenced adoption of a modern Python data stack across the customer-analytics group through demonstration:** 4 of ~14 colleagues have moved off Anaconda and onto `uv`, started using Polars and DuckDB, and adopted marimo as a Jupyter replacement. Tools enter the team because I use them, colleagues see them work, and the curious ones ask. No formal authority to mandate; this is a slow patient effort.
+
+### Operations Leadership Development Program
+
+**Xylem, Inc.** · Uniontown, PA and Morton Grove, IL · Jul 2021 to Dec 2022
+
+Three-year rotational program for early-career engineers, intended to develop site-leadership candidates across Xylem’s North American manufacturing footprint. Two rotations completed before I left mid-program for the data role at Splash Analytics: Business Data Analyst (12 months) and Manufacturing Engineer (6 months), at sites making different products under different leadership. Worked directly under site managers and VP-level executives in both rotations.
+
+The data analyst rotation is what shifted me away from the operations track. I was building SQL pipelines and a Tableau dashboard for material managers and shipping leads, sitting in on cross-site standardization conversations with VPs and floor workers in the same room, and finding the work more interesting than the manufacturing engineering rotation that followed.
+
+**Standardized the annual physical-inventory-counting process** across three manufacturing facilities producing different products. Interviewed site leads, shipping managers, and floor team leads to map how each facility actually ran the count, then designed a single standardized workflow with a process flow chart and a manager task list that all three facilities adopted. Recovered 0.5 to 1 day of full production capacity per facility per year (production is shut down during the count) and gave each facility’s leadership a defensible audit trail.
+
+The interesting part of this project wasn’t the process work, it was the people work: getting three sites that made different products and reported through different VPs to agree that the *financial* outcome of the count was the same regardless of how the count was run, and therefore the count itself could be the same. I ran the discovery interviews, drafted the standardized process, and walked it through approval with each site’s leadership before rollout.
+
+**Automated quarterly obsolete-and-excess inventory reporting** for three site materials managers. Previously each manager pulled data individually from the ERP and ran the analysis solo: roughly 3 days of work per manager per quarter. Built a SQL pipeline against the ERP-mirror Postgres database that ran the same logic the materials managers had been running by hand, packaged it into a reusable workflow, and turned it into a Tableau dashboard that updated weekly. End state: data the managers needed was always available, the cycle could move from quarterly to monthly, and the managers got their hands-on time back.
+
+This was my first time partnering with stakeholders to encode their domain logic into a pipeline. The materials managers were the source of truth for “is this SKU obsolete or just slow-moving?” and the rules they used had never been written down. I shadowed each manager, captured the rules, validated them against historical decisions, and only then wrote the SQL. The dashboard went live before my rotation ended; I don’t know whether it’s still running today.
+
+**Led the Excess and Obsolete Disposition Project,** applying DMAIC and DMADV methodologies to develop a process for reducing excess and obsolete materials across warehouses. Projected to generate \$1M to \$4M in savings over 3 to 5 years. Created a cross-departmental E&O task force and used Process Flowcharts, Value Stream Mapping, and Control Charts to improve material rework, resale, and disposal practices. The project ran across the two facilities I had been working with as a Business Data Analyst, so I came in with existing relationships at both sites and could move from problem definition to task-force formation faster than someone new to the program would have.
+
+**Led and facilitated continuous-improvement workshops across multiple sites,** focused on Lean methodologies, 5S, FMEA, and Process Capability Analysis. The work drove operational-excellence initiatives and built CI capability inside teams that previously did not have it. I came into the rotation with the Lean Six Sigma Green Belt I had earned during my BDA rotation, which is what put me in the workshop-facilitator role. Six-month rotation on the production floor alongside operators and shift supervisors did not map directly to data engineering, but the floor exposure (how operators actually use the systems we build for them, where the gap is between a clean dashboard and a noisy shop floor) has shaped how I scope deliverables for operational stakeholders ever since.
+
+### Undergraduate Teaching Assistant
+
+**West Virginia University** · Morgantown, WV · Aug 2019 to May 2021
+
+Supported instruction for four core industrial-engineering courses. The IENG 331 thread runs from this role to my current adjunct instructor role at the same university.
+
+- IENG 220: Re-engineering Management Systems
+- IENG 305: Intro to Systems Engineering
+- IENG 331: Computer Applications in Industrial Engineering
+- IENG 445: Project Management for Engineers
+
+### Manufacturing Engineer Intern
+
+**JLG Industries** · McConnellsburg, PA · Jun 2019 to Aug 2019
+
+Internship covering operational-efficiency and quality-control work across long-term and short-term projects on JLG’s manufacturing floor.
+
+**Conducted a comprehensive 6S audit on the Test-Inspect-Green Tag (TIG) Line,** removing unnecessary equipment and parts from workstations and reorganizing the layout to improve workflow efficiency. The TIG line had accumulated decades of optional tools, redundant inventory, and station-specific clutter that no longer matched the work being done. Walking the line with operators to figure out what was actually used versus what was just inherited was the first half of the project; getting agreement on what could be removed was the second.
+
+**Developed detailed Standard Work Instructions (SWIs) from scratch** for all five stations of the TIG Line, covering three different products. Captured the actual work as operators performed it, validated the steps against engineering specs, and produced reference documentation that standardized the process across all three product variants.
+
+**Implemented a scanner-based defect-entry system for Electronic Quality Control (EQC),** replacing free-text defect logging with standardized barcode-driven categories. Reduced variability in how defects were classified and made the resulting data usable for trend analysis for the first time.
+
+**Designed current and future-state floor plans for the Tire Manipulator station** using laser measurements and AutoCAD, supporting a layout proposal based on cycle-time analysis of the existing layout.
+
+## Education
+
+**Bachelor of Science, Industrial Engineering** · West Virginia University, Morgantown, WV · Aug 2017 to May 2021
+
+## Certifications
+
+- Lean Six Sigma Green Belt, Institute of Industrial and Systems Engineers
+- Continuous Improvement Fundamentals, Oshkosh Corporation
+- Eligible for Certified Associate in Project Management (CAPM), Project Management Institute

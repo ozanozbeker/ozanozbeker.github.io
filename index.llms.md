@@ -1,0 +1,3 @@
+Hey! I’m [Ozan](about-me/index.llms.md), an Analytics Engineer based in [Pittsburgh](https://www.visitpittsburgh.com) with a background in industrial engineering. By day, I run solo on Fortune 500 analytics engagements at [OneMagnify](https://onemagnify.com), building Python pipelines, data lakes, and the internal tooling that holds them together. Some evenings, I teach computing courses for engineers at my alma mater, [West Virginia University](https://www.wvu.edu/).
+
+On this site you’ll find my [resume](resume/index.llms.md), the [projects](projects/index.llms.md) I’ve shipped, the [courses I teach](teaching/index.llms.md), and my current [tech stack](tech-stack/index.llms.md). I’m always curious what others are using, let me know about yours.
